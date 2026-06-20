@@ -1,23 +1,17 @@
-# Korbo Beta 0.1
+Korbo Beta 0.3
 
-Das ist die erste einfache Korbo-Testversion.
+Neu:
+- Deutschland als Startmarkt
+- Supermarkt-Auswahl
+- Ernährungsart: Alles, vegetarisch, vegan
+- Kochzeit: 15, 30, 60 Minuten oder egal
+- Zuhause-vorhanden-Liste
+- Vorhandene Zutaten werden aus der Einkaufsliste entfernt
+- Separate Rezeptdatenbank data.js
+- 100 Rezepte: Sparen, Abnehmen, Muskelaufbau, Familie
+- Deutsche und internationale Gerichte
 
-## Enthaltene Funktionen
-
-- Startscreen
-- Budget-Auswahl
-- Personen-Auswahl
-- Tage-Auswahl
-- Wochenplan
-- Einkaufsliste
-- PWA-Grundstruktur
-
-## Lokal testen
-
-1. ZIP entpacken
-2. Ordner öffnen
-3. index.html doppelt anklicken
-
-## Wichtig
-
-Für die spätere Online-Version sollte der Ordner zu Vercel, Netlify oder GitHub Pages hochgeladen werden.
+GitHub Update:
+Alle Dateien aus diesem Ordner in dein Repository korbo-beta hochladen und vorhandene Dateien ersetzen.
+Danach Commit changes klicken.
+Vercel aktualisiert automatisch.

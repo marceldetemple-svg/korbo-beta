@@ -1,82 +1,12 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Korbo Beta</title>
-  <meta name="theme-color" content="#2ECC71" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="app">
-    <section class="screen active" id="screen-start">
-      <div class="logo-mark">K</div>
-      <h1>KORBO</h1>
-      <p class="subtitle">Plane deine Woche. Spare dein Geld.</p>
-      <button onclick="goTo('screen-budget')">Plan erstellen</button>
-    </section>
-
-    <section class="screen" id="screen-budget">
-      <p class="step">Schritt 1 von 4</p>
-      <h2>Wie hoch ist dein Budget?</h2>
-      <div class="big-value"><span id="budgetValue">50</span> €</div>
-      <input type="range" min="20" max="200" step="5" value="50" id="budgetInput" />
-      <div class="nav">
-        <button class="secondary" onclick="goTo('screen-start')">Zurück</button>
-        <button onclick="goTo('screen-people')">Weiter</button>
-      </div>
-    </section>
-
-    <section class="screen" id="screen-people">
-      <p class="step">Schritt 2 von 4</p>
-      <h2>Für wie viele Personen?</h2>
-      <div class="cards">
-        <button class="choice selected" onclick="selectPeople(1, this)">1 Person</button>
-        <button class="choice" onclick="selectPeople(2, this)">2 Personen</button>
-        <button class="choice" onclick="selectPeople(3, this)">3 Personen</button>
-        <button class="choice" onclick="selectPeople(4, this)">4+ Personen</button>
-      </div>
-      <div class="nav">
-        <button class="secondary" onclick="goTo('screen-budget')">Zurück</button>
-        <button onclick="goTo('screen-days')">Weiter</button>
-      </div>
-    </section>
-
-    <section class="screen" id="screen-days">
-      <p class="step">Schritt 3 von 4</p>
-      <h2>Wie viele Tage planen?</h2>
-      <div class="cards">
-        <button class="choice" onclick="selectDays(3, this)">3 Tage</button>
-        <button class="choice" onclick="selectDays(5, this)">5 Tage</button>
-        <button class="choice selected" onclick="selectDays(7, this)">7 Tage</button>
-      </div>
-      <div class="nav">
-        <button class="secondary" onclick="goTo('screen-people')">Zurück</button>
-        <button onclick="generatePlan()">Plan anzeigen</button>
-      </div>
-    </section>
-
-    <section class="screen" id="screen-result">
-      <p class="step">Dein Korbo Plan</p>
-      <h2>Dein Wochenplan</h2>
-
-      <div class="summary">
-        <div><span>Budget</span><strong><span id="resultBudget">50</span> €</strong></div>
-        <div><span>Geschätzt</span><strong><span id="resultCost">0</span> €</strong></div>
-        <div><span>Rest</span><strong><span id="resultRest">0</span> €</strong></div>
-      </div>
-
-      <h3>Gerichte</h3>
-      <div id="mealPlan" class="list"></div>
-
-      <h3>Einkaufsliste</h3>
-      <div id="shoppingList" class="list"></div>
-
-      <button onclick="resetApp()">Neuen Plan erstellen</button>
-    </section>
-  </main>
-
-  <script src="app.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Korbo Beta 0.3</title><meta name="theme-color" content="#2ECC71"/><link rel="manifest" href="manifest.json"/><link rel="stylesheet" href="style.css"/></head><body><main class="app">
+<section class="screen active" id="start"><div class="logo-mark">K</div><h1>KORBO</h1><p class="subtitle">Plane deine Woche. Spare dein Geld.</p><button onclick="goTo('goal')">Plan erstellen</button></section>
+<section class="screen" id="goal"><p class="step">1 von 8</p><h2>Was ist dein Ziel?</h2><div class="cards"><button class="choice selected" onclick="setOne('goal','sparen',this)">💰 Sparen<small>Günstig und einfach</small></button><button class="choice" onclick="setOne('goal','abnehmen',this)">⚖️ Abnehmen<small>Sättigend und proteinreich</small></button><button class="choice" onclick="setOne('goal','muskelaufbau',this)">💪 Muskelaufbau<small>Mehr Protein und Kalorien</small></button><button class="choice" onclick="setOne('goal','familie',this)">👨‍👩‍👧‍👦 Familie<small>Einfach für mehrere Personen</small></button></div><div class="nav single"><button onclick="goTo('budget')">Weiter</button></div></section>
+<section class="screen" id="budget"><p class="step">2 von 8</p><h2>Wie hoch ist dein Budget?</h2><div class="big-value"><span id="budgetValue">50</span> €</div><input type="range" min="20" max="250" step="5" value="50" id="budgetInput"/><div class="range-labels"><span>20 €</span><span>250 €</span></div><div class="nav"><button class="secondary" onclick="goTo('goal')">Zurück</button><button onclick="goTo('people')">Weiter</button></div></section>
+<section class="screen" id="people"><p class="step">3 von 8</p><h2>Für wie viele Personen?</h2><div class="cards"><button class="choice" onclick="setOne('people',1,this)">1 Person</button><button class="choice selected" onclick="setOne('people',2,this)">2 Personen</button><button class="choice" onclick="setOne('people',3,this)">3 Personen</button><button class="choice" onclick="setOne('people',4,this)">4+ Personen</button></div><div class="nav"><button class="secondary" onclick="goTo('budget')">Zurück</button><button onclick="goTo('days')">Weiter</button></div></section>
+<section class="screen" id="days"><p class="step">4 von 8</p><h2>Wie viele Tage?</h2><div class="cards"><button class="choice" onclick="setOne('days',3,this)">3 Tage</button><button class="choice" onclick="setOne('days',5,this)">5 Tage</button><button class="choice selected" onclick="setOne('days',7,this)">7 Tage</button></div><div class="nav"><button class="secondary" onclick="goTo('people')">Zurück</button><button onclick="goTo('market')">Weiter</button></div></section>
+<section class="screen" id="market"><p class="step">5 von 8</p><h2>Wo kaufst du meistens ein?</h2><div class="cards checkbox-group" id="marketOptions"></div><div class="nav"><button class="secondary" onclick="goTo('days')">Zurück</button><button onclick="goTo('diet')">Weiter</button></div></section>
+<section class="screen" id="diet"><p class="step">6 von 8</p><h2>Wie ernährst du dich?</h2><div class="cards"><button class="choice selected" onclick="setOne('diet','normal',this)">Alles</button><button class="choice" onclick="setOne('diet','vegetarisch',this)">Vegetarisch</button><button class="choice" onclick="setOne('diet','vegan',this)">Vegan</button></div><div class="nav"><button class="secondary" onclick="goTo('market')">Zurück</button><button onclick="goTo('time')">Weiter</button></div></section>
+<section class="screen" id="time"><p class="step">7 von 8</p><h2>Wie lange willst du kochen?</h2><div class="cards"><button class="choice" onclick="setOne('maxTime',15,this)">Max. 15 Minuten</button><button class="choice selected" onclick="setOne('maxTime',30,this)">Max. 30 Minuten</button><button class="choice" onclick="setOne('maxTime',60,this)">Bis 60 Minuten</button><button class="choice" onclick="setOne('maxTime',999,this)">Egal</button></div><div class="nav"><button class="secondary" onclick="goTo('diet')">Zurück</button><button onclick="goTo('pantry')">Weiter</button></div></section>
+<section class="screen" id="pantry"><p class="step">8 von 8</p><h2>Was hast du zuhause?</h2><p class="hint">Angeklickte Sachen werden aus der Einkaufsliste entfernt.</p><div class="cards checkbox-group" id="pantryOptions"></div><div class="nav"><button class="secondary" onclick="goTo('time')">Zurück</button><button onclick="generatePlan()">Plan anzeigen</button></div></section>
+<section class="screen result-screen" id="result"><p class="step">Dein Korbo Plan</p><h2>Plan fertig</h2><div class="summary"><div><span>Ziel</span><strong id="rGoal"></strong></div><div><span>Budget</span><strong id="rBudget"></strong></div><div><span>Geschätzt</span><strong id="rCost"></strong></div><div><span>Rest</span><strong id="rRest"></strong></div></div><div id="notice" class="notice"></div><h3>Gerichte</h3><div id="mealPlan" class="list"></div><h3>Einkaufsliste</h3><div id="shoppingList" class="list"></div><button onclick="resetApp()">Neu planen</button></section>
+</main><script src="data.js"></script><script src="app.js"></script></body></html>

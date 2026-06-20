@@ -1,123 +1,18 @@
-let state = {
-  budget: 50,
-  people: 1,
-  days: 7
-};
-
-const meals = [
-  {
-    name: "Spaghetti mit Tomatensoße",
-    costPerPerson: 2.20,
-    ingredients: ["Spaghetti", "Passierte Tomaten", "Zwiebeln", "Gewürze"]
-  },
-  {
-    name: "Reispfanne mit Gemüse",
-    costPerPerson: 2.60,
-    ingredients: ["Reis", "TK-Gemüse", "Sojasoße", "Öl"]
-  },
-  {
-    name: "Kartoffelauflauf",
-    costPerPerson: 2.80,
-    ingredients: ["Kartoffeln", "Sahne", "Käse", "Zwiebeln"]
-  },
-  {
-    name: "Chili sin Carne",
-    costPerPerson: 2.90,
-    ingredients: ["Kidneybohnen", "Mais", "Tomaten", "Reis"]
-  },
-  {
-    name: "Wraps mit Hähnchen",
-    costPerPerson: 3.60,
-    ingredients: ["Wraps", "Hähnchen", "Salat", "Joghurtsoße"]
-  },
-  {
-    name: "Nudelauflauf",
-    costPerPerson: 2.70,
-    ingredients: ["Nudeln", "Tomatensoße", "Käse", "Gemüse"]
-  },
-  {
-    name: "Rührei mit Brot und Salat",
-    costPerPerson: 2.40,
-    ingredients: ["Eier", "Brot", "Salat", "Tomaten"]
-  }
-];
-
-const budgetInput = document.getElementById("budgetInput");
-const budgetValue = document.getElementById("budgetValue");
-
-budgetInput.addEventListener("input", () => {
-  state.budget = Number(budgetInput.value);
-  budgetValue.textContent = state.budget;
-});
-
-function goTo(screenId) {
-  document.querySelectorAll(".screen").forEach(screen => {
-    screen.classList.remove("active");
-  });
-  document.getElementById(screenId).classList.add("active");
-}
-
-function selectPeople(value, element) {
-  state.people = value;
-  element.parentElement.querySelectorAll(".choice").forEach(btn => {
-    btn.classList.remove("selected");
-  });
-  element.classList.add("selected");
-}
-
-function selectDays(value, element) {
-  state.days = value;
-  element.parentElement.querySelectorAll(".choice").forEach(btn => {
-    btn.classList.remove("selected");
-  });
-  element.classList.add("selected");
-}
-
-function generatePlan() {
-  const selectedMeals = meals.slice(0, state.days);
-  let totalCost = 0;
-  let allIngredients = [];
-
-  selectedMeals.forEach(meal => {
-    totalCost += meal.costPerPerson * state.people;
-    allIngredients.push(...meal.ingredients);
-  });
-
-  totalCost = Math.round(totalCost * 100) / 100;
-  const rest = Math.round((state.budget - totalCost) * 100) / 100;
-
-  document.getElementById("resultBudget").textContent = state.budget.toFixed(2).replace(".", ",");
-  document.getElementById("resultCost").textContent = totalCost.toFixed(2).replace(".", ",");
-  document.getElementById("resultRest").textContent = rest.toFixed(2).replace(".", ",");
-
-  const mealPlan = document.getElementById("mealPlan");
-  mealPlan.innerHTML = "";
-
-  selectedMeals.forEach((meal, index) => {
-    const div = document.createElement("div");
-    div.className = "item";
-    div.innerHTML = `<strong>Tag ${index + 1}: ${meal.name}</strong><small>ca. ${(meal.costPerPerson * state.people).toFixed(2).replace(".", ",")} €</small>`;
-    mealPlan.appendChild(div);
-  });
-
-  const uniqueIngredients = [...new Set(allIngredients)];
-  const shoppingList = document.getElementById("shoppingList");
-  shoppingList.innerHTML = "";
-
-  uniqueIngredients.forEach(ingredient => {
-    const div = document.createElement("div");
-    div.className = "item";
-    div.textContent = ingredient;
-    shoppingList.appendChild(div);
-  });
-
-  goTo("screen-result");
-}
-
-function resetApp() {
-  goTo("screen-budget");
-}
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
+let state={goal:"sparen",budget:50,people:2,days:7,diet:"normal",maxTime:30,markets:["Aldi"],pantry:[]};
+const labels={sparen:"Sparen",abnehmen:"Abnehmen",muskelaufbau:"Muskelaufbau",familie:"Familie"};
+const markets=["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny","Egal"];
+const pantryItems=["Öl","Salz","Pfeffer","Paprikapulver","Gewürze","Nudeln","Reis","Mehl","Zucker","Eier","Kartoffeln","Zwiebeln","Knoblauch","Haferflocken","Brühe","Milch","Sojasoße","Tomatenmark"];
+document.getElementById("budgetInput").addEventListener("input",e=>{state.budget=Number(e.target.value);document.getElementById("budgetValue").textContent=state.budget});
+function buildOptions(){document.getElementById("marketOptions").innerHTML=markets.map((m,i)=>`<button class="choice ${i===0?"selected":""}" onclick="toggleMarket('${m}',this)">${m}</button>`).join("");document.getElementById("pantryOptions").innerHTML=pantryItems.map(p=>`<button class="choice" onclick="togglePantry('${p}',this)">${p}</button>`).join("")}
+buildOptions();
+function goTo(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));document.getElementById(id).classList.add("active");window.scrollTo(0,0)}
+function markSelected(el){el.parentElement.querySelectorAll(".choice").forEach(b=>b.classList.remove("selected"));el.classList.add("selected")}
+function setOne(key,value,el){state[key]=value;markSelected(el)}
+function toggleMarket(v,el){if(v==="Egal"){state.markets=["Egal"];el.parentElement.querySelectorAll(".choice").forEach(b=>b.classList.remove("selected"));el.classList.add("selected");return}state.markets=state.markets.filter(x=>x!=="Egal");const idx=state.markets.indexOf(v);idx>=0?state.markets.splice(idx,1):state.markets.push(v);el.classList.toggle("selected")}
+function togglePantry(v,el){const idx=state.pantry.indexOf(v);idx>=0?state.pantry.splice(idx,1):state.pantry.push(v);el.classList.toggle("selected")}
+function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
+function dietOk(recipe){if(state.diet==="normal")return true;if(state.diet==="vegetarisch")return recipe.diet==="vegetarisch"||recipe.diet==="vegan";if(state.diet==="vegan")return recipe.diet==="vegan";return true}
+function getMeals(){let list=RECIPE_DATABASE[state.goal].filter(r=>dietOk(r)&&r.time<=state.maxTime);if(list.length<state.days)list=RECIPE_DATABASE[state.goal].filter(r=>dietOk(r));if(list.length<state.days)list=RECIPE_DATABASE[state.goal];const perPersonDay=state.budget/state.people/state.days;if(perPersonDay<2.4){list=list.filter(r=>r.costPerPerson<=2.4);if(list.length<state.days)list=RECIPE_DATABASE[state.goal].filter(r=>r.costPerPerson<=3.0)}else if(perPersonDay<3.5){list=list.filter(r=>r.costPerPerson<=3.5);if(list.length<state.days)list=RECIPE_DATABASE[state.goal].filter(r=>r.costPerPerson<=3.8)}return shuffle(list).slice(0,state.days)}
+function generatePlan(){const meals=getMeals();let total=0,ingredients=[];meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...m.ingredients)});total=Math.round(total*100)/100;const rest=Math.round((state.budget-total)*100)/100;document.getElementById("rGoal").textContent=labels[state.goal];document.getElementById("rBudget").textContent=state.budget.toFixed(2).replace(".",",")+" €";document.getElementById("rCost").textContent=total.toFixed(2).replace(".",",")+" €";document.getElementById("rRest").textContent=rest.toFixed(2).replace(".",",")+" €";const notice=document.getElementById("notice");notice.classList.remove("show");if(rest<0){notice.textContent="Dein Budget ist sehr knapp. Korbo zeigt dir den günstigsten passenden Plan.";notice.classList.add("show")}else if(state.pantry.length>0){notice.textContent="Zutaten, die du zuhause hast, wurden aus der Einkaufsliste entfernt.";notice.classList.add("show")}const mp=document.getElementById("mealPlan");mp.innerHTML="";meals.forEach((m,i)=>{const div=document.createElement("div");div.className="item";div.innerHTML=`<strong>Tag ${i+1}: ${m.name}</strong><small>${m.time} Min. · ${m.diet} · ca. ${(m.costPerPerson*state.people).toFixed(2).replace(".",",")} €</small>`;mp.appendChild(div)});const cleanPantry=state.pantry.map(x=>x.toLowerCase());const unique=[...new Set(ingredients)].filter(x=>!cleanPantry.includes(x.toLowerCase()));const sl=document.getElementById("shoppingList");sl.innerHTML="";unique.forEach(i=>{const div=document.createElement("div");div.className="item";div.textContent=i;sl.appendChild(div)});goTo("result")}
+function resetApp(){goTo("goal")}
+if("serviceWorker"in navigator){navigator.serviceWorker.register("service-worker.js")}
