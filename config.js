@@ -1,7 +1,7 @@
 // Korbo Supabase Konfiguration
 // Supabase -> Settings -> API Keys
 
-const SUPABASE_URL = "https://crcxnehpaysaktmluyck.supabase.co";
+const SUPABASE_URL = "https://crcxnehpaysaktmluyck.supabase.co/rest/v1/";
 
 // HIER MUSS NUR NOCH DER ANON PUBLIC KEY AUS SUPABASE REIN.
 // Wichtig: NICHT den secret key nehmen.
