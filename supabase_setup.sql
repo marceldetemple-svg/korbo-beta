@@ -1,5 +1,6 @@
 -- Korbo Beta 0.4 Datenbank
--- Supabase -> SQL Editor -> New query -> einfügen -> Run
+-- In Supabase öffnen:
+-- SQL Editor -> New query -> diesen kompletten Code einfügen -> Run
 
 create table if not exists public.recipe_votes (
   id uuid primary key default gen_random_uuid(),
@@ -33,5 +34,5 @@ for select
 to anon
 using (true);
 
--- Spätere Auswertung:
+-- Auswertung:
 -- select recipe_name, vote, count(*) from recipe_votes group by recipe_name, vote order by recipe_name;
