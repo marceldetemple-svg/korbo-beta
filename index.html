@@ -9,4 +9,23 @@
 <section class="screen" id="time"><p class="step">7 von 8</p><h2>Wie lange willst du kochen?</h2><div class="cards"><button class="choice" onclick="setOne('maxTime',15,this)">Max. 15 Minuten</button><button class="choice selected" onclick="setOne('maxTime',30,this)">Max. 30 Minuten</button><button class="choice" onclick="setOne('maxTime',60,this)">Bis 60 Minuten</button><button class="choice" onclick="setOne('maxTime',999,this)">Egal</button></div><div class="nav"><button class="secondary" onclick="goTo('diet')">Zurück</button><button onclick="goTo('pantry')">Weiter</button></div></section>
 <section class="screen" id="pantry"><p class="step">8 von 8</p><h2>Was hast du zuhause?</h2><p class="hint">Angeklickte Sachen werden aus der Einkaufsliste entfernt.</p><div class="cards checkbox-group" id="pantryOptions"></div><div class="nav"><button class="secondary" onclick="goTo('time')">Zurück</button><button onclick="generatePlan()">Plan anzeigen</button></div></section>
 <section class="screen result-screen" id="result"><p class="step">Dein Korbo Plan</p><h2>Plan fertig</h2><div class="summary"><div><span>Ziel</span><strong id="rGoal"></strong></div><div><span>Budget</span><strong id="rBudget"></strong></div><div><span>Geschätzt</span><strong id="rCost"></strong></div><div><span>Rest</span><strong id="rRest"></strong></div></div><div id="notice" class="notice"></div><h3>Gerichte</h3><div id="mealPlan" class="list"></div><h3>Einkaufsliste</h3><div id="shoppingList" class="list"></div><button onclick="resetApp()">Neu planen</button></section>
-</main><script src="data.js"></script><script src="app.js"></script></body></html>
+
+<section class="rating-modal" id="ratingModal">
+  <div class="rating-card">
+    <h2 id="ratingTitle">Bewertung</h2>
+    <p id="ratingText">Danke für dein Feedback.</p>
+    <div id="reasonBox" class="reason-box">
+      <p class="hint">Warum passt das Rezept nicht?</p>
+      <button class="choice" onclick="setReason('Schmeckt mir nicht', this)">Schmeckt mir nicht</button>
+      <button class="choice" onclick="setReason('Zu teuer', this)">Zu teuer</button>
+      <button class="choice" onclick="setReason('Zu aufwendig', this)">Zu aufwendig</button>
+      <button class="choice" onclick="setReason('Zu viele Zutaten', this)">Zu viele Zutaten</button>
+      <button class="choice" onclick="setReason('Würde ich nie kochen', this)">Würde ich nie kochen</button>
+    </div>
+    <div class="nav">
+      <button class="secondary" onclick="closeRating()">Abbrechen</button>
+      <button onclick="sendVote()">Absenden</button>
+    </div>
+  </div>
+</section>
+</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="data.js"></script><script src="config.js"></script><script src="app.js"></script></body></html>

@@ -1,17 +1,19 @@
-Korbo Beta 0.3
+Korbo Beta 0.4
 
 Neu:
-- Deutschland als Startmarkt
-- Supermarkt-Auswahl
-- Ernährungsart: Alles, vegetarisch, vegan
-- Kochzeit: 15, 30, 60 Minuten oder egal
-- Zuhause-vorhanden-Liste
-- Vorhandene Zutaten werden aus der Einkaufsliste entfernt
-- Separate Rezeptdatenbank data.js
-- 100 Rezepte: Sparen, Abnehmen, Muskelaufbau, Familie
-- Deutsche und internationale Gerichte
+- Bewertungsfunktion pro Gericht
+- 👍 Lecker / 👎 Nicht meins
+- Grundauswahl bei negativer Bewertung
+- echte Supabase-Datenbank-Anbindung
+- config.js für Supabase URL und anon key
+- supabase_setup.sql für die Datenbanktabelle
 
-GitHub Update:
-Alle Dateien aus diesem Ordner in dein Repository korbo-beta hochladen und vorhandene Dateien ersetzen.
-Danach Commit changes klicken.
-Vercel aktualisiert automatisch.
+Ablauf:
+1. Supabase-Projekt erstellen.
+2. supabase_setup.sql im SQL Editor ausführen.
+3. In config.js SUPABASE_URL und SUPABASE_ANON_KEY ersetzen.
+4. Alle Dateien zu GitHub hochladen.
+5. Commit changes klicken.
+6. Vercel deployed automatisch.
+
+Ohne config.js-Werte läuft Korbo weiter, aber Bewertungen werden nicht gespeichert.
