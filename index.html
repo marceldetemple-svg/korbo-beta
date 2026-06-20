@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korbo Beta</title>
+  <meta name="theme-color" content="#2ECC71" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="screen active" id="screen-start">
+      <div class="logo-mark">K</div>
+      <h1>KORBO</h1>
+      <p class="subtitle">Plane deine Woche. Spare dein Geld.</p>
+      <button onclick="goTo('screen-budget')">Plan erstellen</button>
+    </section>
+
+    <section class="screen" id="screen-budget">
+      <p class="step">Schritt 1 von 4</p>
+      <h2>Wie hoch ist dein Budget?</h2>
+      <div class="big-value"><span id="budgetValue">50</span> €</div>
+      <input type="range" min="20" max="200" step="5" value="50" id="budgetInput" />
+      <div class="nav">
+        <button class="secondary" onclick="goTo('screen-start')">Zurück</button>
+        <button onclick="goTo('screen-people')">Weiter</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-people">
+      <p class="step">Schritt 2 von 4</p>
+      <h2>Für wie viele Personen?</h2>
+      <div class="cards">
+        <button class="choice selected" onclick="selectPeople(1, this)">1 Person</button>
+        <button class="choice" onclick="selectPeople(2, this)">2 Personen</button>
+        <button class="choice" onclick="selectPeople(3, this)">3 Personen</button>
+        <button class="choice" onclick="selectPeople(4, this)">4+ Personen</button>
+      </div>
+      <div class="nav">
+        <button class="secondary" onclick="goTo('screen-budget')">Zurück</button>
+        <button onclick="goTo('screen-days')">Weiter</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-days">
+      <p class="step">Schritt 3 von 4</p>
+      <h2>Wie viele Tage planen?</h2>
+      <div class="cards">
+        <button class="choice" onclick="selectDays(3, this)">3 Tage</button>
+        <button class="choice" onclick="selectDays(5, this)">5 Tage</button>
+        <button class="choice selected" onclick="selectDays(7, this)">7 Tage</button>
+      </div>
+      <div class="nav">
+        <button class="secondary" onclick="goTo('screen-people')">Zurück</button>
+        <button onclick="generatePlan()">Plan anzeigen</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-result">
+      <p class="step">Dein Korbo Plan</p>
+      <h2>Dein Wochenplan</h2>
+
+      <div class="summary">
+        <div><span>Budget</span><strong><span id="resultBudget">50</span> €</strong></div>
+        <div><span>Geschätzt</span><strong><span id="resultCost">0</span> €</strong></div>
+        <div><span>Rest</span><strong><span id="resultRest">0</span> €</strong></div>
+      </div>
+
+      <h3>Gerichte</h3>
+      <div id="mealPlan" class="list"></div>
+
+      <h3>Einkaufsliste</h3>
+      <div id="shoppingList" class="list"></div>
+
+      <button onclick="resetApp()">Neuen Plan erstellen</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

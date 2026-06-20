@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #101412;
+  color: #121212;
+}
+
+.app {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f7f3e8;
+  padding: 28px 22px;
+}
+
+.screen {
+  display: none;
+  min-height: calc(100vh - 56px);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screen.active {
+  display: flex;
+}
+
+.logo-mark {
+  width: 96px;
+  height: 96px;
+  border-radius: 28px;
+  background: #2ecc71;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 58px;
+  font-weight: 900;
+  margin: 0 auto 22px;
+  box-shadow: 0 18px 40px rgba(46, 204, 113, 0.35);
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 1.05;
+  margin: 12px 0 24px;
+}
+
+h3 {
+  margin: 22px 0 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #516056;
+  font-size: 18px;
+  margin-bottom: 38px;
+}
+
+.step {
+  color: #2a8f52;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+button {
+  border: none;
+  background: #2ecc71;
+  color: white;
+  padding: 17px 20px;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.secondary {
+  background: #e2ded3;
+  color: #1d1d1d;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.big-value {
+  font-size: 62px;
+  font-weight: 900;
+  text-align: center;
+  margin: 26px 0;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #2ecc71;
+}
+
+.cards {
+  display: grid;
+  gap: 14px;
+}
+
+.choice {
+  background: white;
+  color: #111;
+  border: 2px solid #ebe4d4;
+  text-align: left;
+}
+
+.choice.selected {
+  border-color: #2ecc71;
+  background: #ddf8e9;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.summary div {
+  background: white;
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary span {
+  color: #58635b;
+}
+
+.summary strong {
+  color: #111;
+}
+
+.list {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  background: white;
+  border-radius: 16px;
+  padding: 14px 16px;
+}
+
+.item small {
+  display: block;
+  color: #667066;
+  margin-top: 4px;
+}
+
+@media (min-width: 700px) {
+  body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  .app {
+    min-height: 840px;
+    border-radius: 38px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+  }
+}

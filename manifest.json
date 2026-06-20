@@ -1,0 +1,9 @@
+{
+  "name": "Korbo Beta",
+  "short_name": "Korbo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f3e8",
+  "theme_color": "#2ECC71",
+  "icons": []
+}
