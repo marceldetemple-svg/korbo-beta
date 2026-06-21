@@ -1,26 +1,20 @@
-Korbo Beta 0.4.1
+Korbo Beta 0.4.2 - FIXED
 
-Supabase URL ist bereits eingetragen:
-https://crcxnehpaysaktmluyck.supabase.co
+Supabase ist fertig eingetragen.
 
-Du musst nur noch den anon public key in config.js einsetzen.
+Geändert:
+- config.js enthält jetzt den anon/public/publishable Key.
+- index.html Titel wurde von Korbo Beta 0.3 auf Korbo Beta 0.4.2 geändert.
+- service-worker.js Cache wurde auf korbo-beta-v042 erhöht, damit alte Dateien nicht hängen bleiben.
 
-Datei:
-config.js
-
-Diese Zeile ersetzen:
-const SUPABASE_ANON_KEY = "HIER_DEN_ANON_PUBLIC_KEY_EINFUEGEN";
+Upload:
+1. Alle Dateien aus dieser ZIP in GitHub hochladen und vorhandene Dateien ersetzen.
+2. Commit changes klicken.
+3. In Vercel Deployment abwarten.
+4. Korbo im Browser öffnen.
+5. Einmal hart neu laden: STRG + F5.
+6. Plan erstellen und 👍 / 👎 testen.
+7. Supabase -> Table Editor -> recipe_votes prüfen.
 
 Wichtig:
-- Nimm den ANON PUBLIC KEY.
-- Nicht den SECRET KEY.
-- Den Key nicht im Chat posten.
-
-Danach:
-1. Alle Dateien zu GitHub hochladen und vorhandene ersetzen.
-2. Commit changes klicken.
-3. Vercel ca. 1 Minute warten lassen.
-4. Korbo öffnen.
-5. Plan erstellen.
-6. 👍 oder 👎 testen.
-7. Supabase -> Table Editor -> recipe_votes prüfen.
+Nur anon/public/publishable Key verwenden. Niemals service_role secret key veröffentlichen.
