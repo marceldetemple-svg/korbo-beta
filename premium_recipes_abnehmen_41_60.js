@@ -1,0 +1,1494 @@
+const PREMIUM_ABNEHMEN_41_60 = [
+  {
+    "id": "abnehmen_041",
+    "name": "Zucchini-Hähnchen-Pfanne",
+    "category": "abnehmen",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.4,
+    "costPerPerson": 4.2,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Zucchini"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zwiebel"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Hähnchen würfeln.",
+      "Zucchini, Paprika und Zwiebel schneiden.",
+      "Hähnchen in Öl anbraten.",
+      "Gemüse dazugeben und 6–8 Minuten mitbraten.",
+      "Mit Salz, Pfeffer und Paprikapulver abschmecken."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Zucchini",
+      "Pfanne",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Zucchini",
+      "Paprika",
+      "Zwiebeln"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_042",
+    "name": "Reis-Hähnchen-Salat",
+    "category": "abnehmen",
+    "subcategory": "Salat",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.3,
+    "costPerPerson": 4.15,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Gurke"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Tomaten"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Joghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Kräuter"
+      }
+    ],
+    "steps": [
+      "Reis kochen und kurz abkühlen lassen.",
+      "Hähnchen würfeln und in Öl anbraten.",
+      "Gurke und Tomaten schneiden.",
+      "Joghurt mit Salz, Pfeffer und Kräutern verrühren.",
+      "Alles in einer Schüssel anrichten."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Reis",
+      "Salat",
+      "Meal Prep"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gurke",
+      "Tomaten",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_043",
+    "name": "Feta-Gemüse-Blech",
+    "category": "abnehmen",
+    "subcategory": "Vegetarisch",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 7.4,
+    "costPerPerson": 3.7,
+    "ingredients": [
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "Feta"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zucchini"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Karotten"
+      },
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Oregano"
+      }
+    ],
+    "steps": [
+      "Gemüse und Kartoffeln schneiden.",
+      "Alles mit Öl und Gewürzen vermengen.",
+      "Auf einem Blech verteilen.",
+      "Feta darüberbröseln.",
+      "Bei 200 °C etwa 30 Minuten backen."
+    ],
+    "tags": [
+      "Vegetarisch",
+      "Feta",
+      "Ofen",
+      "Gemüse"
+    ],
+    "excludeTags": [
+      "Milchprodukte",
+      "Käse",
+      "Paprika",
+      "Zucchini"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Feta",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_044",
+    "name": "Thunfisch-Kartoffel-Salat",
+    "category": "abnehmen",
+    "subcategory": "Salat",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 7.6,
+    "costPerPerson": 3.8,
+    "ingredients": [
+      {
+        "qty": 600,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 1,
+        "unit": "Dose",
+        "item": "Thunfisch im eigenen Saft"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Gurke"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Joghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zwiebel"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Kräuter"
+      }
+    ],
+    "steps": [
+      "Kartoffeln kochen und in Scheiben schneiden.",
+      "Thunfisch abtropfen lassen.",
+      "Gurke und Zwiebel schneiden.",
+      "Joghurt würzen.",
+      "Alles vorsichtig vermengen und servieren."
+    ],
+    "tags": [
+      "Thunfisch",
+      "Kartoffeln",
+      "Salat",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Thunfisch",
+      "Milchprodukte",
+      "Gurke",
+      "Zwiebeln"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Thunfisch",
+    "mainCarb": "Kartoffeln",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_045",
+    "name": "Puten-Frikadellen Light",
+    "category": "abnehmen",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.2,
+    "costPerPerson": 4.1,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Putenhack"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Ei"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "item": "Haferflocken"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zwiebel"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zwiebel fein würfeln.",
+      "Putenhack mit Ei, Haferflocken, Zwiebel und Gewürzen vermengen.",
+      "Kleine Frikadellen formen.",
+      "In wenig Öl von beiden Seiten braten.",
+      "Mit Salat oder Gemüse servieren."
+    ],
+    "tags": [
+      "Pute",
+      "Frikadellen",
+      "Proteinreich",
+      "Light"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Ei",
+      "Gluten",
+      "Zwiebeln"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Pute",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_046",
+    "name": "Protein-Wrap mit Ei",
+    "category": "abnehmen",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 20,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 6.9,
+    "costPerPerson": 3.45,
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "Hüttenkäse"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Salat"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer"
+      }
+    ],
+    "steps": [
+      "Eier als Rührei zubereiten.",
+      "Wraps kurz erwärmen.",
+      "Salat waschen.",
+      "Wraps mit Rührei, Hüttenkäse und Salat füllen.",
+      "Mit Salz und Pfeffer abschmecken."
+    ],
+    "tags": [
+      "Ei",
+      "Wrap",
+      "Hüttenkäse",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Ei",
+      "Gluten",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_047",
+    "name": "Hähnchen-Bohnen-Pfanne",
+    "category": "abnehmen",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.6,
+    "costPerPerson": 4.3,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 1,
+        "unit": "Dose",
+        "item": "Kidneybohnen"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "Dose, 400 g",
+        "item": "gehackte Tomaten"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Hähnchen würfeln und in Öl anbraten.",
+      "Paprika schneiden und mitbraten.",
+      "Kidneybohnen und Tomaten dazugeben.",
+      "10 Minuten köcheln lassen.",
+      "Mit Gewürzen abschmecken."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Bohnen",
+      "Pfanne",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Bohnen",
+      "Paprika",
+      "Tomaten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_048",
+    "name": "Leichte Döner-Bowl",
+    "category": "abnehmen",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.4,
+    "costPerPerson": 4.2,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Salat"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Gurke"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Tomaten"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Joghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Knoblauchpulver"
+      }
+    ],
+    "steps": [
+      "Reis kochen.",
+      "Hähnchen in Streifen schneiden und würzen.",
+      "Hähnchen in Öl anbraten.",
+      "Gemüse schneiden.",
+      "Joghurt würzen.",
+      "Alles als Bowl anrichten."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Döner",
+      "Bowl",
+      "Light"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Milchprodukte",
+      "Gurke",
+      "Tomaten",
+      "Knoblauch"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_049",
+    "name": "Tomaten-Eier-Pfanne",
+    "category": "abnehmen",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 20,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 5.9,
+    "costPerPerson": 2.95,
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 1,
+        "unit": "Dose, 400 g",
+        "item": "gehackte Tomaten"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zwiebel"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Paprika und Zwiebel würfeln.",
+      "Gemüse in Öl anbraten.",
+      "Tomaten dazugeben und würzen.",
+      "Eier in die Soße schlagen.",
+      "Mit Deckel stocken lassen."
+    ],
+    "tags": [
+      "Ei",
+      "Tomaten",
+      "Pfanne",
+      "Vegetarisch"
+    ],
+    "excludeTags": [
+      "Ei",
+      "Tomaten",
+      "Paprika",
+      "Zwiebeln"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_050",
+    "name": "Brokkoli-Hähnchen-Auflauf",
+    "category": "abnehmen",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.1,
+    "costPerPerson": 4.55,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "Brokkoli"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "item": "Kochsahne light"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "Käse light"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Muskat"
+      }
+    ],
+    "steps": [
+      "Brokkoli kurz vorgaren.",
+      "Hähnchen würfeln und anbraten.",
+      "Brokkoli und Hähnchen in eine Form geben.",
+      "Kochsahne würzen und darübergeben.",
+      "Mit Käse bestreuen und bei 180 °C etwa 20 Minuten backen."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Brokkoli",
+      "Auflauf",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Brokkoli",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_051",
+    "name": "Putenstreifen mit Ofengemüse",
+    "category": "abnehmen",
+    "subcategory": "Ofengericht",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.9,
+    "costPerPerson": 4.45,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Putenbrust"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Karotten"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Zucchini"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Gemüse schneiden.",
+      "Pute in Streifen schneiden.",
+      "Alles mit Öl und Gewürzen vermengen.",
+      "Auf einem Blech verteilen.",
+      "Bei 200 °C etwa 25–30 Minuten backen."
+    ],
+    "tags": [
+      "Pute",
+      "Ofengemüse",
+      "Proteinreich",
+      "Low Calorie"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Zucchini",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Pute",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_052",
+    "name": "Hähnchen-Spinat-Pfanne",
+    "category": "abnehmen",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.4,
+    "costPerPerson": 4.2,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Blattspinat TK"
+      },
+      {
+        "qty": 1,
+        "unit": "Zehe",
+        "item": "Knoblauch"
+      },
+      {
+        "qty": 100,
+        "unit": "ml",
+        "item": "Kochsahne light"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer"
+      }
+    ],
+    "steps": [
+      "Hähnchen würfeln und in Öl anbraten.",
+      "Knoblauch fein hacken und kurz mitbraten.",
+      "Spinat dazugeben und auftauen lassen.",
+      "Kochsahne einrühren.",
+      "Mit Salz und Pfeffer abschmecken."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Spinat",
+      "Pfanne",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Spinat",
+      "Knoblauch",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_053",
+    "name": "Quark-Beeren-Schale",
+    "category": "abnehmen",
+    "subcategory": "Süß",
+    "servingsBase": 2,
+    "time": 10,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 5.4,
+    "costPerPerson": 2.7,
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "Magerquark"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "Beeren frisch oder TK"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "item": "Haferflocken"
+      },
+      {
+        "qty": 1,
+        "unit": "TL",
+        "item": "Zimt"
+      }
+    ],
+    "steps": [
+      "Magerquark mit etwas Wasser cremig rühren.",
+      "Beeren daraufgeben.",
+      "Haferflocken darüberstreuen.",
+      "Mit Zimt abschmecken.",
+      "Direkt servieren."
+    ],
+    "tags": [
+      "Magerquark",
+      "Beeren",
+      "Süß",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Milchprodukte",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Magerquark",
+    "mainCarb": "Haferflocken",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_054",
+    "name": "Eiweiß-Rührei Deluxe",
+    "category": "abnehmen",
+    "subcategory": "Vegetarisch",
+    "servingsBase": 2,
+    "time": 15,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 6.4,
+    "costPerPerson": 3.2,
+    "ingredients": [
+      {
+        "qty": 5,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "Hüttenkäse"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "Bund",
+        "item": "Schnittlauch"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer"
+      }
+    ],
+    "steps": [
+      "Paprika würfeln.",
+      "Eier verquirlen und würzen.",
+      "Paprika in Öl anbraten.",
+      "Eier dazugeben und stocken lassen.",
+      "Hüttenkäse unterheben oder daneben servieren.",
+      "Mit Schnittlauch bestreuen."
+    ],
+    "tags": [
+      "Ei",
+      "Hüttenkäse",
+      "Vegetarisch",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Ei",
+      "Milchprodukte",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_055",
+    "name": "Gemüse-Reispfanne Light",
+    "category": "abnehmen",
+    "subcategory": "Vegetarisch",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 6.3,
+    "costPerPerson": 3.15,
+    "ingredients": [
+      {
+        "qty": 180,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "TK-Gemüse"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 2,
+        "unit": "EL",
+        "item": "Sojasoße"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Pfeffer"
+      }
+    ],
+    "steps": [
+      "Reis kochen.",
+      "TK-Gemüse in Öl anbraten.",
+      "Eier verquirlen und dazugeben.",
+      "Reis unterheben.",
+      "Mit Sojasoße und Pfeffer abschmecken."
+    ],
+    "tags": [
+      "Reis",
+      "Gemüse",
+      "Ei",
+      "Vegetarisch"
+    ],
+    "excludeTags": [
+      "Ei",
+      "Gemüse",
+      "Soja"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "abnehmen_056",
+    "name": "Hähnchen-Zucchini-Auflauf",
+    "category": "abnehmen",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.9,
+    "costPerPerson": 4.45,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 2,
+        "unit": "Stück",
+        "item": "Zucchini"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "item": "Kochsahne light"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "Käse light"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, italienische Kräuter"
+      }
+    ],
+    "steps": [
+      "Hähnchen würfeln und kurz anbraten.",
+      "Zucchini in Scheiben schneiden.",
+      "Beides in eine Auflaufform geben.",
+      "Kochsahne würzen und darübergeben.",
+      "Mit Käse bestreuen und bei 180 °C etwa 25 Minuten backen."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Zucchini",
+      "Auflauf",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Zucchini",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_057",
+    "name": "Thunfisch-Gurken-Bowl",
+    "category": "abnehmen",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 10,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 6.9,
+    "costPerPerson": 3.45,
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "Dose",
+        "item": "Thunfisch im eigenen Saft"
+      },
+      {
+        "qty": 1,
+        "unit": "Stück",
+        "item": "Gurke"
+      },
+      {
+        "qty": 1,
+        "unit": "Beutel",
+        "item": "Salat"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Joghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Kräuter"
+      }
+    ],
+    "steps": [
+      "Thunfisch abtropfen lassen.",
+      "Gurke schneiden.",
+      "Salat in eine Bowl geben.",
+      "Joghurt würzen.",
+      "Alles zusammen anrichten."
+    ],
+    "tags": [
+      "Thunfisch",
+      "Gurke",
+      "Bowl",
+      "Schnell"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Thunfisch",
+      "Gurke",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Thunfisch",
+    "mainCarb": null,
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_058",
+    "name": "Puten-Curry Light",
+    "category": "abnehmen",
+    "subcategory": "Curry",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.8,
+    "costPerPerson": 4.4,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Putenbrust"
+      },
+      {
+        "qty": 180,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "TK-Gemüse"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "item": "Kochsahne light"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Currypulver"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer"
+      }
+    ],
+    "steps": [
+      "Reis kochen.",
+      "Pute würfeln und in Öl anbraten.",
+      "TK-Gemüse dazugeben.",
+      "Kochsahne und Curry einrühren.",
+      "10 Minuten köcheln lassen.",
+      "Mit Reis servieren."
+    ],
+    "tags": [
+      "Pute",
+      "Curry",
+      "Reis",
+      "Proteinreich"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Milchprodukte",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_059",
+    "name": "Hähnchen-Fitness-Bowl",
+    "category": "abnehmen",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 8.9,
+    "costPerPerson": 4.45,
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "Brokkoli"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "Joghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Reis kochen.",
+      "Brokkoli garen.",
+      "Hähnchen würfeln und in Öl anbraten.",
+      "Joghurt mit Gewürzen verrühren.",
+      "Alles in Bowls anrichten."
+    ],
+    "tags": [
+      "Hähnchen",
+      "Reis",
+      "Brokkoli",
+      "Fitness"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Brokkoli",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "abnehmen_060",
+    "name": "Brokkoli-Reis-Pfanne",
+    "category": "abnehmen",
+    "subcategory": "Vegetarisch",
+    "servingsBase": 2,
+    "time": 25,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 6.4,
+    "costPerPerson": 3.2,
+    "ingredients": [
+      {
+        "qty": 180,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "Brokkoli"
+      },
+      {
+        "qty": 3,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 2,
+        "unit": "EL",
+        "item": "Sojasoße"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Pfeffer"
+      }
+    ],
+    "steps": [
+      "Reis kochen.",
+      "Brokkoli vorgaren.",
+      "Brokkoli in Öl anbraten.",
+      "Eier verquirlen und dazugeben.",
+      "Reis unterheben.",
+      "Mit Sojasoße und Pfeffer abschmecken."
+    ],
+    "tags": [
+      "Brokkoli",
+      "Reis",
+      "Ei",
+      "Vegetarisch"
+    ],
+    "excludeTags": [
+      "Brokkoli",
+      "Ei",
+      "Soja"
+    ],
+    "proteinRich": true,
+    "lowCalorie": true,
+    "muscleBuilding": false,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  }
+];

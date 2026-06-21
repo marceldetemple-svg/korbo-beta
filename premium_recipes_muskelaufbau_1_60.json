@@ -1,0 +1,4110 @@
+[
+  {
+    "id": "muskelaufbau_001",
+    "name": "Hähnchen Reis Brokkoli",
+    "category": "muskelaufbau",
+    "subcategory": "Fitness-Klassiker",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Brokkoli"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_002",
+    "name": "Hackfleisch-Reis-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Rind",
+      "Schwein"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_003",
+    "name": "Protein-Pasta Bolognese",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Tomaten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_004",
+    "name": "Burrito Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Bohnen",
+      "Mais"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_005",
+    "name": "Puten-Couscous-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Couscous"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Couscous mit heißem Wasser übergießen und quellen lassen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Couscous"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Couscous",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_006",
+    "name": "Chicken Teriyaki Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Asia",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Soja"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_007",
+    "name": "Lachs-Reis-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Lachsfilet"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Lachs würzen und in der Pfanne oder im Ofen garen.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Lachs",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Lachs"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Lachs",
+    "mainCarb": "Reis",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_008",
+    "name": "Protein-Wraps mit Hähnchen",
+    "category": "muskelaufbau",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_009",
+    "name": "Hähnchen-Curry mit Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Curry",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_010",
+    "name": "Chili con Carne Protein",
+    "category": "muskelaufbau",
+    "subcategory": "Eintopf",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Bohnen",
+      "Mais",
+      "Scharf"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_011",
+    "name": "Hähnchen-Pesto-Pasta",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_012",
+    "name": "Steak mit Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Rind"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Steak",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_013",
+    "name": "Puten-Gemüse-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_014",
+    "name": "Eier-Reis-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 5,
+        "unit": "Stück",
+        "item": "Eier"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Eier verquirlen und in der Pfanne stocken lassen.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Ei",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Ei",
+      "Soja"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Ei",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_015",
+    "name": "Protein-Lasagne",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 6,
+        "unit": "Stück",
+        "item": "Lasagneplatten"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Lasagneplatten"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Lasagneplatten",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_016",
+    "name": "Thunfisch-Nudel-Salat",
+    "category": "muskelaufbau",
+    "subcategory": "Salat",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "Dosen",
+        "item": "Thunfisch im eigenen Saft"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Thunfisch abtropfen lassen und später unterheben.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Thunfisch",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Thunfisch",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Thunfisch",
+    "mainCarb": "Nudeln",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_017",
+    "name": "Hähnchen-Döner-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_018",
+    "name": "Reis-Bowl mit Ei und Hähnchen",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Ei"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_019",
+    "name": "Hackfleisch-Couscous-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Couscous"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Couscous mit heißem Wasser übergießen und quellen lassen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Couscous"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Couscous",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_020",
+    "name": "Chicken-Burrito",
+    "category": "muskelaufbau",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Mais"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_021",
+    "name": "Hähnchen-Kartoffel-Auflauf",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_022",
+    "name": "Protein-Makkaroni-Auflauf",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_023",
+    "name": "Puten-Chili mit Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Eintopf",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Bohnen",
+      "Mais",
+      "Scharf"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_024",
+    "name": "Hackfleisch-Wraps",
+    "category": "muskelaufbau",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_025",
+    "name": "Hähnchen-Mais-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Mais"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_026",
+    "name": "Steak-Kartoffel-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Rind"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Steak",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_027",
+    "name": "Puten-Pasta Deluxe",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Gluten",
+      "Tomaten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_028",
+    "name": "Hähnchen-Reis-Auflauf",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Brokkoli",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_029",
+    "name": "Thunfisch-Reis-Auflauf",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "Dosen",
+        "item": "Thunfisch im eigenen Saft"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Thunfisch abtropfen lassen und später unterheben.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Thunfisch",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Thunfisch",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Thunfisch",
+    "mainCarb": "Reis",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_030",
+    "name": "Protein-Döner-Teller",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_031",
+    "name": "Hähnchen-Gnocchi-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "Gnocchi"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Gnocchi in einer Pfanne goldbraun anbraten.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Gnocchi"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Gnocchi",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_032",
+    "name": "Hackfleisch-Käse-Pasta",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_033",
+    "name": "Chicken-Fajita-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Paprika",
+      "Mais"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_034",
+    "name": "Reis-Pfanne mit Pute",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_035",
+    "name": "Hähnchen-Bohnen-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Bohnen"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_036",
+    "name": "Steak-Gemüse-Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Rind",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Steak",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_037",
+    "name": "Puten-Gyros mit Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_038",
+    "name": "Hähnchen-Tortilla-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_039",
+    "name": "Chili Cheese Protein Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Bohnen",
+      "Milchprodukte",
+      "Käse",
+      "Scharf"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_040",
+    "name": "Protein-Pizza-Wrap",
+    "category": "muskelaufbau",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_041",
+    "name": "Lachs-Kartoffel-Teller",
+    "category": "muskelaufbau",
+    "subcategory": "Teller",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Lachsfilet"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Lachs würzen und in der Pfanne oder im Ofen garen.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Lachs",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Lachs",
+      "Brokkoli",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Lachs",
+    "mainCarb": "Kartoffeln",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_042",
+    "name": "Hähnchen-Couscous-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Couscous"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Couscous mit heißem Wasser übergießen und quellen lassen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Couscous"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Paprika",
+      "Zucchini"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Couscous",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_043",
+    "name": "Steak-Burrito-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Rind",
+      "Bohnen",
+      "Mais"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Steak",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_044",
+    "name": "Protein-Chili-Auflauf",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Bohnen",
+      "Tomaten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": null,
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_045",
+    "name": "Hähnchen-Kartoffel-Blech",
+    "category": "muskelaufbau",
+    "subcategory": "Ofengericht",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_046",
+    "name": "Puten-Paprika-Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_047",
+    "name": "Hackfleisch-Lasagne Protein",
+    "category": "muskelaufbau",
+    "subcategory": "Auflauf",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 6,
+        "unit": "Stück",
+        "item": "Lasagneplatten"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Lasagneplatten"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Gluten",
+      "Milchprodukte",
+      "Käse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": true,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Lasagneplatten",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_048",
+    "name": "Chicken Rice Deluxe",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Brokkoli"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_049",
+    "name": "Hähnchen-Feta-Pasta",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Milchprodukte",
+      "Käse",
+      "Tomaten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_050",
+    "name": "Protein-Gyros-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_051",
+    "name": "Hähnchen-Spinat-Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Spinat"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_052",
+    "name": "Steak-Kartoffel-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Rind",
+      "Paprika"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Steak",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_053",
+    "name": "Puten-Brokkoli-Reis",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Brokkoli"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Pute",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_054",
+    "name": "Lachs-Reis-Gemüse-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.25,
+    "costPerPerson": 5.62,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Lachsfilet"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Lachs würzen und in der Pfanne oder im Ofen garen.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Lachs",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Fisch",
+      "Lachs",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Lachs",
+    "mainCarb": "Reis",
+    "containsFish": true,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_055",
+    "name": "Protein-Burger-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 11.6,
+    "costPerPerson": 5.8,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hackfleisch"
+      },
+      {
+        "qty": 800,
+        "unit": "g",
+        "item": "Kartoffeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Kartoffeln kochen, braten oder im Ofen garen.",
+      "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hackfleisch",
+      "Kartoffeln"
+    ],
+    "excludeTags": [
+      "Hackfleisch",
+      "Rind"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hackfleisch",
+    "mainCarb": "Kartoffeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_056",
+    "name": "Chicken Alfredo Protein",
+    "category": "muskelaufbau",
+    "subcategory": "Pasta",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.5,
+    "costPerPerson": 4.75,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Nudeln oder Protein-Nudeln"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Nudeln"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Gluten",
+      "Milchprodukte"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Nudeln",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": true
+  },
+  {
+    "id": "muskelaufbau_057",
+    "name": "Puten-Wrap Protein",
+    "category": "muskelaufbau",
+    "subcategory": "Wrap",
+    "servingsBase": 2,
+    "time": 35,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 9.85,
+    "costPerPerson": 4.92,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Putenbrust oder Putenhack"
+      },
+      {
+        "qty": 4,
+        "unit": "Stück",
+        "item": "Vollkorn-Wraps"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Wraps kurz erwärmen und bereitlegen.",
+      "Pute in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Pute",
+      "Wrap"
+    ],
+    "excludeTags": [
+      "Pute",
+      "Gluten"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": true,
+    "mainProtein": "Pute",
+    "mainCarb": "Wrap",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_058",
+    "name": "Ei-Reis-Hähnchen-Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 40,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.2,
+    "costPerPerson": 5.1,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Ei"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": true,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_059",
+    "name": "Steak-Reis-Bowl",
+    "category": "muskelaufbau",
+    "subcategory": "Bowl",
+    "servingsBase": 2,
+    "time": 45,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.55,
+    "costPerPerson": 5.28,
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "item": "Rindersteak"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Steak in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Steak",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Rind",
+      "Gemüse"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Steak",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  },
+  {
+    "id": "muskelaufbau_060",
+    "name": "XXL Protein Pfanne",
+    "category": "muskelaufbau",
+    "subcategory": "Pfanne",
+    "servingsBase": 2,
+    "time": 30,
+    "difficulty": "Einfach",
+    "priceEstimateTotal": 10.9,
+    "costPerPerson": 5.45,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "item": "Hähnchenbrust"
+      },
+      {
+        "qty": 220,
+        "unit": "g",
+        "item": "Reis"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "Gemüse passend zum Gericht"
+      },
+      {
+        "qty": 1,
+        "unit": "EL",
+        "item": "Öl"
+      },
+      {
+        "qty": 1,
+        "unit": "nach Geschmack",
+        "item": "Salz, Pfeffer, Paprikapulver"
+      }
+    ],
+    "steps": [
+      "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+      "Reis nach Packungsangabe kochen.",
+      "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
+      "Gemüse dazugeben und garen, bis es bissfest ist.",
+      "Alles würzen, abschmecken und zusammen servieren."
+    ],
+    "tags": [
+      "Proteinreich",
+      "Muskelaufbau",
+      "Hähnchen",
+      "Reis"
+    ],
+    "excludeTags": [
+      "Hähnchen",
+      "Pute",
+      "Brokkoli"
+    ],
+    "proteinRich": true,
+    "lowCalorie": false,
+    "muscleBuilding": true,
+    "familyFriendly": false,
+    "freezerFriendly": false,
+    "mealPrepFriendly": true,
+    "budgetFriendly": false,
+    "mainProtein": "Hähnchen",
+    "mainCarb": "Reis",
+    "containsFish": false,
+    "containsMushrooms": false,
+    "containsEggs": false,
+    "containsMilk": false
+  }
+]
