@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo: Supabase verbunden");
+    console.log("Korbo 0.5.3: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -24,6 +24,7 @@ function initSupabase() {
 initSupabase();
 
 let state = {goal:"sparen",budget:50,people:2,days:7,diet:"normal",maxTime:30,markets:["Aldi"],pantry:[],avoid:[]};
+let currentMeals = [];
 const labels = {sparen:"Sparen",abnehmen:"Abnehmen",muskelaufbau:"Muskelaufbau",familie:"Familie"};
 const markets = ["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny","Egal"];
 const pantryItems = ["Öl","Salz","Pfeffer","Paprikapulver","Gewürze","Nudeln","Reis","Mehl","Zucker","Eier","Kartoffeln","Zwiebeln","Knoblauch","Haferflocken","Brühe","Milch","Sojasoße","Tomatenmark"];
@@ -75,7 +76,7 @@ function getMeals(){
 }
 
 function generatePlan(){
-  const meals=getMeals();let total=0,ingredients=[];
+  const meals=getMeals();currentMeals = meals;let total=0,ingredients=[];
   meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...m.ingredients)});
   total=Math.round(total*100)/100;const rest=Math.round((state.budget-total)*100)/100;
   document.getElementById("rGoal").textContent=labels[state.goal];
@@ -91,8 +92,7 @@ function generatePlan(){
   const mp=document.getElementById("mealPlan");mp.innerHTML="";
   meals.forEach((m,i)=>{
     const div=document.createElement("div");div.className="item";
-    const recipePayload=encodeURIComponent(JSON.stringify(m));
-    div.innerHTML=`<strong>Tag ${i+1}: ${m.name}</strong><small>${m.time} Min. · ${m.diet} · ca. ${(m.costPerPerson*state.people).toFixed(2).replace(".",",")} €</small><div class="rating-buttons"><button onclick="openRecipe('${recipePayload}')">Rezept anzeigen</button><button onclick="openRating('${recipePayload}','like')">👍 Lecker</button><button class="dislike" onclick="openRating('${recipePayload}','dislike')">👎 Nicht meins</button></div>`;
+    div.innerHTML=`<strong>Tag ${i+1}: ${m.name}</strong><small>${m.time} Min. · ${m.diet} · geschätzt ca. ${(m.costPerPerson*state.people).toFixed(2).replace(".",",")} €</small><div class="rating-buttons"><button onclick="openRecipeByIndex(${i})">Rezept anzeigen</button><button onclick="openRatingByIndex(${i},'like')">👍 Lecker</button><button class="dislike" onclick="openRatingByIndex(${i},'dislike')">👎 Nicht meins</button></div>`;
     mp.appendChild(div)
   });
 
@@ -107,18 +107,48 @@ function resetApp(){goTo("goal")}
 
 if("serviceWorker"in navigator){navigator.serviceWorker.register("service-worker.js")}
 
-function openRecipe(recipeEncoded){
-  const recipe=JSON.parse(decodeURIComponent(recipeEncoded));
+function formatAmount(entry){
+  const factor = state.people / 2;
+
+  if(entry.unit === "nach Geschmack"){
+    return `${entry.item}: nach Geschmack`;
+  }
+
+  let scaled = entry.qty * factor;
+
+  if(entry.unit.includes("Stück") || entry.unit.includes("Dose") || entry.unit.includes("Dosen") || entry.unit.includes("Beutel") || entry.unit.includes("Scheiben")){
+    scaled = Math.max(1, Math.round(scaled));
+  } else {
+    scaled = Math.round(scaled / 10) * 10;
+  }
+
+  return `${scaled} ${entry.unit} ${entry.item}`;
+}
+
+function openRecipeByIndex(index){
+  const recipe = currentMeals[index];
+  if(recipe){ openRecipe(recipe); }
+}
+
+function openRecipe(recipe){
   document.getElementById("recipeTitle").textContent=recipe.name;
-  document.getElementById("recipeMeta").textContent=`Für ${state.people} Personen · ${recipe.time} Minuten · ca. ${(recipe.costPerPerson*state.people).toFixed(2).replace(".",",")} €`;
-  document.getElementById("recipeIngredients").innerHTML=(recipe.amounts||recipe.ingredients).map(i=>`<div class="item">${i}</div>`).join("");
+  document.getElementById("recipeMeta").textContent=`Für ${state.people} Personen · ${recipe.time} Minuten · geschätzt ca. ${(recipe.costPerPerson*state.people).toFixed(2).replace(".",",")} €`;
+  const amountList = recipe.amountItems
+    ? recipe.amountItems.map(formatAmount)
+    : (recipe.amounts||recipe.ingredients);
+  document.getElementById("recipeIngredients").innerHTML=amountList.map(i=>`<div class="item">${i}</div>`).join("");
   document.getElementById("recipeSteps").innerHTML=(recipe.steps||[]).map((s,i)=>`<div class="item"><strong>Schritt ${i+1}</strong><small>${s}</small></div>`).join("");
   document.getElementById("recipeModal").classList.add("show");
 }
 function closeRecipe(){document.getElementById("recipeModal").classList.remove("show")}
 
-function openRating(recipeEncoded,voteType){
-  const recipe=JSON.parse(decodeURIComponent(recipeEncoded));pendingVote={recipe,voteType};selectedReason="";
+function openRatingByIndex(index, voteType){
+  const recipe = currentMeals[index];
+  if(recipe){ openRating(recipe, voteType); }
+}
+
+function openRating(recipe,voteType){
+  pendingVote={recipe,voteType};selectedReason="";
   document.getElementById("ratingTitle").textContent=voteType==="like"?"👍 Lecker":"👎 Nicht mein Geschmack";
   document.getElementById("ratingText").textContent=voteType==="like"?`Danke. Deine Bewertung für "${recipe.name}" wird gespeichert.`:`Was hat bei "${recipe.name}" nicht gepasst?`;
   document.querySelectorAll("#reasonBox .choice").forEach(b=>b.classList.remove("selected"));
