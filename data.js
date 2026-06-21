@@ -48,8 +48,28 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver, italienische Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "italienische Kräuter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -129,8 +149,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver, Chilipulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Chilipulver"
         }
       ],
       "steps": [
@@ -202,8 +237,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -272,8 +317,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -341,8 +396,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Gyrosgewürz"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Gyrosgewürz"
         }
       ],
       "steps": [
@@ -405,8 +470,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -472,8 +547,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -535,8 +620,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Currypulver, Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
         }
       ],
       "steps": [
@@ -598,8 +693,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Oregano, Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -672,8 +777,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Knoblauchpulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Knoblauchpulver"
         }
       ],
       "steps": [
@@ -747,8 +862,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -818,8 +943,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -884,8 +1019,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -958,8 +1103,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1022,8 +1177,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -1083,8 +1248,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -1156,8 +1326,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -1227,8 +1407,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1261,7 +1451,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 2,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9.0,
+      "priceEstimateTotal": 9,
       "costPerPerson": 4.5,
       "ingredients": [
         {
@@ -1296,8 +1486,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -1360,8 +1555,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1447,8 +1652,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -1512,8 +1727,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -1574,8 +1794,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -1639,8 +1869,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1703,8 +1943,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1768,8 +2018,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -1835,8 +2095,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1902,8 +2172,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -1969,8 +2249,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2036,8 +2326,8 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
+          "qty": 0.5,
+          "unit": "TL",
           "item": "Pfeffer"
         }
       ],
@@ -2113,8 +2403,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2182,7 +2482,7 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
+          "unit": "TL",
           "item": "Oregano"
         }
       ],
@@ -2251,8 +2551,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2314,8 +2624,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -2377,7 +2692,7 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
+          "unit": "TL",
           "item": "Oregano"
         }
       ],
@@ -2440,8 +2755,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2516,8 +2841,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2588,8 +2923,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Basilikum"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -2656,8 +2996,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Gyrosgewürz"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Gyrosgewürz"
         }
       ],
       "steps": [
@@ -2726,8 +3076,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -2792,8 +3152,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -2864,7 +3234,7 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
+          "unit": "TL",
           "item": "Salz"
         }
       ],
@@ -2936,8 +3306,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3014,8 +3394,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3082,8 +3472,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Knoblauchpulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Knoblauchpulver"
         }
       ],
       "steps": [
@@ -3166,8 +3566,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3240,8 +3650,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3309,8 +3729,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3369,8 +3799,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -3431,8 +3866,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -3503,8 +3948,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver, Chili"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Chilipulver"
         }
       ],
       "steps": [
@@ -3579,8 +4039,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3648,8 +4118,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -3712,8 +4192,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Gyrosgewürz"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Gyrosgewürz"
         }
       ],
       "steps": [
@@ -3743,7 +4233,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 2,
       "time": 40,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9.0,
+      "priceEstimateTotal": 9,
       "costPerPerson": 4.5,
       "proteinRich": true,
       "familyFriendly": true,
@@ -3783,8 +4273,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3854,8 +4354,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -3915,8 +4425,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -3986,8 +4506,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4057,8 +4587,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -4124,8 +4659,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4198,8 +4743,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4270,9 +4825,14 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4350,8 +4910,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -4496,8 +5066,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -4581,8 +5156,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4661,8 +5246,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -4731,8 +5326,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -4808,8 +5408,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4883,8 +5493,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -4957,8 +5577,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -5102,8 +5732,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, italienische Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "italienische Kräuter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -5181,8 +5826,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -5262,8 +5917,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -5345,8 +6010,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -5420,8 +6095,8 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
+          "qty": 0.5,
+          "unit": "TL",
           "item": "Pfeffer"
         }
       ],
@@ -5490,8 +6165,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Basilikum"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -5563,9 +6243,14 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -5647,8 +6332,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver, Chili"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Chilipulver"
         }
       ],
       "steps": [
@@ -5718,8 +6418,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -5797,8 +6502,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -5872,8 +6587,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, italienische Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "italienische Kräuter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -5952,8 +6682,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -6031,8 +6771,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -6106,8 +6856,8 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
+          "qty": 0.5,
+          "unit": "TL",
           "item": "Pfeffer"
         }
       ],
@@ -6186,8 +6936,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -6255,8 +7015,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -6324,8 +7094,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -6466,8 +7246,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -6541,8 +7326,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Gyrosgewürz"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Gyrosgewürz"
         }
       ],
       "steps": [
@@ -6605,8 +7400,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -6682,8 +7487,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver, Chili"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Chilipulver"
         }
       ],
       "steps": [
@@ -6753,8 +7573,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -6826,8 +7656,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -6906,8 +7746,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -6977,8 +7827,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Schnittlauch"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -7050,8 +7905,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -7124,8 +7989,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -7187,8 +8057,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -7267,8 +8147,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -7347,8 +8237,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Oregano"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
         }
       ],
       "steps": [
@@ -7422,8 +8322,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -7498,8 +8408,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -7568,8 +8488,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -7642,8 +8567,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -7727,8 +8662,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Knoblauchpulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Knoblauchpulver"
         }
       ],
       "steps": [
@@ -7804,8 +8749,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -7874,8 +8829,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Muskat"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
         }
       ],
       "steps": [
@@ -7949,8 +8914,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -8023,8 +8998,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -8161,8 +9141,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -8235,8 +9220,8 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
+          "qty": 0.5,
+          "unit": "TL",
           "item": "Pfeffer"
         }
       ],
@@ -8305,8 +9290,23 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, italienische Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "italienische Kräuter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -8375,8 +9375,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Kräuter"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "gemischte Kräuter"
         }
       ],
       "steps": [
@@ -8455,8 +9465,13 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         }
       ],
       "steps": [
@@ -8530,8 +9545,18 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
@@ -8603,8 +9628,8 @@ const RECIPE_DATABASE = {
           "item": "Öl"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
+          "qty": 0.5,
+          "unit": "TL",
           "item": "Pfeffer"
         }
       ],
@@ -8665,27 +9690,39 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Brokkoli"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -8733,27 +9770,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Mais vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -8802,27 +9856,49 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -8871,27 +9947,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Mais, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -8940,27 +10043,48 @@ const RECIPE_DATABASE = {
           "item": "Couscous"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Couscous mit heißem Wasser übergießen und quellen lassen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Gurke vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9008,27 +10132,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 3,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Honig"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9076,27 +10227,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Lachs würzen und in der Pfanne oder im Ofen garen.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Gurke vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9144,27 +10312,53 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9212,27 +10406,49 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch light"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9280,27 +10496,59 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Tomaten, Zwiebel, Mais, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9350,27 +10598,44 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 3,
+          "unit": "EL",
+          "item": "grünes Pesto"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Frischkäse light"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9419,27 +10684,39 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9481,26 +10758,47 @@ const RECIPE_DATABASE = {
           "item": "Putenbrust oder Putenhack"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Paprika, Zucchini, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9547,27 +10845,43 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Erbsen und Karotten TK"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Eier verquirlen und in der Pfanne stocken lassen.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten, Erbsen vorbereiten.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9615,26 +10929,61 @@ const RECIPE_DATABASE = {
           "item": "Lasagneplatten"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Auflaufform bereitstellen und Lasagneplatten bereitlegen.",
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9684,27 +11033,48 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Thunfisch abtropfen lassen und später unterheben.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Gurke, Mais vorbereiten.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9753,27 +11123,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9821,27 +11218,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 3,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9889,27 +11303,49 @@ const RECIPE_DATABASE = {
           "item": "Couscous"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Couscous mit heißem Wasser übergießen und quellen lassen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Zucchini, Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -9957,27 +11393,48 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Mais, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10026,27 +11483,50 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne light"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10095,27 +11575,56 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10165,27 +11674,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Tomaten, Zwiebel, Mais, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10235,27 +11771,54 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10304,27 +11867,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Mais vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10372,27 +11952,48 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika, Gurke vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10439,27 +12040,49 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10508,27 +12131,51 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne light"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10578,27 +12225,50 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Erbsen"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne light"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse light"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Thunfisch abtropfen lassen und später unterheben.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Erbsen vorbereiten.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10648,27 +12318,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10716,27 +12413,42 @@ const RECIPE_DATABASE = {
           "item": "Gnocchi"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Gnocchi in einer Pfanne goldbraun anbraten.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Paprika, Zucchini vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10784,27 +12496,49 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10854,27 +12588,49 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Zwiebel, Mais vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10923,27 +12679,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -10991,27 +12764,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11059,27 +12849,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11127,27 +12934,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11195,27 +13019,43 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11264,27 +13104,54 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Tomaten, Zwiebel, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11335,27 +13202,48 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11405,27 +13293,43 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kräuterquark"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Lachs würzen und in der Pfanne oder im Ofen garen.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11475,27 +13379,43 @@ const RECIPE_DATABASE = {
           "item": "Couscous"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Couscous mit heißem Wasser übergießen und quellen lassen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Zucchini vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11545,27 +13465,49 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Mais, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11609,26 +13551,54 @@ const RECIPE_DATABASE = {
           "item": "Putenbrust oder Putenhack"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Paprika, Tomaten, Zwiebel, Kidneybohnen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11678,27 +13648,39 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11746,27 +13728,39 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11814,26 +13808,56 @@ const RECIPE_DATABASE = {
           "item": "Lasagneplatten"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Auflaufform bereitstellen und Lasagneplatten bereitlegen.",
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11883,27 +13907,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -11951,27 +13992,44 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Cherrytomaten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika, Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12022,27 +14080,49 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Zwiebel, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12090,27 +14170,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Blattspinat"
+        },
+        {
+          "qty": 1,
+          "unit": "Zehe",
+          "item": "Knoblauch"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Lauch, Spinat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12158,27 +14255,38 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12226,27 +14334,39 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Brokkoli"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12294,27 +14414,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Lachs würzen und in der Pfanne oder im Ofen garen.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12363,27 +14500,54 @@ const RECIPE_DATABASE = {
           "item": "Kartoffeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder im Ofen garen.",
-        "Hackfleisch in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika, Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12431,27 +14595,44 @@ const RECIPE_DATABASE = {
           "item": "Nudeln oder Protein-Nudeln"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne light"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
+        "Alle Zutaten abwiegen und vorbereiten.",
         "Nudeln in Salzwasser bissfest kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12500,27 +14681,48 @@ const RECIPE_DATABASE = {
           "item": "Vollkorn-Wraps"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Wraps kurz erwärmen und bereitlegen.",
-        "Pute in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Paprika, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12568,27 +14770,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Erbsen"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Erbsen vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12636,27 +14855,49 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Steak in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Gurke vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12704,27 +14945,44 @@ const RECIPE_DATABASE = {
           "item": "Reis"
         },
         {
-          "qty": 300,
-          "unit": "g",
-          "item": "Gemüse passend zum Gericht"
-        },
-        {
           "qty": 1,
           "unit": "EL",
           "item": "Öl"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, Paprikapulver"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Brokkoli"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und die angegebenen Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer großen Pfanne mit etwas Öl anbraten.",
-        "Gemüse dazugeben und garen, bis es bissfest ist.",
-        "Alles würzen, abschmecken und zusammen servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Proteinreich",
@@ -12776,21 +15034,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -12840,21 +15120,50 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Béchamelsauce"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Auflaufform bereitstellen und Lasagneplatten bereitlegen.",
+        "Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -12905,22 +15214,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -12970,22 +15290,39 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Ei"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13036,21 +15373,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13099,21 +15458,37 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Paniermehl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13163,21 +15538,47 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Wrap vorbereiten.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13227,22 +15628,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "passierte Tomaten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Baguette vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13293,21 +15705,37 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Kochschinken"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Tortellini nach Packungsangabe kochen oder vorbereiten.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13357,21 +15785,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Curryketchup"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Paprika"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Würstchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13420,22 +15860,44 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Paniermehl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13485,20 +15947,35 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "Butter"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Spätzle nach Packungsangabe kochen oder vorbereiten.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Zwiebel vorbereiten.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13548,21 +16025,42 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Käse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Burgerbrötchen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13611,21 +16109,31 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Bund",
+          "item": "Suppengemüse"
+        },
+        {
+          "qty": 700,
+          "unit": "ml",
+          "item": "Brühe"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Würstchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13673,21 +16181,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Gyros in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13736,21 +16266,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Tomaten vorbereiten.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13801,21 +16348,27 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Eier"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13865,21 +16418,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13929,21 +16494,27 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Schinkenwürfel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Eier verquirlen oder direkt in der Pfanne stocken lassen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -13992,22 +16563,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14051,20 +16638,42 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Salat, Mais vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14116,21 +16725,48 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14179,22 +16815,34 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "passierte Tomaten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Pizzateig vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14245,21 +16893,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Paniermehl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14309,20 +16979,26 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Tomaten vorbereiten.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14373,22 +17049,31 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Schmand"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Schinkenwürfel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Baguette vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14438,21 +17123,32 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Gemüse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14501,21 +17197,27 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Eier verquirlen oder direkt in der Pfanne stocken lassen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Zwiebel vorbereiten.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14564,22 +17266,50 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14630,21 +17360,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika, Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14693,21 +17440,47 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Wrap vorbereiten.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14757,22 +17530,45 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Gyros in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14817,21 +17613,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Rolle",
+          "item": "Croissantteig"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14882,21 +17690,48 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch light"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Karotten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -14945,22 +17780,34 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Tortilla vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15010,21 +17857,37 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Senf"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15073,21 +17936,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Gurke, Tomaten, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15135,21 +18020,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Brühe"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Würstchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15198,21 +18100,37 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15262,22 +18180,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15327,22 +18256,39 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15393,19 +18339,31 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Apfelmus"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "TL",
+          "item": "Zimt"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15453,21 +18411,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Gemüse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15516,21 +18491,26 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Apfelmus"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Eier verquirlen oder direkt in der Pfanne stocken lassen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15579,20 +18559,31 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "Kochsahne"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15642,21 +18633,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15705,22 +18713,32 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Ananasstücke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Toast vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15771,22 +18789,34 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Tortilla vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15837,21 +18867,31 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
         },
         {
-          "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Eier verquirlen oder direkt in der Pfanne stocken lassen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15901,21 +18941,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Wrap vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Wraps oder Tortillas kurz erwärmen und bereitlegen.",
+        "Gurke, Salat vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -15966,21 +19028,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stangen",
+          "item": "Lauch"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Lauch vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16030,21 +19114,42 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Würstchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Paprika, Tomaten vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16094,20 +19199,36 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Paprika vorbereiten.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16157,21 +19278,27 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Eier verquirlen oder direkt in der Pfanne stocken lassen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Zwiebel vorbereiten.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16220,21 +19347,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Reis nach Packungsangabe kochen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Reis nach Packungsangabe in Salzwasser kochen.",
+        "Paprika, Mais vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16283,22 +19432,39 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "passierte Tomaten"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Pizzateig vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16350,21 +19516,43 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Nudeln nach Packungsangabe kochen oder vorbereiten.",
-        "Hackfleisch in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Paprika, Tomaten, Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16409,21 +19597,48 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Hähnchen in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Alles in eine Form oder auf ein Blech geben und im Ofen fertig garen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Paprika, Brokkoli vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Alle vorbereiteten Zutaten in eine Auflaufform oder auf ein Backblech geben.",
+        "Soße und Käse darüber verteilen.",
+        "Bei 180–200 °C backen, bis alles gar und goldbraun ist.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16474,21 +19689,33 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Eier"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Zwiebel"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Schinken in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",
@@ -16537,21 +19764,38 @@ const RECIPE_DATABASE = {
         },
         {
           "qty": 1,
-          "unit": "Packung / nach Bedarf",
-          "item": "Gemüse oder Beilage passend zum Gericht"
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Eier"
         },
         {
           "qty": 1,
-          "unit": "nach Geschmack",
-          "item": "Salz, Pfeffer, milde Gewürze"
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
         }
       ],
       "steps": [
-        "Zutaten vorbereiten und alle Mengen bereitstellen.",
-        "Kartoffeln kochen, braten oder für den Ofen vorbereiten.",
-        "Lyoner in einer Pfanne anbraten oder erhitzen.",
-        "Restliche Zutaten dazugeben und alles mild würzen.",
-        "Abschmecken und familienfreundlich servieren."
+        "Alle Zutaten abwiegen und vorbereiten.",
+        "Kartoffeln schälen oder waschen und je nach Rezept in Scheiben, Würfel oder Spalten schneiden.",
+        "Zwiebel vorbereiten.",
+        "Fleisch oder Fisch in einer Pfanne mit Öl anbraten beziehungsweise erhitzen.",
+        "Eier je nach Rezept verquirlen, kochen oder in der Pfanne stocken lassen.",
+        "Alle vorbereiteten Zutaten zusammenführen und kurz erhitzen.",
+        "Mit den angegebenen Gewürzen abschmecken und servieren."
       ],
       "tags": [
         "Familie",

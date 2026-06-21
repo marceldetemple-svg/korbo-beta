@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.6.0: Supabase verbunden");
+    console.log("Korbo 0.6.1: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",

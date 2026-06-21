@@ -1,0 +1,14 @@
+QA Ergebnis:
+{
+  "passend zum Gericht": 0,
+  "Packung / nach Bedarf": 0,
+  "Beilage passend": 0,
+  "Gemüse passend": 0,
+  "nach Geschmack": 0
+}
+Kategorien: {
+  "sparen": 60,
+  "abnehmen": 60,
+  "muskelaufbau": 60,
+  "familie": 60
+}

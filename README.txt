@@ -37,3 +37,8 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Premium Datenbank V1 eingebaut
 - 240 Rezepte: Sparen, Abnehmen, Muskelaufbau, Familie je 60
 - App an neue Zutatenstruktur angepasst
+
+0.6.1 Clean Database:
+- Platzhalter aus Muskelaufbau und Familie entfernt
+- Gewürze von nach Geschmack auf konkrete Mengen umgestellt
+- data.js QA: keine Begriffe passsend zum Gericht / nach Geschmack
