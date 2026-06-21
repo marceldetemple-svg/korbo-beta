@@ -26,3 +26,14 @@ Dann auf Handy und PC einmal komplett neu laden.
 0.5.3:
 - Fehler behoben, der Rezeptdetails in einigen Kategorien blockieren konnte
 - Rezept anzeigen und Bewertung laufen jetzt stabil über interne Rezept-IDs statt über langen JSON-Code im Button
+
+0.5.4:
+- fehlende offensichtliche Zutaten ergänzt
+- Öl zeigt nicht mehr 0 EL
+- Rezeptschritte werden passend nach Zutaten erstellt
+- generische Tofu/Fleisch/Ei-Sätze entfernt
+
+0.6.0:
+- Premium Datenbank V1 eingebaut
+- 240 Rezepte: Sparen, Abnehmen, Muskelaufbau, Familie je 60
+- App an neue Zutatenstruktur angepasst

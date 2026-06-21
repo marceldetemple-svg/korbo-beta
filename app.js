@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.5.3: Supabase verbunden");
+    console.log("Korbo 0.6.0: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -77,7 +77,7 @@ function getMeals(){
 
 function generatePlan(){
   const meals=getMeals();currentMeals = meals;let total=0,ingredients=[];
-  meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...m.ingredients)});
+  meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...m.ingredients.map(x => typeof x === 'string' ? x : x.item))});
   total=Math.round(total*100)/100;const rest=Math.round((state.budget-total)*100)/100;
   document.getElementById("rGoal").textContent=labels[state.goal];
   document.getElementById("rBudget").textContent=state.budget.toFixed(2).replace(".",",")+" €";
@@ -107,22 +107,82 @@ function resetApp(){goTo("goal")}
 
 if("serviceWorker"in navigator){navigator.serviceWorker.register("service-worker.js")}
 
-function formatAmount(entry){
+function formatIngredient(entry){
   const factor = state.people / 2;
+
+  if(typeof entry === "string"){
+    return entry;
+  }
 
   if(entry.unit === "nach Geschmack"){
     return `${entry.item}: nach Geschmack`;
   }
 
-  let scaled = entry.qty * factor;
+  let qty = entry.qty;
 
-  if(entry.unit.includes("Stück") || entry.unit.includes("Dose") || entry.unit.includes("Dosen") || entry.unit.includes("Beutel") || entry.unit.includes("Scheiben")){
-    scaled = Math.max(1, Math.round(scaled));
-  } else {
-    scaled = Math.round(scaled / 10) * 10;
+  if(typeof qty === "number"){
+    let scaled = qty * factor;
+
+    if(
+      entry.unit.includes("Stück") ||
+      entry.unit.includes("Dose") ||
+      entry.unit.includes("Dosen") ||
+      entry.unit.includes("Beutel") ||
+      entry.unit.includes("Scheiben") ||
+      entry.unit.includes("EL") ||
+      entry.unit.includes("TL") ||
+      entry.unit.includes("Zehe") ||
+      entry.unit.includes("Bund") ||
+      entry.unit.includes("Rolle")
+    ){
+      scaled = Math.max(1, Math.round(scaled));
+    } else {
+      scaled = Math.max(10, Math.round(scaled / 10) * 10);
+    }
+
+    return `${scaled} ${entry.unit} ${entry.item}`;
   }
 
-  return `${scaled} ${entry.unit} ${entry.item}`;
+  return `${entry.qty} ${entry.unit} ${entry.item}`;
+}
+
+function formatIngredient(entry){
+  const factor = state.people / 2;
+
+  if(typeof entry === "string"){
+    return entry;
+  }
+
+  if(entry.unit === "nach Geschmack"){
+    return `${entry.item}: nach Geschmack`;
+  }
+
+  let qty = entry.qty;
+
+  if(typeof qty === "number"){
+    let scaled = qty * factor;
+
+    if(
+      entry.unit.includes("Stück") ||
+      entry.unit.includes("Dose") ||
+      entry.unit.includes("Dosen") ||
+      entry.unit.includes("Beutel") ||
+      entry.unit.includes("Scheiben") ||
+      entry.unit.includes("EL") ||
+      entry.unit.includes("TL") ||
+      entry.unit.includes("Zehe") ||
+      entry.unit.includes("Bund") ||
+      entry.unit.includes("Rolle")
+    ){
+      scaled = Math.max(1, Math.round(scaled));
+    } else {
+      scaled = Math.max(10, Math.round(scaled / 10) * 10);
+    }
+
+    return `${scaled} ${entry.unit} ${entry.item}`;
+  }
+
+  return `${entry.qty} ${entry.unit} ${entry.item}`;
 }
 
 function openRecipeByIndex(index){
@@ -133,9 +193,11 @@ function openRecipeByIndex(index){
 function openRecipe(recipe){
   document.getElementById("recipeTitle").textContent=recipe.name;
   document.getElementById("recipeMeta").textContent=`Für ${state.people} Personen · ${recipe.time} Minuten · geschätzt ca. ${(recipe.costPerPerson*state.people).toFixed(2).replace(".",",")} €`;
-  const amountList = recipe.amountItems
-    ? recipe.amountItems.map(formatAmount)
-    : (recipe.amounts||recipe.ingredients);
+
+  const amountList = recipe.ingredients
+    ? recipe.ingredients.map(formatIngredient)
+    : (recipe.amountItems ? recipe.amountItems.map(formatIngredient) : (recipe.amounts || []));
+
   document.getElementById("recipeIngredients").innerHTML=amountList.map(i=>`<div class="item">${i}</div>`).join("");
   document.getElementById("recipeSteps").innerHTML=(recipe.steps||[]).map((s,i)=>`<div class="item"><strong>Schritt ${i+1}</strong><small>${s}</small></div>`).join("");
   document.getElementById("recipeModal").classList.add("show");
