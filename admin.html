@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korbo Admin</title>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+
+<style>
+body{
+  font-family:Arial,sans-serif;
+  background:#111;
+  color:white;
+  padding:20px;
+}
+.card{
+  background:#1d1d1d;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+.stat{
+  font-size:28px;
+  font-weight:bold;
+}
+img{
+  max-width:150px;
+  border-radius:10px;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+td,th{
+  border:1px solid #333;
+  padding:8px;
+}
+</style>
+</head>
+<body>
+
+<h1>Korbo Admin Dashboard</h1>
+
+<div class="card">
+<h2>Gesamtbewertungen</h2>
+<div id="count" class="stat">0</div>
+</div>
+
+<div class="card">
+<h2>Durchschnitt Sterne</h2>
+<div id="avgStars" class="stat">0</div>
+</div>
+
+<div class="card">
+<h2>Letzte Bewertungen</h2>
+<div id="reviews">Lade...</div>
+</div>
+
+<script>
+
+const supabaseClient =
+supabase.createClient(
+SUPABASE_URL,
+SUPABASE_ANON_KEY
+);
+
+loadDashboard();
+
+async function loadDashboard(){
+
+const {data,error} =
+await supabaseClient
+.from("recipe_votes")
+.select("*")
+.order("created_at",{ascending:false});
+
+if(error){
+document.getElementById("reviews").innerHTML =
+error.message;
+return;
+}
+
+document.getElementById("count").textContent =
+data.length;
+
+const stars =
+data.filter(x=>x.stars);
+
+const avg =
+stars.length
+?
+(stars.reduce((a,b)=>a+b.stars,0)/stars.length).toFixed(1)
+:
+0;
+
+document.getElementById("avgStars").textContent =
+avg;
+
+let html =
+`
+<table>
+<tr>
+<th>Rezept</th>
+<th>Sterne</th>
+<th>Kommentar</th>
+<th>Bild</th>
+</tr>
+`;
+
+data.slice(0,50).forEach(row=>{
+
+html += `
+<tr>
+<td>${row.recipe_name || ""}</td>
+<td>${row.stars || ""}</td>
+<td>${row.comment || ""}</td>
+<td>
+${row.image_url
+? `<img src="${row.image_url}">`
+: "-"
+}
+</td>
+</tr>
+`;
+
+});
+
+html += "</table>";
+
+document.getElementById("reviews").innerHTML =
+html;
+
+}
+
+</script>
+
+</body>
+</html>
