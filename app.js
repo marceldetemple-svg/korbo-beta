@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.5: Supabase verbunden");
+    console.log("Korbo 0.7.7: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -392,7 +392,16 @@ function toggleMarket(v,el){if(v==="Egal"){state.markets=["Egal"];el.parentEleme
 function togglePantry(v,el){const idx=state.pantry.indexOf(v);idx>=0?state.pantry.splice(idx,1):state.pantry.push(v);el.classList.toggle("selected")}
 function toggleAvoid(v,el){const idx=state.avoid.indexOf(v);idx>=0?state.avoid.splice(idx,1):state.avoid.push(v);el.classList.toggle("selected")}
 function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
-function dietOk(recipe){if(state.diet==="normal")return true;if(state.diet==="vegetarisch")return recipe.diet==="vegetarisch"||recipe.diet==="vegan";if(state.diet==="vegan")return recipe.diet==="vegan";return true}
+function dietOk(recipe){
+  if(state.diet === "normal") return true;
+
+  // Wichtig: Die Ernährungsart muss eigenständig filtern.
+  // Nutzer müssen bei "Vegan" nicht zusätzlich ausgeschlossene Lebensmittel anklicken.
+  if(state.diet === "vegetarisch") return recipeIsVegetarianSafe(recipe);
+  if(state.diet === "vegan") return recipeIsVeganSafe(recipe);
+
+  return true;
+}
 function normalizeTag(tag){
   return String(tag || "")
     .toLowerCase()
@@ -415,7 +424,7 @@ const AVOID_GROUPS = {
 
 const NON_VEGAN_KEYWORDS = [
   // Fleisch / Wurst
-  "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "schwein", "schweinefleisch", "schinken", "speck", "salami", "lyoner", "bratwurst", "wuerstchen", "wurst", "gyros",
+  "fleisch", "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "gulasch", "carne", "schwein", "schweinefleisch", "schinken", "speck", "salami", "lyoner", "bratwurst", "wuerstchen", "wurst", "wiener", "currywurst", "frikadelle", "frikadellen", "schnitzel", "doener", "döner", "gyros", "bolognese",
   // Geflügel
   "gefluegel", "haehnchen", "hähnchen", "pute", "puten", "putenbrust", "putenhack",
   // Fisch / Meeresfrüchte
@@ -425,12 +434,18 @@ const NON_VEGAN_KEYWORDS = [
   // Ei
   "ei", "eier", "omelett", "spiegelei",
   // oft nicht vegan
-  "honig", "tortellini"
+  "honig", "tortellini", "hüttenkase", "huettenkaese", "hüttenkäse", "frischkäse", "frischkaese", "kochschinken", "wiener", "schnitzel", "geschnetzeltes"
 ];
 
 const NON_VEGETARIAN_KEYWORDS = [
-  "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "schwein", "schweinefleisch", "schinken", "speck", "salami", "lyoner", "bratwurst", "wuerstchen", "wurst", "gyros",
-  "gefluegel", "haehnchen", "hähnchen", "pute", "puten", "putenbrust", "putenhack",
+  // Fleisch allgemein
+  "fleisch", "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "gulasch", "carne",
+  "schwein", "schweinefleisch", "schweinegeschnetzeltes", "geschnetzeltes", "schinken", "kochschinken", "speck", "salami",
+  "lyoner", "bratwurst", "bratwuerste", "bratwürste", "wuerstchen", "würstchen", "wurst", "wiener", "currywurst",
+  "frikadelle", "frikadellen", "schnitzel", "doener", "döner", "gyros", "bolognese",
+  // Geflügel
+  "gefluegel", "geflügel", "haehnchen", "hähnchen", "huhn", "pute", "puten", "putenbrust", "putenhack",
+  // Fisch / Meeresfrüchte
   "fisch", "thunfisch", "lachs", "kabeljau", "fischstaebchen", "fischstäbchen", "meeresfruechte", "meeresfrüchte", "garnelen", "shrimps", "krabben", "muscheln"
 ];
 
@@ -468,12 +483,18 @@ function recipeIsVeganSafe(recipe){
 }
 
 function recipeIsVegetarianSafe(recipe){
+  // Vegetarisch muss eigenständig streng filtern.
+  // Nutzer müssen bei den Ausschlüssen nicht zusätzlich Fleisch/Fisch anklicken.
   if(recipe.containsFish === true){
     return false;
   }
 
   const text = recipeSearchText(recipe);
-  return !containsKeyword(text, NON_VEGETARIAN_KEYWORDS);
+  if(containsKeyword(text, NON_VEGETARIAN_KEYWORDS)){
+    return false;
+  }
+
+  return true;
 }
 
 function recipeHasAvoidTag(recipe, selected){
@@ -497,13 +518,18 @@ function avoidOk(recipe){
 
 function getMeals(){
   const allForGoal = RECIPE_DATABASE[state.goal] || [];
-  let list = allForGoal.filter(r=>dietOk(r)&&avoidOk(r)&&r.time<=state.maxTime);
-  if(list.length<state.days) list = allForGoal.filter(r=>dietOk(r)&&avoidOk(r));
-  if(list.length<state.days) list = allForGoal.filter(r=>avoidOk(r));
 
-  // Wichtig: Ausschlüsse dürfen niemals ignoriert werden.
-  // Wenn z. B. Vegan gewählt wurde, darf Korbo nicht aus Mangel an Rezepten plötzlich Thunfisch anzeigen.
-  if(list.length===0) return [];
+  // Erst alle harten Filter anwenden: Ernährungsart + ausgeschlossene Lebensmittel.
+  // Diese Filter dürfen niemals aufgeweicht werden.
+  const hardFiltered = allForGoal.filter(r => dietOk(r) && avoidOk(r));
+
+  let list = hardFiltered.filter(r => r.time <= state.maxTime);
+
+  // Nur die Kochzeit darf gelockert werden, falls sonst zu wenig Gerichte übrig bleiben.
+  // Vegan/Vegetarisch/Ausschlüsse bleiben immer aktiv.
+  if(list.length < state.days) list = hardFiltered;
+
+  if(list.length === 0) return [];
 
   const minTarget = state.budget * 0.75;
   let best = shuffle(list).slice(0,state.days);

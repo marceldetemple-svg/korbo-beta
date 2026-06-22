@@ -85,3 +85,14 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Fleisch, Fisch, Geflügel und Meeresfrüchte werden bei Vegan ebenfalls sicher ausgeschlossen
 - Filter prüft jetzt Name, Zutaten, Tags, excludeTags, mainProtein und Boolean-Felder
 - Ausschlüsse werden weiterhin nicht ignoriert, auch wenn dadurch weniger Gerichte übrig bleiben
+
+0.7.6:
+- Ernährungsart "Vegan" filtert jetzt eigenständig streng, auch wenn unter Ausschlüsse nichts angeklickt wurde
+- Vegan blockiert Fisch, Thunfisch, Lachs, Steak, Fleisch, Geflügel, Milchprodukte, Hüttenkäse, Käse, Eier usw.
+- Fallback-Logik geändert: Nur Kochzeit darf gelockert werden, Vegan/Vegetarisch/Ausschlüsse niemals
+
+0.7.7:
+- Vegetarisch filtert jetzt direkt über die Ernährungsart streng.
+- Nutzer müssen keine zusätzlichen Ausschlüsse setzen.
+- Steak, Thunfisch, Hähnchen, Pute, Schinken, Wurst, Gyros, Döner, Frikadellen usw. werden bei Vegetarisch ausgeschlossen.
+- Cache-Version v077.
