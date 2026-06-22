@@ -55,3 +55,8 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Rezeptzutaten einzeln zur Einkaufsliste übernehmen
 - Kompletten generierten Plan zur Einkaufsliste übernehmen
 - Gleiche Zutaten mit gleicher Einheit werden zusammengeführt
+
+0.7.1:
+- Einkaufsliste: bessere Zusammenführung gleicher Zutaten
+- erkennt Varianten wie Hackfleisch / Rinderhackfleisch / Hackfleisch gemischt oder Rind
+- Button „Doppelte zusammenführen“ ergänzt

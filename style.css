@@ -11,10 +11,12 @@
 .mt{margin-top:12px}
 .shopping-add{display:grid;grid-template-columns:1fr;gap:10px;margin:10px 0 14px}
 .shopping-add input{width:100%;border:2px solid #ebe4d4;border-radius:16px;padding:15px 14px;font-size:16px;background:white;color:#122016}
-.shopping-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 6px}
+.shopping-actions{display:grid;grid-template-columns:1fr;gap:10px;margin:12px 0 6px}
 .shopping-row{display:grid;gap:8px}
 .shopping-row label{display:flex;gap:12px;align-items:center;font-weight:800}
 .shopping-row input[type=checkbox]{width:22px;height:22px;accent-color:#2ecc71}
 .shopping-row.done span{text-decoration:line-through;color:#7c857e}
 .icon-button{background:#ece4d5;color:#122016;border-radius:12px;padding:10px 12px;font-size:14px;width:auto;justify-self:start}
 .rating-buttons{grid-template-columns:1fr 1fr}
+
+@media (min-width:520px){.shopping-actions{grid-template-columns:1fr 1fr 1fr}}

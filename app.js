@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.0: Supabase verbunden");
+    console.log("Korbo 0.7.1: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -35,6 +35,57 @@ const SHOPPING_STORAGE_KEY = "korbo_shopping_list_v1";
 
 function normalizeShoppingName(name){
   return String(name || "").trim().replace(/\s+/g, " ");
+}
+
+function normalizeShoppingKey(name){
+  let key = normalizeShoppingName(name).toLowerCase();
+
+  key = key
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss");
+
+  // Varianten vereinheitlichen
+  const replacements = [
+    [/rinderhackfleisch|gemischtes hackfleisch|hackfleisch gemischt oder rind|hackfleisch gemischt|rinderhack/g, "hackfleisch"],
+    [/hähnchenbrust|haehnchenbrust|hähnchenfilet|haehnchenfilet/g, "haehnchen"],
+    [/putenbrust|putenhackfleisch|putenhack/g, "pute"],
+    [/geriebener käse|geriebener kaese|käse light|kaese light|gouda|parmesan/g, "kaese"],
+    [/kochschinken|schinkenwuerfel|schinkenwürfel/g, "schinken"],
+    [/gehackte tomaten|passierte tomaten|tomatensosse|tomatensoße/g, "tomaten"],
+    [/vollkornnudeln|protein-nudeln|spaghetti|makkaroni/g, "nudeln"],
+    [/vollkorn-wraps|wraps|tortillas|vollkorn-tortillas/g, "wraps"],
+    [/kidneybohnen/g, "bohnen"],
+    [/paprikapulver/g, "paprikapulver"]
+  ];
+
+  replacements.forEach(([pattern, replacement]) => {
+    key = key.replace(pattern, replacement);
+  });
+
+  // Füllwörter entfernen
+  key = key
+    .replace(/\b(oder|optional|light|frisch|tk|aus dem kuehlregal|aus dem kühlregal|im eigenen saft)\b/g, " ")
+    .replace(/[(),.-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  return key;
+}
+
+function normalizeUnitKey(unit){
+  let u = String(unit || "").toLowerCase().trim();
+  if(!u) return "";
+  if(u.includes("gramm")) return "g";
+  if(u === "g") return "g";
+  if(u.includes("ml")) return "ml";
+  if(u.includes("liter")) return "l";
+  if(u.includes("stück") || u.includes("stueck")) return "stück";
+  if(u.includes("dose")) return "dose";
+  if(u.includes("el")) return "el";
+  if(u.includes("tl")) return "tl";
+  return u;
 }
 
 function loadShoppingList(){
@@ -83,8 +134,8 @@ function ingredientToShoppingItem(entry, source){
 }
 
 function sameShoppingItem(a,b){
-  return normalizeShoppingName(a.name).toLowerCase() === normalizeShoppingName(b.name).toLowerCase()
-    && String(a.unit || "").toLowerCase() === String(b.unit || "").toLowerCase();
+  return normalizeShoppingKey(a.name) === normalizeShoppingKey(b.name)
+    && normalizeUnitKey(a.unit) === normalizeUnitKey(b.unit);
 }
 
 function mergeShoppingItems(existing, incoming){
@@ -95,8 +146,16 @@ function mergeShoppingItems(existing, incoming){
 
     const idx = items.findIndex(old => !old.checked && sameShoppingItem(old, newItem));
 
-    if(idx >= 0 && typeof items[idx].qty === "number" && typeof newItem.qty === "number"){
-      items[idx].qty = Math.round((items[idx].qty + newItem.qty) * 100) / 100;
+    if(idx >= 0){
+      if(typeof items[idx].qty === "number" && typeof newItem.qty === "number"){
+        items[idx].qty = Math.round((items[idx].qty + newItem.qty) * 100) / 100;
+      }
+
+      // Kürzeren, allgemeineren Namen behalten, z. B. "Hackfleisch" statt "Hackfleisch gemischt oder Rind"
+      if(normalizeShoppingName(newItem.name).length < normalizeShoppingName(items[idx].name).length){
+        items[idx].name = normalizeShoppingName(newItem.name);
+      }
+
       if(newItem.source && !String(items[idx].source || "").includes(newItem.source)){
         items[idx].source = `${items[idx].source || "Liste"}, ${newItem.source}`;
       }
@@ -106,6 +165,20 @@ function mergeShoppingItems(existing, incoming){
   });
 
   return items;
+}
+
+function cleanMergeShoppingList(){
+  const current = loadShoppingList();
+  const open = current.filter(item => !item.checked);
+  const done = current.filter(item => item.checked);
+
+  const mergedOpen = mergeShoppingItems([], open);
+  const mergedDone = mergeShoppingItems([], done);
+
+  const merged = [...mergedOpen, ...mergedDone.map(x => ({...x, checked:true}))];
+  saveShoppingList(merged);
+  renderShoppingList();
+  alert("Einkaufsliste wurde zusammengeführt.");
 }
 
 function addItemsToShoppingList(items){
