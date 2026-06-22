@@ -5865,6 +5865,6911 @@ const RECIPE_DATABASE = {
       "freezerFriendly": false,
       "mealPrepFriendly": true,
       "budgetFriendly": true
+    },
+    {
+      "id": "sparen_080_001",
+      "name": "Linsencurry mit Reis",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Reis",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Reis",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_002",
+      "name": "Chili sin Carne",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zugeben.",
+        "Würzen.",
+        "15 Minuten köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_003",
+      "name": "Kichererbsen-Curry",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kichererbsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kichererbsen",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_005",
+      "name": "Tomaten-Linsen-Suppe",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 1.45,
+      "diet": "vegan",
+      "protein": 15,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Zwiebel würfeln und in Öl anbraten.",
+        "Linsen zufügen.",
+        "Tomaten und Brühe angießen.",
+        "Würzen.",
+        "20 Minuten köcheln lassen.",
+        "Optional pürieren und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_006",
+      "name": "Tofu-Gemüsepfanne",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu würfeln.",
+        "Gemüse schneiden.",
+        "Tofu in Öl knusprig anbraten.",
+        "Gemüse zufügen.",
+        "Sojasoße einrühren.",
+        "10 Minuten braten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Brokkoli",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_007",
+      "name": "Erdnuss-Nudelpfanne",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Nudeln",
+        "Erdnussbutter"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornnudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse schneiden und anbraten.",
+        "Erdnussbutter mit Sojasoße verrühren.",
+        "Nudeln und Sauce unterheben.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Nudeln",
+        "Erdnussbutter",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Soja",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_008",
+      "name": "Vegane Bolognese mit roten Linsen",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegan",
+      "protein": 22,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Linsen, Tomaten und Tomatenmark zugeben.",
+        "20 Minuten köcheln lassen.",
+        "Mit Nudeln servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_009",
+      "name": "Falafel-Reis-Bowl",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegan",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Falafel",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Falafel",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Falafel"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Zitronensaft"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Falafel zubereiten.",
+        "Gemüse schneiden.",
+        "Reis, Gemüse und Falafel in Schalen anrichten.",
+        "Dressing darüber geben."
+      ],
+      "tags": [
+        "Vegan",
+        "Falafel",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_010",
+      "name": "Gemüse-Kokos-Curry",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kokosmilch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kokosmilch",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kokosmilch",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_011",
+      "name": "Bohnen-Mais-Chili",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zufügen.",
+        "Würzen und 15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_012",
+      "name": "Vegane Gulaschpfanne mit Sojaschnetzel",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegan",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Sojaschnetzel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Sojaschnetzel",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Sojaschnetzel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Sojaschnetzel einweichen.",
+        "Gemüse würfeln.",
+        "Gemüse und Sojaschnetzel anbraten.",
+        "Tomatenmark einrühren.",
+        "Brühe angießen.",
+        "15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Sojaschnetzel",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_013",
+      "name": "Brokkoli-Erdnuss-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Brokkoli",
+        "Erdnüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Erdnüsse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Gemüse in Öl anbraten.",
+        "Erdnussbutter und Sojasoße einrühren.",
+        "Erdnüsse unterheben.",
+        "Kurz weiterbraten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Brokkoli",
+        "Erdnüsse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_014",
+      "name": "Linsen-Bolognese Deluxe",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 23,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Spaghetti"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Spaghetti kochen.",
+        "Gemüse würfeln und anbraten.",
+        "Linsen und Tomaten zufügen.",
+        "20 Minuten köcheln lassen.",
+        "Mit Spaghetti servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Spaghetti",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_015",
+      "name": "Tofu-Reis-Bowl Asia",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegan",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Frühlingszwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Tofu würfeln und anbraten.",
+        "Gemüse schneiden und kurz mitbraten.",
+        "Sojasoße einrühren.",
+        "Mit Reis anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_016",
+      "name": "Gebratener Reis mit Gemüse",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "vegan",
+      "protein": 12,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Erbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis vorkochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Reis zufügen.",
+        "Sojasoße einrühren.",
+        "Kurz weiterbraten."
+      ],
+      "tags": [
+        "Vegan",
+        "Reis",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_017",
+      "name": "Vegane Wraps mit Bohnenfüllung",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Wraps",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Wraps",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Vollkorn-Wraps"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Tomate"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Bohnen erwärmen und mit Tomatenmark verrühren.",
+        "Wraps erwärmen.",
+        "Mit Bohnen und Gemüse füllen.",
+        "Einrollen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Wraps",
+        "Kidneybohnen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Bohnen",
+        "Tomaten",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_018",
+      "name": "Süßkartoffel-Kichererbsen-Bowl",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Süßkartoffel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Süßkartoffel",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Süßkartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Süßkartoffeln würfeln und würzen.",
+        "20 Minuten backen.",
+        "Gemüse schneiden.",
+        "Kichererbsen abtropfen.",
+        "Alles in Schalen anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Süßkartoffel",
+        "Kichererbsen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_019",
+      "name": "Gemüse-Couscous-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Couscous mit Brühe quellen lassen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Couscous zufügen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Couscous",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_020",
+      "name": "Kartoffelpfanne Mediterran",
+      "category": "sparen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 1.65,
+      "diet": "vegan",
+      "protein": 11,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Kartoffeln würfeln und anbraten.",
+        "Gemüse schneiden und zufügen.",
+        "Würzen.",
+        "15 Minuten braten.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "sparen_080_021",
+      "name": "Spinat-Feta-Auflauf",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Feta",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Feta",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_023",
+      "name": "Shakshuka",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_024",
+      "name": "Kartoffelgratin",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 40,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Zehe",
+          "item": "Knoblauch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Knoblauch",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_025",
+      "name": "Halloumi-Reis-Bowl",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "vegetarisch",
+      "protein": 26,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_026",
+      "name": "Brokkoli-Nudelauflauf",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Nudeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Nudeln",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_027",
+      "name": "Gemüse-Lasagne",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Lasagneplatten",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_028",
+      "name": "Mozzarella-Tomaten-Auflauf",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_029",
+      "name": "Vegetarisches Chili",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kidneybohnen",
+        "Mais",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_030",
+      "name": "Pilzrahm-Nudeln",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 17,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Champignons",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_031",
+      "name": "Gemüse-Quiche",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Rolle",
+          "item": "Quiche- oder Blätterteig"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "Milch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Käse",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_032",
+      "name": "Eier-Kartoffel-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 23,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Kartoffeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_033",
+      "name": "Feta-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Feta",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Feta",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Feta",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_034",
+      "name": "Spinat-Ricotta-Nudeln",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Ricotta",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Ricotta"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Ricotta",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_035",
+      "name": "Brokkoli-Käse-Reis",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Käse",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Käse",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_037",
+      "name": "Gemüse-Risotto",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Risottoreis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Reis",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_038",
+      "name": "Eier-Nudel-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_039",
+      "name": "Halloumi-Gemüse-Spieße",
+      "category": "sparen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "rote Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "sparen_080_041",
+      "name": "Hähnchen-Sahne-Auflauf",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "sparen_080_043",
+      "name": "Gyros mit Ofenkartoffeln und Tzatziki",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Tzatziki"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_044",
+      "name": "Bauerntopf",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_045",
+      "name": "Schweinegulasch mit Spätzle",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 45,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinegulasch"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_046",
+      "name": "Lasagne Klassisch",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 50,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 50,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lasagneplatten"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lasagneplatten",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_047",
+      "name": "Frikadellen mit Kartoffelsalat",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 30,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_048",
+      "name": "Currywurst mit Ofenkartoffeln",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "normal",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Bratwurst",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Bratwurst",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Bratwürste"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Curryketchup"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Bratwurst",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "sparen_080_049",
+      "name": "Hähnchen-Gemüse-Auflauf",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Gemüse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "sparen_080_050",
+      "name": "Maultaschenpfanne",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Maultaschen",
+        "Ei",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_051",
+      "name": "Rinderrouladen mit Kartoffeln",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 75,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 16.8,
+      "costPerPerson": 4.2,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 75,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Rinderrouladen"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_052",
+      "name": "Putengeschnetzeltes Züricher Art",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_054",
+      "name": "Schaschlikpfanne",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Schwein",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinefleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Paprika",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_055",
+      "name": "Nudelauflauf mit Hackfleisch",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.4,
+      "costPerPerson": 2.85,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_056",
+      "name": "Hähnchen-Nudelpfanne",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.8,
+      "costPerPerson": 2.95,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_057",
+      "name": "Rindergulasch mit Kartoffeln",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 60,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 60,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rindergulasch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_059",
+      "name": "Schweineschnitzel mit Ofenkartoffeln",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 14,
+      "costPerPerson": 3.5,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Schweineschnitzel"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "sparen_080_060",
+      "name": "Puten-Champignon-Pfanne",
+      "category": "sparen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.2,
+      "costPerPerson": 3.05,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_061",
+      "name": "Hähnchen-Reis-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_062",
+      "name": "Thunfisch-Reis-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "proteinreich",
+      "protein": 38,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Thunfisch",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_063",
+      "name": "Skyr-Beeren-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 30,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Beeren"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Beeren",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_064",
+      "name": "Rinderhack-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rinderhack",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rinderhack",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rinderhack"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rinderhack",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "sparen_080_065",
+      "name": "Eier-Käse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_066",
+      "name": "Lachs-Reis-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 39,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_067",
+      "name": "Magerquark-Früchte-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 32,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Magerquark",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Magerquark",
+        "Obst"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Magerquark",
+        "Obst",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "sparen_080_068",
+      "name": "Puten-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13,
+      "costPerPerson": 3.25,
+      "diet": "proteinreich",
+      "protein": 43,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "sparen_080_069",
+      "name": "Hüttenkäse-Kartoffel-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hüttenkäse",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_070",
+      "name": "Linsen-Protein-Chili",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Linsen",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "sparen_080_071",
+      "name": "Skyr-Nuss-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 31,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Nüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Walnüsse"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Mandeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Nüsse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "sparen_080_072",
+      "name": "Thunfisch-Nudel-Salat",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "proteinreich",
+      "protein": 36,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Nudeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Nudeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_073",
+      "name": "Protein-Omelett",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 33,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 10,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_074",
+      "name": "Tofu-Protein-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Tofu",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "sparen_080_075",
+      "name": "Kichererbsen-Hähnchen-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Kichererbsen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_076",
+      "name": "Lachs-Kartoffel-Blech",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "proteinreich",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Kartoffeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "sparen_080_077",
+      "name": "Skyr-Pancakes",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Ei",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Ei",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_078",
+      "name": "Roastbeef-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 44,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Roastbeefstreifen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rind",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "sparen_080_079",
+      "name": "Edamame-Reis-Bowl",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Edamame",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Edamame",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Edamame"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Edamame",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_080",
+      "name": "Puten-Chili Protein Style",
+      "category": "sparen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenhackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "sparen_080_081",
+      "name": "Thunfisch-Salat",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 28,
+      "prepTime": 10,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": null,
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Salat"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Eisbergsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurtdressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Thunfisch",
+        "Salat",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Ei",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_082",
+      "name": "Pesto-Nudeln",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Nudeln",
+        "Pesto"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Glas",
+          "item": "grünes Pesto"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Nudeln",
+        "Pesto",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_083",
+      "name": "Wrap-Pizza",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "sparen_080_084",
+      "name": "Couscous-Salat",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Couscous",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_086",
+      "name": "Kartoffel-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 12,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Kartoffeln",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "sparen_080_087",
+      "name": "Tomaten-Mozzarella-Bowl",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Mozzarella",
+        "Tomaten",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "sparen_080_088",
+      "name": "Schinken-Käse-Toast",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 21,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_089",
+      "name": "Hüttenkäse-Brotzeit",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 5,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Vollkornbrot"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Vollkornbrot"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hüttenkäse",
+        "Vollkornbrot",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_090",
+      "name": "Hähnchen-Wrap",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "schnell",
+      "protein": 29,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Wrap"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hähnchen",
+        "Wrap",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "sparen_080_091",
+      "name": "Maultaschen-Pfanne",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 23,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Maultaschen",
+        "Ei",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_092",
+      "name": "Gnocchi-Gemüse-Pfanne",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gnocchi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "sparen_080_093",
+      "name": "Quesadilla Schinken-Käse",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_094",
+      "name": "Tortellini-Pfanne",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Tortellini",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Tortellini",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Tortellini"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Tortellini",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "sparen_080_096",
+      "name": "Flammkuchen-Toast",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Schmand"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_097",
+      "name": "Reissalat",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Reis",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Mais",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "sparen_080_098",
+      "name": "Ofenbaguette Spezial",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 20,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Baguette",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Baguette",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Aufbackbaguettes"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Baguette",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "sparen_080_099",
+      "name": "Käse-Gnocchi-Pfanne",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 17,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gnocchi",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "sparen_080_100",
+      "name": "Pizza-Brötchen",
+      "category": "sparen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brötchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brötchen",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Aufbackbrötchen"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Brötchen",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
     }
   ],
   "abnehmen": [
@@ -11902,6 +18807,7348 @@ const RECIPE_DATABASE = {
       "freezerFriendly": false,
       "mealPrepFriendly": true,
       "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_080_001",
+      "name": "Linsencurry mit Reis",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Reis",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Reis",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_002",
+      "name": "Chili sin Carne",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zugeben.",
+        "Würzen.",
+        "15 Minuten köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_003",
+      "name": "Kichererbsen-Curry",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kichererbsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kichererbsen",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_004",
+      "name": "Kartoffel-Gemüse-Eintopf",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 1.6,
+      "diet": "vegan",
+      "protein": 10,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Karotten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stange",
+          "item": "Lauch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1000,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Zwiebel in Öl anschwitzen.",
+        "Kartoffeln und Gemüse zufügen.",
+        "Brühe angießen.",
+        "30 Minuten köcheln lassen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Karotten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_005",
+      "name": "Tomaten-Linsen-Suppe",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 1.45,
+      "diet": "vegan",
+      "protein": 15,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Zwiebel würfeln und in Öl anbraten.",
+        "Linsen zufügen.",
+        "Tomaten und Brühe angießen.",
+        "Würzen.",
+        "20 Minuten köcheln lassen.",
+        "Optional pürieren und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_006",
+      "name": "Tofu-Gemüsepfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu würfeln.",
+        "Gemüse schneiden.",
+        "Tofu in Öl knusprig anbraten.",
+        "Gemüse zufügen.",
+        "Sojasoße einrühren.",
+        "10 Minuten braten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Brokkoli",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_007",
+      "name": "Erdnuss-Nudelpfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Nudeln",
+        "Erdnussbutter"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornnudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse schneiden und anbraten.",
+        "Erdnussbutter mit Sojasoße verrühren.",
+        "Nudeln und Sauce unterheben.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Nudeln",
+        "Erdnussbutter",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Soja",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_008",
+      "name": "Vegane Bolognese mit roten Linsen",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegan",
+      "protein": 22,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Linsen, Tomaten und Tomatenmark zugeben.",
+        "20 Minuten köcheln lassen.",
+        "Mit Nudeln servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_009",
+      "name": "Falafel-Reis-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegan",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Falafel",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Falafel",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Falafel"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Zitronensaft"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Falafel zubereiten.",
+        "Gemüse schneiden.",
+        "Reis, Gemüse und Falafel in Schalen anrichten.",
+        "Dressing darüber geben."
+      ],
+      "tags": [
+        "Vegan",
+        "Falafel",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_010",
+      "name": "Gemüse-Kokos-Curry",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kokosmilch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kokosmilch",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kokosmilch",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_011",
+      "name": "Bohnen-Mais-Chili",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zufügen.",
+        "Würzen und 15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_012",
+      "name": "Vegane Gulaschpfanne mit Sojaschnetzel",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegan",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Sojaschnetzel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Sojaschnetzel",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Sojaschnetzel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Sojaschnetzel einweichen.",
+        "Gemüse würfeln.",
+        "Gemüse und Sojaschnetzel anbraten.",
+        "Tomatenmark einrühren.",
+        "Brühe angießen.",
+        "15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Sojaschnetzel",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_013",
+      "name": "Brokkoli-Erdnuss-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Brokkoli",
+        "Erdnüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Erdnüsse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Gemüse in Öl anbraten.",
+        "Erdnussbutter und Sojasoße einrühren.",
+        "Erdnüsse unterheben.",
+        "Kurz weiterbraten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Brokkoli",
+        "Erdnüsse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_014",
+      "name": "Linsen-Bolognese Deluxe",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 23,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Spaghetti"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Spaghetti kochen.",
+        "Gemüse würfeln und anbraten.",
+        "Linsen und Tomaten zufügen.",
+        "20 Minuten köcheln lassen.",
+        "Mit Spaghetti servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Spaghetti",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_015",
+      "name": "Tofu-Reis-Bowl Asia",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegan",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Frühlingszwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Tofu würfeln und anbraten.",
+        "Gemüse schneiden und kurz mitbraten.",
+        "Sojasoße einrühren.",
+        "Mit Reis anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_016",
+      "name": "Gebratener Reis mit Gemüse",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "vegan",
+      "protein": 12,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Erbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis vorkochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Reis zufügen.",
+        "Sojasoße einrühren.",
+        "Kurz weiterbraten."
+      ],
+      "tags": [
+        "Vegan",
+        "Reis",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_017",
+      "name": "Vegane Wraps mit Bohnenfüllung",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Wraps",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Wraps",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Vollkorn-Wraps"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Tomate"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Bohnen erwärmen und mit Tomatenmark verrühren.",
+        "Wraps erwärmen.",
+        "Mit Bohnen und Gemüse füllen.",
+        "Einrollen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Wraps",
+        "Kidneybohnen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Bohnen",
+        "Tomaten",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_018",
+      "name": "Süßkartoffel-Kichererbsen-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Süßkartoffel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Süßkartoffel",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Süßkartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Süßkartoffeln würfeln und würzen.",
+        "20 Minuten backen.",
+        "Gemüse schneiden.",
+        "Kichererbsen abtropfen.",
+        "Alles in Schalen anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Süßkartoffel",
+        "Kichererbsen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_019",
+      "name": "Gemüse-Couscous-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Couscous mit Brühe quellen lassen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Couscous zufügen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Couscous",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_020",
+      "name": "Kartoffelpfanne Mediterran",
+      "category": "abnehmen",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 1.65,
+      "diet": "vegan",
+      "protein": 11,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Kartoffeln würfeln und anbraten.",
+        "Gemüse schneiden und zufügen.",
+        "Würzen.",
+        "15 Minuten braten.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "abnehmen_080_021",
+      "name": "Spinat-Feta-Auflauf",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Feta",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Feta",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_022",
+      "name": "Käsespätzle",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Käse",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Käse",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Käse",
+        "Spätzle",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_024",
+      "name": "Kartoffelgratin",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 40,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Zehe",
+          "item": "Knoblauch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Knoblauch",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_025",
+      "name": "Halloumi-Reis-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "vegetarisch",
+      "protein": 26,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_026",
+      "name": "Brokkoli-Nudelauflauf",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Nudeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Nudeln",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_027",
+      "name": "Gemüse-Lasagne",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Lasagneplatten",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_028",
+      "name": "Mozzarella-Tomaten-Auflauf",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_029",
+      "name": "Vegetarisches Chili",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kidneybohnen",
+        "Mais",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_030",
+      "name": "Pilzrahm-Nudeln",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 17,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Champignons",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_031",
+      "name": "Gemüse-Quiche",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Rolle",
+          "item": "Quiche- oder Blätterteig"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "Milch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Käse",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_032",
+      "name": "Eier-Kartoffel-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 23,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Kartoffeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_033",
+      "name": "Feta-Gemüse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Feta",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Feta",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Feta",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_034",
+      "name": "Spinat-Ricotta-Nudeln",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Ricotta",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Ricotta"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Ricotta",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_035",
+      "name": "Brokkoli-Käse-Reis",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Käse",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Käse",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_036",
+      "name": "Ofenkartoffeln mit Kräuterquark",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Quark"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Schnittlauch"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Petersilie"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Quark",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_037",
+      "name": "Gemüse-Risotto",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Risottoreis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Reis",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_038",
+      "name": "Eier-Nudel-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_039",
+      "name": "Halloumi-Gemüse-Spieße",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "rote Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_040",
+      "name": "Tomaten-Mozzarella-Nudeln",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "abnehmen_080_041",
+      "name": "Hähnchen-Sahne-Auflauf",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "abnehmen_080_042",
+      "name": "Hackfleisch-Lauch-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lauch"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stangen",
+          "item": "Lauch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lauch",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_043",
+      "name": "Gyros mit Ofenkartoffeln und Tzatziki",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Tzatziki"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_044",
+      "name": "Bauerntopf",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_045",
+      "name": "Schweinegulasch mit Spätzle",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 45,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinegulasch"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_046",
+      "name": "Lasagne Klassisch",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 50,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 50,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lasagneplatten"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lasagneplatten",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_047",
+      "name": "Frikadellen mit Kartoffelsalat",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 30,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_048",
+      "name": "Currywurst mit Ofenkartoffeln",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "normal",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Bratwurst",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Bratwurst",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Bratwürste"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Curryketchup"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Bratwurst",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "abnehmen_080_049",
+      "name": "Hähnchen-Gemüse-Auflauf",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Gemüse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "abnehmen_080_050",
+      "name": "Maultaschenpfanne",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Maultaschen",
+        "Ei",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_051",
+      "name": "Rinderrouladen mit Kartoffeln",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 75,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 16.8,
+      "costPerPerson": 4.2,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 75,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Rinderrouladen"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_052",
+      "name": "Putengeschnetzeltes Züricher Art",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_053",
+      "name": "Hähnchen-Curry mit Reis",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Reis",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos"
+      ]
+    },
+    {
+      "id": "abnehmen_080_054",
+      "name": "Schaschlikpfanne",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Schwein",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinefleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Paprika",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_055",
+      "name": "Nudelauflauf mit Hackfleisch",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.4,
+      "costPerPerson": 2.85,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_056",
+      "name": "Hähnchen-Nudelpfanne",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.8,
+      "costPerPerson": 2.95,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_057",
+      "name": "Rindergulasch mit Kartoffeln",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 60,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 60,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rindergulasch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_058",
+      "name": "Gyros-Auflauf",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.6,
+      "costPerPerson": 3.15,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gyros",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_059",
+      "name": "Schweineschnitzel mit Ofenkartoffeln",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 14,
+      "costPerPerson": 3.5,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Schweineschnitzel"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "abnehmen_080_060",
+      "name": "Puten-Champignon-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.2,
+      "costPerPerson": 3.05,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_061",
+      "name": "Hähnchen-Reis-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_062",
+      "name": "Thunfisch-Reis-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "proteinreich",
+      "protein": 38,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Thunfisch",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_064",
+      "name": "Rinderhack-Gemüse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rinderhack",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rinderhack",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rinderhack"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rinderhack",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "abnehmen_080_065",
+      "name": "Eier-Käse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_066",
+      "name": "Lachs-Reis-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 39,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_067",
+      "name": "Magerquark-Früchte-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 32,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Magerquark",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Magerquark",
+        "Obst"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Magerquark",
+        "Obst",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "abnehmen_080_069",
+      "name": "Hüttenkäse-Kartoffel-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hüttenkäse",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_070",
+      "name": "Linsen-Protein-Chili",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Linsen",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_071",
+      "name": "Skyr-Nuss-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 31,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Nüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Walnüsse"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Mandeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Nüsse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "abnehmen_080_072",
+      "name": "Thunfisch-Nudel-Salat",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "proteinreich",
+      "protein": 36,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Nudeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Nudeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_073",
+      "name": "Protein-Omelett",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 33,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 10,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_074",
+      "name": "Tofu-Protein-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Tofu",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "abnehmen_080_075",
+      "name": "Kichererbsen-Hähnchen-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Kichererbsen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_076",
+      "name": "Lachs-Kartoffel-Blech",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "proteinreich",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Kartoffeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "abnehmen_080_077",
+      "name": "Skyr-Pancakes",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Ei",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Ei",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_078",
+      "name": "Roastbeef-Gemüse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 44,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Roastbeefstreifen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rind",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "abnehmen_080_079",
+      "name": "Edamame-Reis-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Edamame",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Edamame",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Edamame"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Edamame",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_080",
+      "name": "Puten-Chili Protein Style",
+      "category": "abnehmen",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenhackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "abnehmen_080_081",
+      "name": "Thunfisch-Salat",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 28,
+      "prepTime": 10,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": null,
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Salat"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Eisbergsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurtdressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Thunfisch",
+        "Salat",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Ei",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_082",
+      "name": "Pesto-Nudeln",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Nudeln",
+        "Pesto"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Glas",
+          "item": "grünes Pesto"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Nudeln",
+        "Pesto",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_083",
+      "name": "Wrap-Pizza",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_084",
+      "name": "Couscous-Salat",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Couscous",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_085",
+      "name": "Eier-Reis-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Ei",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Ei",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Ei",
+        "Reis",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_086",
+      "name": "Kartoffel-Gemüse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 12,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Kartoffeln",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "abnehmen_080_087",
+      "name": "Tomaten-Mozzarella-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Mozzarella",
+        "Tomaten",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_088",
+      "name": "Schinken-Käse-Toast",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 21,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_089",
+      "name": "Hüttenkäse-Brotzeit",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 5,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Vollkornbrot"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Vollkornbrot"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hüttenkäse",
+        "Vollkornbrot",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_090",
+      "name": "Hähnchen-Wrap",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "schnell",
+      "protein": 29,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Wrap"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hähnchen",
+        "Wrap",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "abnehmen_080_091",
+      "name": "Maultaschen-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 23,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Maultaschen",
+        "Ei",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_092",
+      "name": "Gnocchi-Gemüse-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gnocchi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "abnehmen_080_093",
+      "name": "Quesadilla Schinken-Käse",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_094",
+      "name": "Tortellini-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Tortellini",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Tortellini",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Tortellini"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Tortellini",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_095",
+      "name": "Bauernfrühstück",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Ei",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Ei",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Ei",
+        "Kartoffeln",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_096",
+      "name": "Flammkuchen-Toast",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Schmand"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_097",
+      "name": "Reissalat",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Reis",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Mais",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "abnehmen_080_098",
+      "name": "Ofenbaguette Spezial",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 20,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Baguette",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Baguette",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Aufbackbaguettes"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Baguette",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "abnehmen_080_099",
+      "name": "Käse-Gnocchi-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 17,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gnocchi",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "abnehmen_080_100",
+      "name": "Pizza-Brötchen",
+      "category": "abnehmen",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brötchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brötchen",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Aufbackbrötchen"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Brötchen",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
     }
   ],
   "muskelaufbau": [
@@ -18068,6 +32315,7198 @@ const RECIPE_DATABASE = {
       "mealPrepFriendly": true,
       "budgetFriendly": true,
       "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_080_001",
+      "name": "Linsencurry mit Reis",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Reis",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Reis",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_002",
+      "name": "Chili sin Carne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zugeben.",
+        "Würzen.",
+        "15 Minuten köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_003",
+      "name": "Kichererbsen-Curry",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kichererbsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kichererbsen",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_004",
+      "name": "Kartoffel-Gemüse-Eintopf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 1.6,
+      "diet": "vegan",
+      "protein": 10,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Karotten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stange",
+          "item": "Lauch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1000,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Zwiebel in Öl anschwitzen.",
+        "Kartoffeln und Gemüse zufügen.",
+        "Brühe angießen.",
+        "30 Minuten köcheln lassen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Karotten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_005",
+      "name": "Tomaten-Linsen-Suppe",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 1.45,
+      "diet": "vegan",
+      "protein": 15,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Zwiebel würfeln und in Öl anbraten.",
+        "Linsen zufügen.",
+        "Tomaten und Brühe angießen.",
+        "Würzen.",
+        "20 Minuten köcheln lassen.",
+        "Optional pürieren und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_006",
+      "name": "Tofu-Gemüsepfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu würfeln.",
+        "Gemüse schneiden.",
+        "Tofu in Öl knusprig anbraten.",
+        "Gemüse zufügen.",
+        "Sojasoße einrühren.",
+        "10 Minuten braten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Brokkoli",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_007",
+      "name": "Erdnuss-Nudelpfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Nudeln",
+        "Erdnussbutter"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornnudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse schneiden und anbraten.",
+        "Erdnussbutter mit Sojasoße verrühren.",
+        "Nudeln und Sauce unterheben.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Nudeln",
+        "Erdnussbutter",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Soja",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_008",
+      "name": "Vegane Bolognese mit roten Linsen",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegan",
+      "protein": 22,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Linsen, Tomaten und Tomatenmark zugeben.",
+        "20 Minuten köcheln lassen.",
+        "Mit Nudeln servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_009",
+      "name": "Falafel-Reis-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegan",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Falafel",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Falafel",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Falafel"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Zitronensaft"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Falafel zubereiten.",
+        "Gemüse schneiden.",
+        "Reis, Gemüse und Falafel in Schalen anrichten.",
+        "Dressing darüber geben."
+      ],
+      "tags": [
+        "Vegan",
+        "Falafel",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_010",
+      "name": "Gemüse-Kokos-Curry",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kokosmilch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kokosmilch",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kokosmilch",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_011",
+      "name": "Bohnen-Mais-Chili",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zufügen.",
+        "Würzen und 15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_012",
+      "name": "Vegane Gulaschpfanne mit Sojaschnetzel",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegan",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Sojaschnetzel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Sojaschnetzel",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Sojaschnetzel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Sojaschnetzel einweichen.",
+        "Gemüse würfeln.",
+        "Gemüse und Sojaschnetzel anbraten.",
+        "Tomatenmark einrühren.",
+        "Brühe angießen.",
+        "15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Sojaschnetzel",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_013",
+      "name": "Brokkoli-Erdnuss-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Brokkoli",
+        "Erdnüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Erdnüsse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Gemüse in Öl anbraten.",
+        "Erdnussbutter und Sojasoße einrühren.",
+        "Erdnüsse unterheben.",
+        "Kurz weiterbraten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Brokkoli",
+        "Erdnüsse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_014",
+      "name": "Linsen-Bolognese Deluxe",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 23,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Spaghetti"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Spaghetti kochen.",
+        "Gemüse würfeln und anbraten.",
+        "Linsen und Tomaten zufügen.",
+        "20 Minuten köcheln lassen.",
+        "Mit Spaghetti servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Spaghetti",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_015",
+      "name": "Tofu-Reis-Bowl Asia",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegan",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Frühlingszwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Tofu würfeln und anbraten.",
+        "Gemüse schneiden und kurz mitbraten.",
+        "Sojasoße einrühren.",
+        "Mit Reis anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_016",
+      "name": "Gebratener Reis mit Gemüse",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "vegan",
+      "protein": 12,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Erbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis vorkochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Reis zufügen.",
+        "Sojasoße einrühren.",
+        "Kurz weiterbraten."
+      ],
+      "tags": [
+        "Vegan",
+        "Reis",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_017",
+      "name": "Vegane Wraps mit Bohnenfüllung",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Wraps",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Wraps",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Vollkorn-Wraps"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Tomate"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Bohnen erwärmen und mit Tomatenmark verrühren.",
+        "Wraps erwärmen.",
+        "Mit Bohnen und Gemüse füllen.",
+        "Einrollen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Wraps",
+        "Kidneybohnen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Bohnen",
+        "Tomaten",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_018",
+      "name": "Süßkartoffel-Kichererbsen-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Süßkartoffel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Süßkartoffel",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Süßkartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Süßkartoffeln würfeln und würzen.",
+        "20 Minuten backen.",
+        "Gemüse schneiden.",
+        "Kichererbsen abtropfen.",
+        "Alles in Schalen anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Süßkartoffel",
+        "Kichererbsen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_019",
+      "name": "Gemüse-Couscous-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Couscous mit Brühe quellen lassen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Couscous zufügen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Couscous",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_020",
+      "name": "Kartoffelpfanne Mediterran",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 1.65,
+      "diet": "vegan",
+      "protein": 11,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Kartoffeln würfeln und anbraten.",
+        "Gemüse schneiden und zufügen.",
+        "Würzen.",
+        "15 Minuten braten.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_021",
+      "name": "Spinat-Feta-Auflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Feta",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Feta",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_022",
+      "name": "Käsespätzle",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Käse",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Käse",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Käse",
+        "Spätzle",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_023",
+      "name": "Shakshuka",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_024",
+      "name": "Kartoffelgratin",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 40,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Zehe",
+          "item": "Knoblauch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Knoblauch",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_025",
+      "name": "Halloumi-Reis-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "vegetarisch",
+      "protein": 26,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_026",
+      "name": "Brokkoli-Nudelauflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Nudeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Nudeln",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_027",
+      "name": "Gemüse-Lasagne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Lasagneplatten",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_028",
+      "name": "Mozzarella-Tomaten-Auflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_029",
+      "name": "Vegetarisches Chili",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kidneybohnen",
+        "Mais",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_030",
+      "name": "Pilzrahm-Nudeln",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 17,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Champignons",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_031",
+      "name": "Gemüse-Quiche",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Rolle",
+          "item": "Quiche- oder Blätterteig"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "Milch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Käse",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_032",
+      "name": "Eier-Kartoffel-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 23,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Kartoffeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_033",
+      "name": "Feta-Gemüse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Feta",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Feta",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Feta",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_034",
+      "name": "Spinat-Ricotta-Nudeln",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Ricotta",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Ricotta"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Ricotta",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_035",
+      "name": "Brokkoli-Käse-Reis",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Käse",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Käse",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_036",
+      "name": "Ofenkartoffeln mit Kräuterquark",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Quark"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Schnittlauch"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Petersilie"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Quark",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_037",
+      "name": "Gemüse-Risotto",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Risottoreis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Reis",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_038",
+      "name": "Eier-Nudel-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_039",
+      "name": "Halloumi-Gemüse-Spieße",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "rote Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_040",
+      "name": "Tomaten-Mozzarella-Nudeln",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_041",
+      "name": "Hähnchen-Sahne-Auflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_042",
+      "name": "Hackfleisch-Lauch-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lauch"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stangen",
+          "item": "Lauch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lauch",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_043",
+      "name": "Gyros mit Ofenkartoffeln und Tzatziki",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Tzatziki"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_044",
+      "name": "Bauerntopf",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_045",
+      "name": "Schweinegulasch mit Spätzle",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 45,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinegulasch"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_046",
+      "name": "Lasagne Klassisch",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 50,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 50,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lasagneplatten"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lasagneplatten",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_047",
+      "name": "Frikadellen mit Kartoffelsalat",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 30,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_048",
+      "name": "Currywurst mit Ofenkartoffeln",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "normal",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Bratwurst",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Bratwurst",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Bratwürste"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Curryketchup"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Bratwurst",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_049",
+      "name": "Hähnchen-Gemüse-Auflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Gemüse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_050",
+      "name": "Maultaschenpfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Maultaschen",
+        "Ei",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_051",
+      "name": "Rinderrouladen mit Kartoffeln",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 75,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 16.8,
+      "costPerPerson": 4.2,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 75,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Rinderrouladen"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_052",
+      "name": "Putengeschnetzeltes Züricher Art",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_054",
+      "name": "Schaschlikpfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Schwein",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinefleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Paprika",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_055",
+      "name": "Nudelauflauf mit Hackfleisch",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.4,
+      "costPerPerson": 2.85,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_056",
+      "name": "Hähnchen-Nudelpfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.8,
+      "costPerPerson": 2.95,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_057",
+      "name": "Rindergulasch mit Kartoffeln",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 60,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 60,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rindergulasch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_058",
+      "name": "Gyros-Auflauf",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.6,
+      "costPerPerson": 3.15,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gyros",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_059",
+      "name": "Schweineschnitzel mit Ofenkartoffeln",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 14,
+      "costPerPerson": 3.5,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Schweineschnitzel"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_060",
+      "name": "Puten-Champignon-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.2,
+      "costPerPerson": 3.05,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_061",
+      "name": "Hähnchen-Reis-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_062",
+      "name": "Thunfisch-Reis-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "proteinreich",
+      "protein": 38,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Thunfisch",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_063",
+      "name": "Skyr-Beeren-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 30,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Beeren"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Beeren",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_064",
+      "name": "Rinderhack-Gemüse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rinderhack",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rinderhack",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rinderhack"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rinderhack",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_065",
+      "name": "Eier-Käse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_067",
+      "name": "Magerquark-Früchte-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 32,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Magerquark",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Magerquark",
+        "Obst"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Magerquark",
+        "Obst",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_069",
+      "name": "Hüttenkäse-Kartoffel-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hüttenkäse",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_070",
+      "name": "Linsen-Protein-Chili",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Linsen",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_071",
+      "name": "Skyr-Nuss-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 31,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Nüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Walnüsse"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Mandeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Nüsse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_073",
+      "name": "Protein-Omelett",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 33,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 10,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_074",
+      "name": "Tofu-Protein-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Tofu",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_075",
+      "name": "Kichererbsen-Hähnchen-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Kichererbsen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_076",
+      "name": "Lachs-Kartoffel-Blech",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "proteinreich",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Kartoffeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_077",
+      "name": "Skyr-Pancakes",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Ei",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Ei",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_078",
+      "name": "Roastbeef-Gemüse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 44,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Roastbeefstreifen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rind",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_079",
+      "name": "Edamame-Reis-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Edamame",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Edamame",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Edamame"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Edamame",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_080",
+      "name": "Puten-Chili Protein Style",
+      "category": "muskelaufbau",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenhackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_081",
+      "name": "Thunfisch-Salat",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 28,
+      "prepTime": 10,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": null,
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Salat"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Eisbergsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurtdressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Thunfisch",
+        "Salat",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Ei",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_082",
+      "name": "Pesto-Nudeln",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Nudeln",
+        "Pesto"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Glas",
+          "item": "grünes Pesto"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Nudeln",
+        "Pesto",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_083",
+      "name": "Wrap-Pizza",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_084",
+      "name": "Couscous-Salat",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Couscous",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_086",
+      "name": "Kartoffel-Gemüse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 12,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Kartoffeln",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_087",
+      "name": "Tomaten-Mozzarella-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Mozzarella",
+        "Tomaten",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_088",
+      "name": "Schinken-Käse-Toast",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 21,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_089",
+      "name": "Hüttenkäse-Brotzeit",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 5,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Vollkornbrot"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Vollkornbrot"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hüttenkäse",
+        "Vollkornbrot",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_090",
+      "name": "Hähnchen-Wrap",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "schnell",
+      "protein": 29,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Wrap"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hähnchen",
+        "Wrap",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_091",
+      "name": "Maultaschen-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 23,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Maultaschen",
+        "Ei",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_092",
+      "name": "Gnocchi-Gemüse-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gnocchi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_093",
+      "name": "Quesadilla Schinken-Käse",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_094",
+      "name": "Tortellini-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Tortellini",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Tortellini",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Tortellini"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Tortellini",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_095",
+      "name": "Bauernfrühstück",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Ei",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Ei",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Ei",
+        "Kartoffeln",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_096",
+      "name": "Flammkuchen-Toast",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Schmand"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_097",
+      "name": "Reissalat",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Reis",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Mais",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_098",
+      "name": "Ofenbaguette Spezial",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 20,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Baguette",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Baguette",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Aufbackbaguettes"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Baguette",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_099",
+      "name": "Käse-Gnocchi-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 17,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gnocchi",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "muskelaufbau_080_100",
+      "name": "Pizza-Brötchen",
+      "category": "muskelaufbau",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brötchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brötchen",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Aufbackbrötchen"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Brötchen",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
     }
   ],
   "familie": [
@@ -23706,6 +45145,7205 @@ const RECIPE_DATABASE = {
       "freezerFriendly": false,
       "mealPrepFriendly": true,
       "budgetFriendly": true
+    },
+    {
+      "id": "familie_080_001",
+      "name": "Linsencurry mit Reis",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Reis",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Reis",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_002",
+      "name": "Chili sin Carne",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zugeben.",
+        "Würzen.",
+        "15 Minuten köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_003",
+      "name": "Kichererbsen-Curry",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kichererbsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kichererbsen",
+        "Kokosmilch"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokosmilch",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_004",
+      "name": "Kartoffel-Gemüse-Eintopf",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 1.6,
+      "diet": "vegan",
+      "protein": 10,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Karotten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stange",
+          "item": "Lauch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1000,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Zwiebel in Öl anschwitzen.",
+        "Kartoffeln und Gemüse zufügen.",
+        "Brühe angießen.",
+        "30 Minuten köcheln lassen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Karotten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_005",
+      "name": "Tomaten-Linsen-Suppe",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 1.45,
+      "diet": "vegan",
+      "protein": 15,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Zwiebel würfeln und in Öl anbraten.",
+        "Linsen zufügen.",
+        "Tomaten und Brühe angießen.",
+        "Würzen.",
+        "20 Minuten köcheln lassen.",
+        "Optional pürieren und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_006",
+      "name": "Tofu-Gemüsepfanne",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu würfeln.",
+        "Gemüse schneiden.",
+        "Tofu in Öl knusprig anbraten.",
+        "Gemüse zufügen.",
+        "Sojasoße einrühren.",
+        "10 Minuten braten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Brokkoli",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_007",
+      "name": "Erdnuss-Nudelpfanne",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Nudeln",
+        "Erdnussbutter"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornnudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse schneiden und anbraten.",
+        "Erdnussbutter mit Sojasoße verrühren.",
+        "Nudeln und Sauce unterheben.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Nudeln",
+        "Erdnussbutter",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Soja",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_008",
+      "name": "Vegane Bolognese mit roten Linsen",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegan",
+      "protein": 22,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Linsen, Tomaten und Tomatenmark zugeben.",
+        "20 Minuten köcheln lassen.",
+        "Mit Nudeln servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_009",
+      "name": "Falafel-Reis-Bowl",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegan",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Falafel",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Falafel",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Falafel"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Zitronensaft"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Falafel zubereiten.",
+        "Gemüse schneiden.",
+        "Reis, Gemüse und Falafel in Schalen anrichten.",
+        "Dressing darüber geben."
+      ],
+      "tags": [
+        "Vegan",
+        "Falafel",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_010",
+      "name": "Gemüse-Kokos-Curry",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kokosmilch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kokosmilch",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Beilage nach Packungsangabe kochen.",
+        "Gemüse schneiden.",
+        "Öl erhitzen und Gemüse anbraten.",
+        "Hauptzutaten zufügen.",
+        "Tomaten, Brühe oder Kokosmilch einrühren.",
+        "Würzen und köcheln lassen.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kokosmilch",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Brokkoli",
+        "Kokos",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_011",
+      "name": "Bohnen-Mais-Chili",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "vegan",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Tomatenmark einrühren.",
+        "Tomaten, Bohnen und Mais zufügen.",
+        "Würzen und 15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Kidneybohnen",
+        "Mais",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_012",
+      "name": "Vegane Gulaschpfanne mit Sojaschnetzel",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegan",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Sojaschnetzel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Sojaschnetzel",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Sojaschnetzel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Sojaschnetzel einweichen.",
+        "Gemüse würfeln.",
+        "Gemüse und Sojaschnetzel anbraten.",
+        "Tomatenmark einrühren.",
+        "Brühe angießen.",
+        "15 Minuten köcheln lassen."
+      ],
+      "tags": [
+        "Vegan",
+        "Sojaschnetzel",
+        "Paprika",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_013",
+      "name": "Brokkoli-Erdnuss-Pfanne",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegan",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Brokkoli",
+        "Erdnüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Erdnüsse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Erdnussbutter"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Gemüse in Öl anbraten.",
+        "Erdnussbutter und Sojasoße einrühren.",
+        "Erdnüsse unterheben.",
+        "Kurz weiterbraten und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Brokkoli",
+        "Erdnüsse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_014",
+      "name": "Linsen-Bolognese Deluxe",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegan",
+      "protein": 23,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Spaghetti"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Vollkornspaghetti"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Spaghetti kochen.",
+        "Gemüse würfeln und anbraten.",
+        "Linsen und Tomaten zufügen.",
+        "20 Minuten köcheln lassen.",
+        "Mit Spaghetti servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Spaghetti",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_015",
+      "name": "Tofu-Reis-Bowl Asia",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegan",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Frühlingszwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Tofu würfeln und anbraten.",
+        "Gemüse schneiden und kurz mitbraten.",
+        "Sojasoße einrühren.",
+        "Mit Reis anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_016",
+      "name": "Gebratener Reis mit Gemüse",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "vegan",
+      "protein": 12,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Erbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis vorkochen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Reis zufügen.",
+        "Sojasoße einrühren.",
+        "Kurz weiterbraten."
+      ],
+      "tags": [
+        "Vegan",
+        "Reis",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Paprika",
+        "Zwiebeln",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_017",
+      "name": "Vegane Wraps mit Bohnenfüllung",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "vegan",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Wraps",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Wraps",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Vollkorn-Wraps"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Tomate"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse schneiden.",
+        "Bohnen erwärmen und mit Tomatenmark verrühren.",
+        "Wraps erwärmen.",
+        "Mit Bohnen und Gemüse füllen.",
+        "Einrollen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Wraps",
+        "Kidneybohnen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Bohnen",
+        "Tomaten",
+        "Paprika",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_018",
+      "name": "Süßkartoffel-Kichererbsen-Bowl",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegan",
+      "protein": 17,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Süßkartoffel",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Süßkartoffel",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Süßkartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Süßkartoffeln würfeln und würzen.",
+        "20 Minuten backen.",
+        "Gemüse schneiden.",
+        "Kichererbsen abtropfen.",
+        "Alles in Schalen anrichten."
+      ],
+      "tags": [
+        "Vegan",
+        "Süßkartoffel",
+        "Kichererbsen",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Gurke",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_019",
+      "name": "Gemüse-Couscous-Pfanne",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 1.75,
+      "diet": "vegan",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Karotte"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Couscous mit Brühe quellen lassen.",
+        "Gemüse würfeln.",
+        "Gemüse in Öl anbraten.",
+        "Couscous zufügen.",
+        "Würzen und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Couscous",
+        "Gemüse",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_020",
+      "name": "Kartoffelpfanne Mediterran",
+      "category": "familie",
+      "subcategory": "Vegan 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 1.65,
+      "diet": "vegan",
+      "protein": 11,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Kartoffeln würfeln und anbraten.",
+        "Gemüse schneiden und zufügen.",
+        "Würzen.",
+        "15 Minuten braten.",
+        "Abschmecken und servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Tomaten",
+        "Vegan 0.8"
+      ],
+      "excludeTags": [
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "familie_080_021",
+      "name": "Spinat-Feta-Auflauf",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Feta",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Feta",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_023",
+      "name": "Shakshuka",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_024",
+      "name": "Kartoffelgratin",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 40,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Zehe",
+          "item": "Knoblauch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Käse",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Knoblauch",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_025",
+      "name": "Halloumi-Reis-Bowl",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.2,
+      "costPerPerson": 2.8,
+      "diet": "vegetarisch",
+      "protein": 26,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Blattsalat"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_026",
+      "name": "Brokkoli-Nudelauflauf",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Nudeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Nudeln",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_027",
+      "name": "Gemüse-Lasagne",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Lasagneplatten",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Lasagneplatten",
+        "Gemüse",
+        "Käse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_028",
+      "name": "Mozzarella-Tomaten-Auflauf",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Tomaten",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_029",
+      "name": "Vegetarisches Chili",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 1.85,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kidneybohnen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kidneybohnen",
+        "Mais"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kidneybohnen",
+        "Mais",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_030",
+      "name": "Pilzrahm-Nudeln",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 17,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Champignons",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Champignons",
+        "Nudeln",
+        "Milchprodukte",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_031",
+      "name": "Gemüse-Quiche",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 45,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Rolle",
+          "item": "Quiche- oder Blätterteig"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "Milch"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Käse",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_032",
+      "name": "Eier-Kartoffel-Pfanne",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 1.95,
+      "diet": "vegetarisch",
+      "protein": 23,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Kartoffeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_033",
+      "name": "Feta-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 2.35,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Feta",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Feta",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Feta",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_034",
+      "name": "Spinat-Ricotta-Nudeln",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9,
+      "costPerPerson": 2.25,
+      "diet": "vegetarisch",
+      "protein": 20,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Spinat",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Spinat",
+        "Ricotta",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Ricotta"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Spinat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Spinat",
+        "Ricotta",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_035",
+      "name": "Brokkoli-Käse-Reis",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "vegetarisch",
+      "protein": 22,
+      "prepTime": 25,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brokkoli",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brokkoli",
+        "Käse",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Käse",
+        "Reis",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Brokkoli",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_036",
+      "name": "Ofenkartoffeln mit Kräuterquark",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "vegetarisch",
+      "protein": 19,
+      "prepTime": 35,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Kartoffeln",
+        "Quark"
+      ],
+      "ingredients": [
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Schnittlauch"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Petersilie"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Quark",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_037",
+      "name": "Gemüse-Risotto",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.6,
+      "costPerPerson": 2.15,
+      "diet": "vegetarisch",
+      "protein": 18,
+      "prepTime": 30,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Risottoreis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Reis",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_038",
+      "name": "Eier-Nudel-Pfanne",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 2.05,
+      "diet": "vegetarisch",
+      "protein": 24,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Eier",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Eier",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_039",
+      "name": "Halloumi-Gemüse-Spieße",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "protein": 25,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Halloumi",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Halloumi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Halloumi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "rote Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Halloumi",
+        "Gemüse",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_040",
+      "name": "Tomaten-Mozzarella-Nudeln",
+      "category": "familie",
+      "subcategory": "Vegetarisch 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "vegetarisch",
+      "protein": 21,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Gemüse schneiden.",
+        "Nach Rezept kurz kochen, braten oder backen.",
+        "Würzen.",
+        "Alles zusammen anrichten und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Nudeln",
+        "Vegetarisch 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Vegetarisch"
+      ]
+    },
+    {
+      "id": "familie_080_041",
+      "name": "Hähnchen-Sahne-Auflauf",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Kartoffeln",
+        "Käse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "familie_080_043",
+      "name": "Gyros mit Ofenkartoffeln und Tzatziki",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 34,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Gyros",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Gyrosfleisch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Tzatziki"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Gyros",
+        "Kartoffeln",
+        "Tzatziki",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_045",
+      "name": "Schweinegulasch mit Spätzle",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.6,
+      "costPerPerson": 3.4,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 45,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinegulasch"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_046",
+      "name": "Lasagne Klassisch",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 50,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 50,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Lasagneplatten"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 12,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Lasagneplatten",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_047",
+      "name": "Frikadellen mit Kartoffelsalat",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 30,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Hackfleisch",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Ei"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_048",
+      "name": "Currywurst mit Ofenkartoffeln",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "normal",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Bratwurst",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Bratwurst",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Bratwürste"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Curryketchup"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Bratwurst",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "familie_080_049",
+      "name": "Hähnchen-Gemüse-Auflauf",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Gemüse",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Käse",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "familie_080_050",
+      "name": "Maultaschenpfanne",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10,
+      "costPerPerson": 2.5,
+      "diet": "normal",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Maultaschen",
+        "Ei",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_051",
+      "name": "Rinderrouladen mit Kartoffeln",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 75,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 16.8,
+      "costPerPerson": 4.2,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 75,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Rinderrouladen"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Gewürzgurken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Gurke",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_052",
+      "name": "Putengeschnetzeltes Züricher Art",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": "Spätzle",
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons",
+        "Spätzle"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Spätzle",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_053",
+      "name": "Hähnchen-Curry mit Reis",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Reis",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Paprika",
+        "Zwiebeln",
+        "Kokos"
+      ]
+    },
+    {
+      "id": "familie_080_054",
+      "name": "Schaschlikpfanne",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "normal",
+      "protein": 32,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Schwein",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Paprika"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Schweinefleisch"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Paprika",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Tomaten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_055",
+      "name": "Nudelauflauf mit Hackfleisch",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.4,
+      "costPerPerson": 2.85,
+      "diet": "normal",
+      "protein": 31,
+      "prepTime": 40,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hackfleisch",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hackfleisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Hackfleisch"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hackfleisch",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_056",
+      "name": "Hähnchen-Nudelpfanne",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.8,
+      "costPerPerson": 2.95,
+      "diet": "normal",
+      "protein": 35,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Hähnchen",
+        "Nudeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_057",
+      "name": "Rindergulasch mit Kartoffeln",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 60,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "normal",
+      "protein": 38,
+      "prepTime": 60,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rindergulasch"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Brühe"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Rind",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_059",
+      "name": "Schweineschnitzel mit Ofenkartoffeln",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 14,
+      "costPerPerson": 3.5,
+      "diet": "normal",
+      "protein": 37,
+      "prepTime": 35,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Schwein",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Schwein",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Schweineschnitzel"
+        },
+        {
+          "qty": 1000,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Schwein",
+        "Kartoffeln",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "familie_080_060",
+      "name": "Puten-Champignon-Pfanne",
+      "category": "familie",
+      "subcategory": "Normal 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.2,
+      "costPerPerson": 3.05,
+      "diet": "normal",
+      "protein": 36,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": true,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Pute",
+        "Champignons"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Champignons"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Fleisch oder Hauptzutat anbraten.",
+        "Gemüse oder Beilage zufügen.",
+        "Würzen.",
+        "Garen lassen und servieren."
+      ],
+      "tags": [
+        "Normal",
+        "Pute",
+        "Champignons",
+        "Normal 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Milchprodukte",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_061",
+      "name": "Hähnchen-Reis-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_062",
+      "name": "Thunfisch-Reis-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 11.6,
+      "costPerPerson": 2.9,
+      "diet": "proteinreich",
+      "protein": 38,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Thunfisch",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_063",
+      "name": "Skyr-Beeren-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 30,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Beeren"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Beeren",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_064",
+      "name": "Rinderhack-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13.2,
+      "costPerPerson": 3.3,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rinderhack",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rinderhack",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Rinderhack"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rinderhack",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "familie_080_065",
+      "name": "Eier-Käse-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_066",
+      "name": "Lachs-Reis-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 39,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Reis",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_067",
+      "name": "Magerquark-Früchte-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 32,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Magerquark",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Magerquark",
+        "Obst"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Mandeln"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Magerquark",
+        "Obst",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "familie_080_068",
+      "name": "Puten-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 13,
+      "costPerPerson": 3.25,
+      "diet": "proteinreich",
+      "protein": 43,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Putenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Gemüse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "familie_080_069",
+      "name": "Hüttenkäse-Kartoffel-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hüttenkäse",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_070",
+      "name": "Linsen-Protein-Chili",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Linsen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Linsen",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Linsen",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Bohnen",
+        "Mais",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "familie_080_071",
+      "name": "Skyr-Nuss-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "proteinreich",
+      "protein": 31,
+      "prepTime": 5,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Nüsse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Walnüsse"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Mandeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Bananen"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Nüsse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": "familie_080_072",
+      "name": "Thunfisch-Nudel-Salat",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.8,
+      "costPerPerson": 2.7,
+      "diet": "proteinreich",
+      "protein": 36,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": "Nudeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Nudeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 3,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Joghurt"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Thunfisch",
+        "Nudeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_073",
+      "name": "Protein-Omelett",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "proteinreich",
+      "protein": 33,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Eier",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Eier",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 10,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Eier",
+        "Käse",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_074",
+      "name": "Tofu-Protein-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "proteinreich",
+      "protein": 28,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Tofu",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Tofu",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Naturtofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Tofu",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "familie_080_075",
+      "name": "Kichererbsen-Hähnchen-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.4,
+      "costPerPerson": 3.1,
+      "diet": "proteinreich",
+      "protein": 41,
+      "prepTime": 25,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Hähnchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Hähnchen",
+        "Kichererbsen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Hähnchen",
+        "Kichererbsen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_076",
+      "name": "Lachs-Kartoffel-Blech",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.2,
+      "costPerPerson": 3.8,
+      "diet": "proteinreich",
+      "protein": 37,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Lachs",
+      "mainCarb": "Kartoffeln",
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Lachs",
+        "Kartoffeln"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Lachsfilet"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Lachs",
+        "Kartoffeln",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Lachs",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "familie_080_077",
+      "name": "Skyr-Pancakes",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "proteinreich",
+      "protein": 29,
+      "prepTime": 15,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Skyr",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Skyr",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Skyr",
+        "Ei",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Ei",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_078",
+      "name": "Roastbeef-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 15.6,
+      "costPerPerson": 3.9,
+      "diet": "proteinreich",
+      "protein": 44,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Rind",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Rind",
+        "Brokkoli"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Roastbeefstreifen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Rind",
+        "Brokkoli",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Rind",
+        "Paprika",
+        "Brokkoli"
+      ]
+    },
+    {
+      "id": "familie_080_079",
+      "name": "Edamame-Reis-Bowl",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "proteinreich",
+      "protein": 27,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Edamame",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Edamame",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Edamame"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Basmatireis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Edamame",
+        "Reis",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Soja",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_080",
+      "name": "Puten-Chili Protein Style",
+      "category": "familie",
+      "subcategory": "Proteinreich 0.8",
+      "servingsBase": 4,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 12.8,
+      "costPerPerson": 3.2,
+      "diet": "proteinreich",
+      "protein": 42,
+      "prepTime": 30,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": false,
+      "mainProtein": "Pute",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Pute",
+        "Kidneybohnen"
+      ],
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Putenhackfleisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Proteinquelle garen oder anrichten.",
+        "Beilage oder Gemüse zufügen.",
+        "Würzen.",
+        "Alles zusammen servieren."
+      ],
+      "tags": [
+        "Proteinreich",
+        "Pute",
+        "Kidneybohnen",
+        "Proteinreich 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Pute",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "familie_080_081",
+      "name": "Thunfisch-Salat",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 28,
+      "prepTime": 10,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Thunfisch",
+      "mainCarb": null,
+      "containsFish": true,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "contains": [
+        "Thunfisch",
+        "Salat"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Thunfisch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Eisbergsalat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurtdressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Thunfisch",
+        "Salat",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Fisch",
+        "Thunfisch",
+        "Milchprodukte",
+        "Ei",
+        "Tomaten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_082",
+      "name": "Pesto-Nudeln",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Nudeln",
+      "mainCarb": "Nudeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Nudeln",
+        "Pesto"
+      ],
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Glas",
+          "item": "grünes Pesto"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Nudeln",
+        "Pesto",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_083",
+      "name": "Wrap-Pizza",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "familie_080_084",
+      "name": "Couscous-Salat",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 14,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Couscous",
+      "mainCarb": "Couscous",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Couscous",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Couscous"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Couscous",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Tomaten",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_085",
+      "name": "Eier-Reis-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Ei",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Ei",
+        "Reis"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Ei",
+        "Reis",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_086",
+      "name": "Kartoffel-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 1.8,
+      "diet": "schnell",
+      "protein": 12,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Kartoffeln",
+      "mainCarb": "Kartoffeln",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Kartoffeln",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Kartoffeln",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "familie_080_087",
+      "name": "Tomaten-Mozzarella-Bowl",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Mozzarella",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "Kugeln",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Olivenöl"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Mozzarella",
+        "Tomaten",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "familie_080_088",
+      "name": "Schinken-Käse-Toast",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 21,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 4,
+          "unit": "Scheiben",
+          "item": "Käse"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_089",
+      "name": "Hüttenkäse-Brotzeit",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 5,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 1.7,
+      "diet": "schnell",
+      "protein": 24,
+      "prepTime": 5,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Hüttenkäse",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hüttenkäse",
+        "Vollkornbrot"
+      ],
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Vollkornbrot"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hüttenkäse",
+        "Vollkornbrot",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_090",
+      "name": "Hähnchen-Wrap",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 10.4,
+      "costPerPerson": 2.6,
+      "diet": "schnell",
+      "protein": 29,
+      "prepTime": 20,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Hähnchen",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Hähnchen",
+        "Wrap"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Hähnchenbrust"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Hähnchen",
+        "Wrap",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Geflügel",
+        "Hähnchen",
+        "Milchprodukte",
+        "Gluten",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "familie_080_091",
+      "name": "Maultaschen-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.6,
+      "costPerPerson": 2.4,
+      "diet": "schnell",
+      "protein": 23,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Maultaschen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "contains": [
+        "Maultaschen",
+        "Ei"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Maultaschen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Maultaschen",
+        "Ei",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Ei",
+        "Gluten",
+        "Paprika",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_092",
+      "name": "Gnocchi-Gemüse-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 15,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "contains": [
+        "Gnocchi",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Gluten",
+        "Paprika",
+        "Zwiebeln",
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "familie_080_093",
+      "name": "Quesadilla Schinken-Käse",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 22,
+      "prepTime": 10,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Wrap",
+      "mainCarb": "Wrap",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Wrap",
+        "Käse",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Wrap",
+        "Käse",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_094",
+      "name": "Tortellini-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.2,
+      "costPerPerson": 2.3,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Tortellini",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Tortellini",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Tortellini"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Parmesan"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Tortellini",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten"
+      ]
+    },
+    {
+      "id": "familie_080_096",
+      "name": "Flammkuchen-Toast",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 18,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Toast",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Toast",
+        "Schinken"
+      ],
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Scheiben",
+          "item": "Toastbrot"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Schmand"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Toast",
+        "Schinken",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_097",
+      "name": "Reissalat",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 1.9,
+      "diet": "schnell",
+      "protein": 16,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Reis",
+      "mainCarb": "Reis",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Reis",
+        "Gemüse"
+      ],
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Joghurt-Dressing"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Reis",
+        "Gemüse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Mais",
+        "Paprika",
+        "Gurke"
+      ]
+    },
+    {
+      "id": "familie_080_098",
+      "name": "Ofenbaguette Spezial",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 2.2,
+      "diet": "schnell",
+      "protein": 20,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Baguette",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Baguette",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Aufbackbaguettes"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Baguette",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
+    },
+    {
+      "id": "familie_080_099",
+      "name": "Käse-Gnocchi-Pfanne",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 2.1,
+      "diet": "schnell",
+      "protein": 17,
+      "prepTime": 15,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": false,
+      "budgetFriendly": true,
+      "mainProtein": "Gnocchi",
+      "mainCarb": "Gnocchi",
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Gnocchi",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Gnocchi"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Gnocchi",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ]
+    },
+    {
+      "id": "familie_080_100",
+      "name": "Pizza-Brötchen",
+      "category": "familie",
+      "subcategory": "Schnell 0.8",
+      "servingsBase": 4,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 2,
+      "diet": "schnell",
+      "protein": 19,
+      "prepTime": 20,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "mainProtein": "Brötchen",
+      "mainCarb": null,
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "contains": [
+        "Brötchen",
+        "Käse"
+      ],
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Aufbackbrötchen"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Käse"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "Kochschinken"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "passierte Tomaten"
+        }
+      ],
+      "steps": [
+        "Zutaten vorbereiten.",
+        "Kurz kochen, braten oder belegen.",
+        "Würzen.",
+        "Nach maximal 20 Minuten servieren."
+      ],
+      "tags": [
+        "Schnell",
+        "Brötchen",
+        "Käse",
+        "Schnell 0.8"
+      ],
+      "excludeTags": [
+        "Schwein",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Tomaten"
+      ]
     }
   ]
 };

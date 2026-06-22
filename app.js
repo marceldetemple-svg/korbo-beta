@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.8: Supabase verbunden");
+    console.log("Korbo 0.8.0: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -466,6 +466,20 @@ function recipeSearchText(recipe){
   ].join(" "));
 }
 
+function recipeIngredientSafetyText(recipe){
+  const ingredientText = (recipe.ingredients || [])
+    .map(entry => typeof entry === "string" ? entry : `${entry.qty || ""} ${entry.unit || ""} ${entry.item || ""}`)
+    .join(" ");
+
+  return normalizeTag([
+    recipe.mainProtein || "",
+    recipe.mainCarb || "",
+    ...(recipe.contains || []),
+    ...(recipe.excludeTags || []),
+    ingredientText
+  ].join(" "));
+}
+
 function containsKeyword(text, keywords){
   const normalizedText = " " + normalizeTag(text).replace(/[^a-z0-9äöüß]+/g, " ") + " ";
   return keywords.some(keyword => {
@@ -473,7 +487,8 @@ function containsKeyword(text, keywords){
     if(!key) return false;
 
     // Kurze Wörter wie Ei dürfen nicht in Reis, Einfach oder Proteinreich auslösen.
-    if(key.length <= 3){
+    // Milch muss ebenfalls wortbasiert geprüft werden, damit Kokosmilch vegan bleiben kann.
+    if(key.length <= 3 || key === "milch" || key === "butter"){
       return normalizedText.includes(" " + key + " ");
     }
 
@@ -486,7 +501,7 @@ function recipeIsVeganSafe(recipe){
     return false;
   }
 
-  const text = recipeSearchText(recipe);
+  const text = recipeIngredientSafetyText(recipe);
   return !containsKeyword(text, NON_VEGAN_KEYWORDS);
 }
 
@@ -517,7 +532,7 @@ function recipeHasAvoidTag(recipe, selected){
   const text = recipeSearchText(recipe);
   const selectedTags = (AVOID_GROUPS[selected] || [selected]).map(normalizeTag);
 
-  return selectedTags.some(selectedTag => text.includes(selectedTag));
+  return containsKeyword(text, selectedTags);
 }
 
 function avoidOk(recipe){

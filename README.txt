@@ -102,3 +102,9 @@ Dann auf Handy und PC einmal komplett neu laden.
 - jede Hauptkategorie erhält zusätzliche vegane/vegetarische Optionen
 - Vegan-/Vegetarisch-Filter robuster gemacht
 - Ei-Filter löst nicht mehr fälschlich bei Reis, Einfach oder Proteinreich aus
+
+0.8.0:
+- 100 kuratierte neue Rezeptnamen mit sauberen Zutaten, Mengen, Schritten, Kosten, Proteinwerten und Tags ergänzt.
+- Die 100 neuen Gerichte sind in allen Planungszielen verfügbar, damit Vegan/Vegetarisch/Normal/Proteinreich/Schnell unabhängig vom Ziel genügend Auswahl liefern.
+- Vegan/Vegetarisch-Sicherheitsprüfung verbessert: Rezeptnamen wie „vegane Bolognese“ oder „veganes Gulasch“ lösen keinen falschen Fleisch-Filter mehr aus.
+- Ausschluss „Ei“ prüft jetzt wortbasiert und trifft nicht mehr versehentlich Wörter wie „Proteinreich“.
