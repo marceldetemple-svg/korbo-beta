@@ -73,3 +73,15 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Vegetarisch entfernt Fleisch und Fisch
 - Vegan entfernt Fleisch, Fisch, Milchprodukte und Ei
 - Text in Schritt 8 klarer formuliert
+
+0.7.4:
+- Vegan-Filter korrigiert
+- Ausschlüsse werden beim Planen nicht mehr ignoriert, auch wenn zu wenige Gerichte übrig sind
+- Filter prüft zusätzlich Zutaten, Rezeptname und containsFish/containsEggs/containsMilk
+
+0.7.5:
+- Vegan-Filter deutlich verschärft
+- Hüttenkäse, Quark, Skyr, Käse, Milch, Joghurt, Sahne, Butter und Eier werden bei Vegan ausgeschlossen
+- Fleisch, Fisch, Geflügel und Meeresfrüchte werden bei Vegan ebenfalls sicher ausgeschlossen
+- Filter prüft jetzt Name, Zutaten, Tags, excludeTags, mainProtein und Boolean-Felder
+- Ausschlüsse werden weiterhin nicht ignoriert, auch wenn dadurch weniger Gerichte übrig bleiben

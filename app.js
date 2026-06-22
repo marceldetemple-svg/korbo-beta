@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.3: Supabase verbunden");
+    console.log("Korbo 0.7.5: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -406,25 +406,89 @@ function normalizeTag(tag){
 const AVOID_GROUPS = {
   "Rind": ["Rind", "Rinderhack", "Rindfleisch", "Steak", "Gulaschfleisch", "Hackfleisch"],
   "Schwein": ["Schwein", "Schweinefleisch", "Schinken", "Speck", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros"],
-  "Geflügel": ["Geflügel", "Hähnchen", "Pute", "Hähnchenbrust", "Putenbrust", "Hähnchengeschnetzeltes", "Putenhack"],
-  "Fisch": ["Fisch", "Thunfisch", "Lachs", "Kabeljau", "Fischstäbchen"],
-  "Meeresfrüchte": ["Meeresfrüchte", "Garnelen", "Shrimps", "Krabben", "Muscheln"],
-  "Vegetarisch": ["Hackfleisch", "Rind", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros"],
-  "Vegan": ["Hackfleisch", "Rind", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros", "Milchprodukte", "Käse", "Milch", "Joghurt", "Quark", "Skyr", "Sahne", "Kochsahne", "Butter", "Ei", "Eier", "Feta", "Mozzarella", "Parmesan", "Hüttenkäse"]
+  "Geflügel": ["Geflügel", "Hähnchen", "Pute", "Hähnchenbrust", "Putenbrust", "Hähnchengeschnetzeltes", "Putenhack", "Geflügelwürstchen"],
+  "Fisch": ["Fisch", "Thunfisch", "Lachs", "Kabeljau", "Fischstäbchen", "Fischstaebchen"],
+  "Meeresfrüchte": ["Meeresfrüchte", "Meeresfruechte", "Garnelen", "Shrimps", "Krabben", "Muscheln"],
+  "Vegetarisch": ["Hackfleisch", "Rind", "Rinderhack", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros"],
+  "Vegan": ["Hackfleisch", "Rind", "Rinderhack", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros", "Milchprodukte", "Käse", "Kaese", "Milch", "Joghurt", "Quark", "Magerquark", "Skyr", "Sahne", "Kochsahne", "Butter", "Ei", "Eier", "Feta", "Mozzarella", "Parmesan", "Hüttenkäse", "Huettenkaese", "Hüttenkase", "Frischkäse", "Frischkaese", "Tortellini"]
 };
 
-function recipeHasAvoidTag(recipe, selected){
-  const recipeTags = [
-    ...(recipe.excludeTags || []),
-    ...(recipe.tags || []),
-    recipe.mainProtein || "",
-    recipe.subcategory || "",
-    recipe.diet || ""
-  ].map(normalizeTag).filter(Boolean);
+const NON_VEGAN_KEYWORDS = [
+  // Fleisch / Wurst
+  "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "schwein", "schweinefleisch", "schinken", "speck", "salami", "lyoner", "bratwurst", "wuerstchen", "wurst", "gyros",
+  // Geflügel
+  "gefluegel", "haehnchen", "hähnchen", "pute", "puten", "putenbrust", "putenhack",
+  // Fisch / Meeresfrüchte
+  "fisch", "thunfisch", "lachs", "kabeljau", "fischstaebchen", "fischstäbchen", "meeresfruechte", "meeresfrüchte", "garnelen", "shrimps", "krabben", "muscheln",
+  // Milchprodukte
+  "milch", "kaese", "käse", "joghurt", "quark", "magerquark", "skyr", "sahne", "kochsahne", "butter", "feta", "mozzarella", "parmesan", "huettenkaese", "hüttenkäse", "frischkaese", "frischkäse",
+  // Ei
+  "ei", "eier", "omelett", "spiegelei",
+  // oft nicht vegan
+  "honig", "tortellini"
+];
 
+const NON_VEGETARIAN_KEYWORDS = [
+  "hackfleisch", "rind", "rinderhack", "rindfleisch", "steak", "gulaschfleisch", "schwein", "schweinefleisch", "schinken", "speck", "salami", "lyoner", "bratwurst", "wuerstchen", "wurst", "gyros",
+  "gefluegel", "haehnchen", "hähnchen", "pute", "puten", "putenbrust", "putenhack",
+  "fisch", "thunfisch", "lachs", "kabeljau", "fischstaebchen", "fischstäbchen", "meeresfruechte", "meeresfrüchte", "garnelen", "shrimps", "krabben", "muscheln"
+];
+
+function recipeSearchText(recipe){
+  const ingredientText = (recipe.ingredients || [])
+    .map(entry => typeof entry === "string" ? entry : `${entry.qty || ""} ${entry.unit || ""} ${entry.item || ""}`)
+    .join(" ");
+
+  return normalizeTag([
+    recipe.name || "",
+    recipe.subcategory || "",
+    recipe.diet || "",
+    recipe.mainProtein || "",
+    recipe.mainCarb || "",
+    ...(recipe.tags || []),
+    ...(recipe.excludeTags || []),
+    ingredientText
+  ].join(" "));
+}
+
+function containsKeyword(text, keywords){
+  return keywords.some(keyword => {
+    const key = normalizeTag(keyword);
+    return text.includes(key);
+  });
+}
+
+function recipeIsVeganSafe(recipe){
+  if(recipe.containsFish === true || recipe.containsEggs === true || recipe.containsMilk === true){
+    return false;
+  }
+
+  const text = recipeSearchText(recipe);
+  return !containsKeyword(text, NON_VEGAN_KEYWORDS);
+}
+
+function recipeIsVegetarianSafe(recipe){
+  if(recipe.containsFish === true){
+    return false;
+  }
+
+  const text = recipeSearchText(recipe);
+  return !containsKeyword(text, NON_VEGETARIAN_KEYWORDS);
+}
+
+function recipeHasAvoidTag(recipe, selected){
+  if(selected === "Vegan"){
+    return !recipeIsVeganSafe(recipe);
+  }
+
+  if(selected === "Vegetarisch"){
+    return !recipeIsVegetarianSafe(recipe);
+  }
+
+  const text = recipeSearchText(recipe);
   const selectedTags = (AVOID_GROUPS[selected] || [selected]).map(normalizeTag);
 
-  return selectedTags.some(tag => recipeTags.includes(tag));
+  return selectedTags.some(selectedTag => text.includes(selectedTag));
 }
 
 function avoidOk(recipe){
@@ -432,10 +496,14 @@ function avoidOk(recipe){
 }
 
 function getMeals(){
-  let list = RECIPE_DATABASE[state.goal].filter(r=>dietOk(r)&&avoidOk(r)&&r.time<=state.maxTime);
-  if(list.length<state.days) list = RECIPE_DATABASE[state.goal].filter(r=>dietOk(r)&&avoidOk(r));
-  if(list.length<state.days) list = RECIPE_DATABASE[state.goal].filter(r=>avoidOk(r));
-  if(list.length<state.days) list = RECIPE_DATABASE[state.goal];
+  const allForGoal = RECIPE_DATABASE[state.goal] || [];
+  let list = allForGoal.filter(r=>dietOk(r)&&avoidOk(r)&&r.time<=state.maxTime);
+  if(list.length<state.days) list = allForGoal.filter(r=>dietOk(r)&&avoidOk(r));
+  if(list.length<state.days) list = allForGoal.filter(r=>avoidOk(r));
+
+  // Wichtig: Ausschlüsse dürfen niemals ignoriert werden.
+  // Wenn z. B. Vegan gewählt wurde, darf Korbo nicht aus Mangel an Rezepten plötzlich Thunfisch anzeigen.
+  if(list.length===0) return [];
 
   const minTarget = state.budget * 0.75;
   let best = shuffle(list).slice(0,state.days);
@@ -457,6 +525,15 @@ function getMeals(){
 
 function generatePlan(){
   const meals=getMeals();currentMeals = meals;let total=0,ingredients=[];
+  if(meals.length === 0){
+    const notice=document.getElementById("notice");
+    notice.textContent="Für diese Auswahl wurden keine passenden Gerichte gefunden. Bitte ändere Ziel, Kochzeit oder Ausschlüsse.";
+    notice.classList.add("show");
+    document.getElementById("mealPlan").innerHTML=`<div class="item"><small>Keine passenden Gerichte gefunden.</small></div>`;
+    document.getElementById("shoppingList").innerHTML=`<div class="item"><small>Keine Einkaufsliste möglich.</small></div>`;
+    goTo("result");
+    return;
+  }
   meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...(m.ingredients || []).filter(x => !(x.unit === "nach Geschmack")).map(x => ingredientToShoppingItem(x, m.name)))});
   generatedShoppingItems = mergeShoppingItems([], ingredients);
   total=Math.round(total*100)/100;const rest=Math.round((state.budget-total)*100)/100;
@@ -466,7 +543,8 @@ function generatePlan(){
   document.getElementById("rRest").textContent=rest.toFixed(2).replace(".",",")+" €";
 
   const notice=document.getElementById("notice");notice.classList.remove("show");
-  if(state.avoid.length>0){notice.textContent="Deine Ausschlüsse wurden berücksichtigt: "+state.avoid.join(", ");notice.classList.add("show")}
+  if(meals.length===0){notice.textContent="Für diese Auswahl wurden keine passenden Rezepte gefunden. Entferne bitte einen Ausschluss oder ändere dein Ziel.";notice.classList.add("show")}
+  else if(state.avoid.length>0){notice.textContent="Deine Ausschlüsse wurden berücksichtigt: "+state.avoid.join(", ");notice.classList.add("show")}
   if(rest<0){notice.textContent="Dein Budget ist sehr knapp. Korbo zeigt dir den günstigsten passenden Plan.";notice.classList.add("show")}
   else if(state.pantry.length>0 && !notice.classList.contains("show")){notice.textContent="Zutaten, die du zuhause hast, wurden aus der Einkaufsliste entfernt.";notice.classList.add("show")}
 

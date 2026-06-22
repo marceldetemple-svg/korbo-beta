@@ -1,4 +1,4 @@
-const CACHE_NAME="korbo-beta-v073";
+const CACHE_NAME="korbo-beta-v075";
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(["./","./index.html","./style.css","./app.js","./data.js","./config.js","./manifest.json"])));
   self.skipWaiting();
