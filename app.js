@@ -768,6 +768,97 @@ function openRatingByIndex(index, voteType){
   const recipe = currentMeals[index];
   if(recipe){ openRating(recipe, voteType); }
 }
+async function sendVote(){
+  if(!pendingVote){
+    closeRating();
+    return;
+  }
+
+  if(!supabaseClient){
+    initSupabase();
+  }
+
+  if(!supabaseClient){
+    alert("Supabase ist noch nicht verbunden. Lade die Seite bitte mit Strg + F5 neu und prüfe, ob config.js in GitHub ersetzt wurde.");
+    closeRating();
+    return;
+  }
+
+  const commentEl = document.getElementById("ratingComment");
+  const photoEl = document.getElementById("ratingPhoto");
+
+  let imageUrl = null;
+  let photoFileName = null;
+  let hasPhoto = false;
+
+  if(photoEl && photoEl.files && photoEl.files.length > 0){
+    const file = photoEl.files[0];
+    hasPhoto = true;
+    photoFileName = file.name;
+
+    const fileExt = file.name.split(".").pop();
+    const safeRecipeName = pendingVote.recipe.name
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+
+    const filePath = `${safeRecipeName}/${Date.now()}-${Math.random().toString(16).slice(2)}.${fileExt}`;
+
+    const { error: uploadError } = await supabaseClient
+      .storage
+      .from("review-images")
+      .upload(filePath, file, {
+        cacheControl: "3600",
+        upsert: false
+      });
+
+    if(uploadError){
+      console.error(uploadError);
+      alert("Bild konnte nicht hochgeladen werden. Prüfe den Supabase Storage Bucket review-images.");
+      return;
+    }
+
+    const { data: publicData } = supabaseClient
+      .storage
+      .from("review-images")
+      .getPublicUrl(filePath);
+
+    imageUrl = publicData.publicUrl;
+  }
+
+  const payload = {
+    recipe_name: pendingVote.recipe.name,
+    recipe_goal: state.goal,
+    vote: pendingVote.voteType,
+    stars: selectedStars || null,
+    comment: commentEl ? commentEl.value.trim() : null,
+    photo_filename: photoFileName || selectedPhotoName,
+    photo_pending: false,
+    image_url: imageUrl,
+    reason: pendingVote.voteType === "dislike" ? (selectedReason || "Kein Grund angegeben") : null,
+    budget: state.budget,
+    people: state.people,
+    days: state.days,
+    diet: state.diet,
+    max_time: state.maxTime,
+    markets: state.markets,
+    avoid: state.avoid,
+    user_agent: navigator.userAgent
+  };
+
+  const { error } = await supabaseClient
+    .from("recipe_votes")
+    .insert(payload);
+
+  if(error){
+    alert("Bewertung konnte nicht gespeichert werden. Prüfe in Supabase die Tabelle recipe_votes und die RLS/Policies.");
+    console.error(error);
+    return;
+  }
+
+  alert("Danke. Deine Bewertung wurde gespeichert.");
+  closeRating();
+}
 
 function openRating(recipe,voteType){
   pendingVote={recipe,voteType};
@@ -787,24 +878,7 @@ function openRating(recipe,voteType){
 function setReason(reason,el){selectedReason=reason;markSelected(el)}
 function closeRating(){document.getElementById("ratingModal").classList.remove("show");pendingVote=null;resetRatingInputs()}
 
-async function sendVote(){
-  if(!pendingVote){closeRating();return}
-  if(!supabaseClient){initSupabase()}
-  const commentEl = document.getElementById("ratingComment");
-  const photoEl = document.getElementById("ratingPhoto");
-  const hasPhoto = !!(photoEl && photoEl.files && photoEl.files.length > 0);
-  const payload={recipe_name:pendingVote.recipe.name,recipe_goal:state.goal,vote:pendingVote.voteType,stars:selectedStars||null,comment:commentEl?commentEl.value.trim():null,photo_filename:selectedPhotoName,photo_pending:hasPhoto,reason:pendingVote.voteType==="dislike"?(selectedReason||"Kein Grund angegeben"):null,budget:state.budget,people:state.people,days:state.days,diet:state.diet,max_time:state.maxTime,markets:state.markets,avoid:state.avoid,user_agent:navigator.userAgent};
 
-  if(!supabaseClient){
-    alert("Supabase ist noch nicht verbunden. Lade die Seite bitte mit Strg + F5 neu und prüfe, ob config.js in GitHub ersetzt wurde.");
-    closeRating();
-    return;
-  }
-
-  const {error}=await supabaseClient.from("recipe_votes").insert(payload);
-  if(error){alert("Bewertung konnte nicht gespeichert werden. Prüfe in Supabase die Tabelle recipe_votes und die RLS/Policies.");console.error(error);return}
-  alert("Danke. Deine Bewertung wurde gespeichert.");closeRating()
-}
 
 
 document.addEventListener("DOMContentLoaded", () => {
