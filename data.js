@@ -4695,6 +4695,1176 @@ const RECIPE_DATABASE = {
         "Käse",
         "Zwiebeln"
       ]
+    },
+    {
+      "id": "sparen_061",
+      "name": "Linsen-Bolognese",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.9,
+      "costPerPerson": 2.95,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "italienische Kräuter"
+        }
+      ],
+      "steps": [
+        "Linsen und Nudeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Günstig"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_062",
+      "name": "Kichererbsen-Curry mit Reis",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 3.2,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        }
+      ],
+      "steps": [
+        "Kichererbsen und Reis vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Curry",
+        "Reis"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokos",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_063",
+      "name": "Kartoffel-Gemüse-Eintopf",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.4,
+      "costPerPerson": 2.7,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Suppengemüse"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "weiße Bohnen"
+        },
+        {
+          "qty": 700,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Eintopf",
+        "Günstig"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_064",
+      "name": "Bohnen-Chili ohne Fleisch",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.1,
+      "costPerPerson": 3.05,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "weiße Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Bohnen und Reis vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Bohnen",
+        "Chili",
+        "Sättigend"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_065",
+      "name": "Tofu-Reis-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 3.6,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Tofu und Reis vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Pfanne"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_066",
+      "name": "Tomaten-Reis mit weißen Bohnen",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.6,
+      "costPerPerson": 2.8,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "weiße Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Reis und Bohnen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Reis",
+        "Bohnen",
+        "Tomaten"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_067",
+      "name": "Gemüse-Nudelpfanne",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 2.9,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Nudeln und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Nudeln",
+        "Gemüse",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Gluten",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_068",
+      "name": "Kartoffel-Linsen-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.7,
+      "costPerPerson": 2.85,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Linsen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Linsen",
+        "Pfanne"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Paprika",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_069",
+      "name": "Käse-Spätzle einfach",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.9,
+      "costPerPerson": 3.45,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zwiebeln"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Butter"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Spätzle vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Käse",
+        "Spätzle",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_070",
+      "name": "Kartoffel-Auflauf mit Käse",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.1,
+      "costPerPerson": 3.55,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        },
+        {
+          "qty": 0.25,
+          "unit": "TL",
+          "item": "Muskat"
+        }
+      ],
+      "steps": [
+        "Kartoffeln vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Auflauf",
+        "Käse"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Käse",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_071",
+      "name": "Eier-Reis-Pfanne",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.5,
+      "costPerPerson": 2.75,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Reis und Eier vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Reis",
+        "Ei",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Soja",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_072",
+      "name": "Quark-Kartoffeln",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Schnittlauch"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Quark vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Kartoffeln",
+        "Quark",
+        "Günstig"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gurke"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_073",
+      "name": "Tomaten-Mozzarella-Nudeln",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 3.6,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 125,
+          "unit": "g",
+          "item": "Mozzarella"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Nudeln und Tomaten vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Pasta",
+        "Mozzarella",
+        "Tomaten"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_074",
+      "name": "Gemüse-Omelett",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.6,
+      "costPerPerson": 2.8,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Gemüse und Eier vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Ei",
+        "Omelett",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Paprika",
+        "Zwiebeln",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "sparen_075",
+      "name": "Brokkoli-Käse-Nudeln",
+      "category": "sparen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 3.4,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Nudeln und Brokkoli vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Käse",
+        "Pasta"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Brokkoli",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
     }
   ],
   "abnehmen": [
@@ -9665,6 +10835,1073 @@ const RECIPE_DATABASE = {
       "containsMushrooms": false,
       "containsEggs": true,
       "containsMilk": false
+    },
+    {
+      "id": "abnehmen_061",
+      "name": "Tofu-Gemüse-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 4.1,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Tofu und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Bowl",
+        "Kalorienarm"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_062",
+      "name": "Linsen-Salat-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 3.6,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Beutel",
+          "item": "Salatmischung"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Linsen und Salat vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Salat",
+        "Leicht"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Gurke",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_063",
+      "name": "Kichererbsen-Gurken-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 3.4,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Beutel",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Kichererbsen und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Bowl",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Kichererbsen",
+        "Gurke",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_064",
+      "name": "Bohnen-Gemüse-Suppe",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6,
+      "costPerPerson": 3,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "weiße Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Suppengemüse"
+        },
+        {
+          "qty": 500,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Bohnen und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Bohnen",
+        "Suppe",
+        "Leicht"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_065",
+      "name": "Zucchini-Linsen-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 3.3,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        }
+      ],
+      "steps": [
+        "Zucchini und Linsen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Zucchini",
+        "Pfanne"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Zucchini",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_066",
+      "name": "Asia-Tofu-Salat",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 4,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 1,
+          "unit": "Beutel",
+          "item": "Salatmischung"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Tofu und Salat vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Salat",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Gurke"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_067",
+      "name": "Kartoffel-Brokkoli-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.2,
+      "costPerPerson": 3.1,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Brokkoli vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kartoffeln",
+        "Brokkoli",
+        "Bowl"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Brokkoli",
+        "Kichererbsen"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_068",
+      "name": "Tomaten-Bohnen-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6,
+      "costPerPerson": 3,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "weiße Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Bohnen und Tomaten vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Bohnen",
+        "Tomaten",
+        "Pfanne"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Tomaten",
+        "Zucchini",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_069",
+      "name": "Hüttenkäse-Salat-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 15,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 3.9,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Beutel",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Salat und Hüttenkäse vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Hüttenkäse",
+        "Salat",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gurke",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_070",
+      "name": "Skyr-Beeren-Bowl",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6,
+      "costPerPerson": 3,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Beeren"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        }
+      ],
+      "steps": [
+        "Skyr und Beeren vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Skyr",
+        "Süß",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gluten",
+        "Banane"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_071",
+      "name": "Eier-Spinat-Pfanne",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.2,
+      "costPerPerson": 3.1,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Spinat"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Feta"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Eier und Spinat vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Ei",
+        "Spinat",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_072",
+      "name": "Magerquark-Gemüse-Teller",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 2.9,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 2,
+          "unit": "Scheiben",
+          "item": "Vollkornbrot"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Schnittlauch"
+        }
+      ],
+      "steps": [
+        "Quark und Gemüse vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Magerquark",
+        "Schnell",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gurke",
+        "Tomaten",
+        "Gluten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_073",
+      "name": "Mozzarella-Tomaten-Salat",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 3.6,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Mozzarella light"
+        },
+        {
+          "qty": 3,
+          "unit": "Stück",
+          "item": "Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Beutel",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Mozzarella und Tomaten vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Mozzarella",
+        "Salat",
+        "Leicht"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Käse",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_074",
+      "name": "Gemüse-Omelett Light",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6,
+      "costPerPerson": 3,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "Käse light"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Gemüse und Eier vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Ei",
+        "Omelett",
+        "Leicht"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Paprika",
+        "Zucchini",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "abnehmen_075",
+      "name": "Quark-Kartoffel-Brokkoli",
+      "category": "abnehmen",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 3.2,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        },
+        {
+          "qty": 0.5,
+          "unit": "TL",
+          "item": "Pfeffer"
+        }
+      ],
+      "steps": [
+        "Kartoffeln, Brokkoli und Quark vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Quark",
+        "Brokkoli",
+        "Sättigend"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Brokkoli"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": true,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
     }
   ],
   "muskelaufbau": [
@@ -15008,6 +17245,829 @@ const RECIPE_DATABASE = {
       "containsMushrooms": false,
       "containsEggs": false,
       "containsMilk": false
+    },
+    {
+      "id": "muskelaufbau_061",
+      "name": "Tofu-Reis-Bowl mit Bohnen",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 9.4,
+      "costPerPerson": 4.7,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu, Reis und Bohnen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Reis",
+        "Muskelaufbau"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Bohnen",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_062",
+      "name": "Linsen-Nudel-Topf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8,
+      "costPerPerson": 4,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Linsen und Nudeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Nudeln",
+        "Sättigend"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_063",
+      "name": "Kichererbsen-Reis-Curry",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 4.2,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Kichererbsen und Reis vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Kichererbsen",
+        "Curry",
+        "Muskelaufbau"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokos",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_064",
+      "name": "Bohnen-Kartoffel-Pfanne",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 3.8,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Paprikapulver"
+        }
+      ],
+      "steps": [
+        "Bohnen und Kartoffeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Bohnen",
+        "Kartoffeln",
+        "Sättigend"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Paprika",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_065",
+      "name": "Tofu-Wraps",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.8,
+      "costPerPerson": 4.4,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu und Wraps vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Tofu",
+        "Wrap",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Gluten",
+        "Gurke"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_066",
+      "name": "Linsen-Kartoffel-Eintopf",
+      "category": "muskelaufbau",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.4,
+      "costPerPerson": 3.7,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 700,
+          "unit": "ml",
+          "item": "Gemüsebrühe"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Suppengemüse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Linsen und Kartoffeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Linsen",
+        "Eintopf",
+        "Sättigend"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_067",
+      "name": "Quark-Hafer-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.2,
+      "costPerPerson": 3.6,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Beeren"
+        }
+      ],
+      "steps": [
+        "Quark und Haferflocken vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Magerquark",
+        "Haferflocken",
+        "Muskelaufbau"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gluten",
+        "Banane"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_068",
+      "name": "Eier-Reis-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7,
+      "costPerPerson": 3.5,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Reis und Eier vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Ei",
+        "Reis",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Soja",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_069",
+      "name": "Hüttenkäse-Kartoffel-Teller",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.8,
+      "costPerPerson": 3.9,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Gurke"
+        },
+        {
+          "qty": 1,
+          "unit": "Bund",
+          "item": "Schnittlauch"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Hüttenkäse vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Hüttenkäse",
+        "Kartoffeln",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gurke"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_070",
+      "name": "Käse-Spätzle Protein",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.2,
+      "costPerPerson": 4.1,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Spätzle"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Hüttenkäse"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        }
+      ],
+      "steps": [
+        "Spätzle und Käse vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Käse",
+        "Spätzle",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Käse",
+        "Gluten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_071",
+      "name": "Skyr-Bananen-Bowl",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 10,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 3.4,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "Skyr"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "Haferflocken"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Banane"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Honig"
+        }
+      ],
+      "steps": [
+        "Skyr und Banane vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Skyr",
+        "Süß",
+        "Proteinreich"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Milchprodukte",
+        "Gluten",
+        "Banane"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
+    },
+    {
+      "id": "muskelaufbau_072",
+      "name": "Omelett mit Käse und Kartoffeln",
+      "category": "muskelaufbau",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 3.8,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Eier und Kartoffeln vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Ei",
+        "Kartoffeln",
+        "Käse"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Ei",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "proteinRich": true,
+      "lowCalorie": false,
+      "familyFriendly": false,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true,
+      "muscleBuilding": true
     }
   ],
   "familie": [
@@ -19820,6 +22880,832 @@ const RECIPE_DATABASE = {
       "containsMushrooms": false,
       "containsEggs": true,
       "containsMilk": false
+    },
+    {
+      "id": "familie_061",
+      "name": "Vegane Spaghetti mit Linsen",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.2,
+      "costPerPerson": 3.1,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Spaghetti"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "rote Linsen"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Spaghetti und Linsen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Linsen",
+        "Pasta"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Linsen",
+        "Gluten",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_062",
+      "name": "Veganes Chili mit Reis",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 3.3,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Reis"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kidneybohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zwiebel"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Tomatenmark"
+        }
+      ],
+      "steps": [
+        "Chili und Reis vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Bohnen",
+        "Reis"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Bohnen",
+        "Mais",
+        "Tomaten",
+        "Zwiebeln"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_063",
+      "name": "Kartoffel-Gemüse-Blech",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 40,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 5.8,
+      "costPerPerson": 2.9,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 900,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Paprika"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Karotten"
+        },
+        {
+          "qty": 1,
+          "unit": "Stück",
+          "item": "Zucchini"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Öl"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Gemüse vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Ofen",
+        "Gemüse"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Paprika",
+        "Zucchini"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_064",
+      "name": "Tofu-Nudelpfanne",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 3.8,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "Tofu"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Tofu und Nudeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Tofu",
+        "Nudeln"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Tofu",
+        "Soja",
+        "Gluten",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_065",
+      "name": "Kichererbsen-Kartoffel-Curry",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 35,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.4,
+      "costPerPerson": 3.2,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Kichererbsen"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kokosmilch"
+        },
+        {
+          "qty": 1,
+          "unit": "Dose, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Currypulver"
+        }
+      ],
+      "steps": [
+        "Kichererbsen und Kartoffeln vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Curry",
+        "Kartoffeln"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Kichererbsen",
+        "Kokos",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_066",
+      "name": "Vegane Wraps mit Bohnen",
+      "category": "familie",
+      "subcategory": "Vegan",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 3.4,
+      "diet": "vegan",
+      "ingredients": [
+        {
+          "qty": 6,
+          "unit": "Stück",
+          "item": "Wraps"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen",
+          "item": "Bohnen"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "Salat"
+        },
+        {
+          "qty": 2,
+          "unit": "Stück",
+          "item": "Tomaten"
+        }
+      ],
+      "steps": [
+        "Wraps und Bohnen vorbereiten und in passende Stücke schneiden.",
+        "Pfanne oder Topf mit Öl erhitzen.",
+        "Zutaten nacheinander garen und würzen.",
+        "Alles kurz ziehen lassen und heiß servieren."
+      ],
+      "tags": [
+        "Vegan",
+        "Familie",
+        "Wrap",
+        "Bohnen"
+      ],
+      "excludeTags": [
+        "Vegan",
+        "Gluten",
+        "Bohnen",
+        "Mais",
+        "Tomaten"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_067",
+      "name": "Gemüse-Lasagne vegetarisch",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 55,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 8.4,
+      "costPerPerson": 4.2,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 8,
+          "unit": "Stück",
+          "item": "Lasagneplatten"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "Dosen, 400 g",
+          "item": "gehackte Tomaten"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "geriebener Käse"
+        }
+      ],
+      "steps": [
+        "Gemüse-Lasagne vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Lasagne",
+        "Käse"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Gemüse",
+        "Tomaten",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_068",
+      "name": "Kartoffel-Brokkoli-Gratin",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 45,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 7.6,
+      "costPerPerson": 3.8,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 900,
+          "unit": "g",
+          "item": "Kartoffeln"
+        },
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "Brokkoli"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Brokkoli vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Gratin",
+        "Brokkoli"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Brokkoli",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_069",
+      "name": "Eiernudeln mit Gemüse",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.2,
+      "costPerPerson": 3.1,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 5,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "TK-Gemüse"
+        },
+        {
+          "qty": 2,
+          "unit": "EL",
+          "item": "Sojasoße"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Öl"
+        }
+      ],
+      "steps": [
+        "Nudeln, Eier und Gemüse vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Ei",
+        "Nudeln"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Gemüse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": false,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_070",
+      "name": "Pizza-Baguettes vegetarisch",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 20,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.6,
+      "costPerPerson": 3.3,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Baguettebrötchen"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "Tomatensoße"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "kleine Dose",
+          "item": "Mais"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Oregano"
+        }
+      ],
+      "steps": [
+        "Pizza-Baguettes vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Pizza",
+        "Schnell"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Milchprodukte",
+        "Käse",
+        "Mais"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_071",
+      "name": "Spinat-Käse-Nudeln",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 25,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6.8,
+      "costPerPerson": 3.4,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Nudeln"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "Spinat"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "Kochsahne"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "geriebener Käse"
+        },
+        {
+          "qty": 1,
+          "unit": "TL",
+          "item": "Salz"
+        }
+      ],
+      "steps": [
+        "Nudeln und Spinat vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Spinat",
+        "Käse"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Milchprodukte",
+        "Käse"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": false,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
+    },
+    {
+      "id": "familie_072",
+      "name": "Pfannkuchen mit Quarkfüllung",
+      "category": "familie",
+      "subcategory": "Vegetarisch",
+      "servingsBase": 2,
+      "time": 30,
+      "difficulty": "Einfach",
+      "priceEstimateTotal": 6,
+      "costPerPerson": 3,
+      "diet": "vegetarisch",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Mehl"
+        },
+        {
+          "qty": 4,
+          "unit": "Stück",
+          "item": "Eier"
+        },
+        {
+          "qty": 400,
+          "unit": "ml",
+          "item": "Milch"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Magerquark"
+        },
+        {
+          "qty": 1,
+          "unit": "EL",
+          "item": "Zucker"
+        }
+      ],
+      "steps": [
+        "Pfannkuchen und Quark vorbereiten.",
+        "Zutaten in Pfanne, Topf oder Auflaufform geben.",
+        "Mit Salz, Pfeffer und passenden Kräutern würzen.",
+        "Kurz garen oder überbacken und servieren."
+      ],
+      "tags": [
+        "Vegetarisch",
+        "Familie",
+        "Süß",
+        "Pfannkuchen"
+      ],
+      "excludeTags": [
+        "Vegetarisch",
+        "Gluten",
+        "Ei",
+        "Milchprodukte"
+      ],
+      "containsFish": false,
+      "containsMushrooms": false,
+      "containsEggs": true,
+      "containsMilk": true,
+      "proteinRich": false,
+      "lowCalorie": false,
+      "familyFriendly": true,
+      "freezerFriendly": false,
+      "mealPrepFriendly": true,
+      "budgetFriendly": true
     }
   ]
 };

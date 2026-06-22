@@ -96,3 +96,9 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Nutzer müssen keine zusätzlichen Ausschlüsse setzen.
 - Steak, Thunfisch, Hähnchen, Pute, Schinken, Wurst, Gyros, Döner, Frikadellen usw. werden bei Vegetarisch ausgeschlossen.
 - Cache-Version v077.
+
+0.7.8:
+- 48 neue vegane und vegetarische Gerichte ergänzt
+- jede Hauptkategorie erhält zusätzliche vegane/vegetarische Optionen
+- Vegan-/Vegetarisch-Filter robuster gemacht
+- Ei-Filter löst nicht mehr fälschlich bei Reis, Einfach oder Proteinreich aus

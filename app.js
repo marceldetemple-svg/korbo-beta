@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.7: Supabase verbunden");
+    console.log("Korbo 0.7.8: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -467,9 +467,17 @@ function recipeSearchText(recipe){
 }
 
 function containsKeyword(text, keywords){
+  const normalizedText = " " + normalizeTag(text).replace(/[^a-z0-9äöüß]+/g, " ") + " ";
   return keywords.some(keyword => {
     const key = normalizeTag(keyword);
-    return text.includes(key);
+    if(!key) return false;
+
+    // Kurze Wörter wie Ei dürfen nicht in Reis, Einfach oder Proteinreich auslösen.
+    if(key.length <= 3){
+      return normalizedText.includes(" " + key + " ");
+    }
+
+    return normalizedText.includes(key);
   });
 }
 
