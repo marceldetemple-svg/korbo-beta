@@ -42,3 +42,16 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Platzhalter aus Muskelaufbau und Familie entfernt
 - Gewürze von nach Geschmack auf konkrete Mengen umgestellt
 - data.js QA: keine Begriffe passsend zum Gericht / nach Geschmack
+
+0.7.0:
+- Einkaufsliste V1 eingebaut
+- Artikel manuell hinzufügen
+- Menge + Produkt erfassen
+- Artikel abhaken
+- Einzelne Artikel löschen
+- Erledigte Artikel löschen
+- Komplette Liste löschen
+- Einkaufsliste bleibt im Browser gespeichert
+- Rezeptzutaten einzeln zur Einkaufsliste übernehmen
+- Kompletten generierten Plan zur Einkaufsliste übernehmen
+- Gleiche Zutaten mit gleicher Einheit werden zusammengeführt

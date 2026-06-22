@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.6.1: Supabase verbunden");
+    console.log("Korbo 0.7.0: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -25,9 +25,232 @@ initSupabase();
 
 let state = {goal:"sparen",budget:50,people:2,days:7,diet:"normal",maxTime:30,markets:["Aldi"],pantry:[],avoid:[]};
 let currentMeals = [];
+let currentOpenRecipe = null;
+let generatedShoppingItems = [];
 const labels = {sparen:"Sparen",abnehmen:"Abnehmen",muskelaufbau:"Muskelaufbau",familie:"Familie"};
 const markets = ["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny","Egal"];
 const pantryItems = ["Öl","Salz","Pfeffer","Paprikapulver","Gewürze","Nudeln","Reis","Mehl","Zucker","Eier","Kartoffeln","Zwiebeln","Knoblauch","Haferflocken","Brühe","Milch","Sojasoße","Tomatenmark"];
+
+const SHOPPING_STORAGE_KEY = "korbo_shopping_list_v1";
+
+function normalizeShoppingName(name){
+  return String(name || "").trim().replace(/\s+/g, " ");
+}
+
+function loadShoppingList(){
+  try{
+    return JSON.parse(localStorage.getItem(SHOPPING_STORAGE_KEY) || "[]");
+  }catch(e){
+    console.warn("Einkaufsliste konnte nicht geladen werden", e);
+    return [];
+  }
+}
+
+function saveShoppingList(items){
+  localStorage.setItem(SHOPPING_STORAGE_KEY, JSON.stringify(items));
+}
+
+function makeShoppingId(){
+  return "shop_" + Date.now() + "_" + Math.random().toString(16).slice(2);
+}
+
+function formatQtyUnit(qty, unit){
+  if(qty === null || qty === undefined || qty === "") return "";
+  if(unit === "nach Geschmack") return "";
+  return `${qty} ${unit}`.trim();
+}
+
+function formatShoppingItem(item){
+  const qty = formatQtyUnit(item.qty, item.unit);
+  return qty ? `${qty} ${item.name}` : item.name;
+}
+
+function ingredientToShoppingItem(entry, source){
+  if(typeof entry === "string"){
+    return {id: makeShoppingId(), name: normalizeShoppingName(entry), qty: "", unit: "", checked:false, source: source || "manual"};
+  }
+
+  let qty = entry.qty;
+  let unit = entry.unit || "";
+  const name = normalizeShoppingName(entry.item);
+
+  if(unit === "nach Geschmack"){
+    qty = "";
+    unit = "";
+  }
+
+  return {id: makeShoppingId(), name, qty, unit, checked:false, source: source || "recipe"};
+}
+
+function sameShoppingItem(a,b){
+  return normalizeShoppingName(a.name).toLowerCase() === normalizeShoppingName(b.name).toLowerCase()
+    && String(a.unit || "").toLowerCase() === String(b.unit || "").toLowerCase();
+}
+
+function mergeShoppingItems(existing, incoming){
+  const items = [...existing];
+
+  incoming.forEach(newItem => {
+    if(!newItem.name) return;
+
+    const idx = items.findIndex(old => !old.checked && sameShoppingItem(old, newItem));
+
+    if(idx >= 0 && typeof items[idx].qty === "number" && typeof newItem.qty === "number"){
+      items[idx].qty = Math.round((items[idx].qty + newItem.qty) * 100) / 100;
+      if(newItem.source && !String(items[idx].source || "").includes(newItem.source)){
+        items[idx].source = `${items[idx].source || "Liste"}, ${newItem.source}`;
+      }
+    } else {
+      items.push({...newItem, id: makeShoppingId(), checked:false});
+    }
+  });
+
+  return items;
+}
+
+function addItemsToShoppingList(items){
+  const current = loadShoppingList();
+  const merged = mergeShoppingItems(current, items);
+  saveShoppingList(merged);
+  renderShoppingList();
+
+  const count = items.filter(i => i.name).length;
+  if(count > 0){
+    alert(`${count} Artikel wurden zur Einkaufsliste hinzugefügt.`);
+  }
+}
+
+function addManualShoppingItem(){
+  const nameInput = document.getElementById("shoppingNameInput");
+  const qtyInput = document.getElementById("shoppingQtyInput");
+  const name = normalizeShoppingName(nameInput.value);
+  const qtyRaw = normalizeShoppingName(qtyInput.value);
+
+  if(!name){
+    alert("Bitte gib ein Produkt ein.");
+    return;
+  }
+
+  const parsed = parseManualQuantity(qtyRaw);
+  addItemsToShoppingList([{id: makeShoppingId(), name, qty: parsed.qty, unit: parsed.unit, checked:false, source:"manual"}]);
+
+  nameInput.value = "";
+  qtyInput.value = "";
+  nameInput.focus();
+}
+
+function parseManualQuantity(value){
+  if(!value) return {qty:"", unit:""};
+
+  const match = value.match(/^(\d+(?:[,.]\d+)?)\s*(.*)$/);
+  if(!match) return {qty:value, unit:""};
+
+  const qty = Number(match[1].replace(",", "."));
+  const unit = match[2].trim();
+
+  if(Number.isFinite(qty)){
+    return {qty, unit};
+  }
+  return {qty:value, unit:""};
+}
+
+function toggleShoppingItem(id){
+  const items = loadShoppingList().map(item => item.id === id ? {...item, checked:!item.checked} : item);
+  saveShoppingList(items);
+  renderShoppingList();
+}
+
+function deleteShoppingItem(id){
+  const items = loadShoppingList().filter(item => item.id !== id);
+  saveShoppingList(items);
+  renderShoppingList();
+}
+
+function clearCheckedShoppingItems(){
+  const items = loadShoppingList();
+  const remaining = items.filter(item => !item.checked);
+  saveShoppingList(remaining);
+  renderShoppingList();
+}
+
+function clearAllShoppingItems(){
+  if(confirm("Willst du die komplette Einkaufsliste löschen?")){
+    saveShoppingList([]);
+    renderShoppingList();
+  }
+}
+
+function renderShoppingList(){
+  const openBox = document.getElementById("shoppingOpenList");
+  const doneBox = document.getElementById("shoppingDoneList");
+  if(!openBox || !doneBox) return;
+
+  const items = loadShoppingList();
+  const open = items.filter(item => !item.checked);
+  const done = items.filter(item => item.checked);
+
+  openBox.innerHTML = open.length ? open.map(renderShoppingRow).join("") : `<div class="item"><small>Noch keine offenen Artikel.</small></div>`;
+  doneBox.innerHTML = done.length ? done.map(renderShoppingRow).join("") : `<div class="item"><small>Noch nichts abgehakt.</small></div>`;
+}
+
+function renderShoppingRow(item){
+  const checked = item.checked ? "checked" : "";
+  const doneClass = item.checked ? " done" : "";
+  const source = item.source && item.source !== "manual" ? `<small>${item.source}</small>` : "";
+  return `<div class="item shopping-row${doneClass}">
+    <label>
+      <input type="checkbox" ${checked} onchange="toggleShoppingItem('${item.id}')"/>
+      <span>${escapeHtml(formatShoppingItem(item))}</span>
+    </label>
+    ${source}
+    <button class="icon-button" onclick="deleteShoppingItem('${item.id}')">Löschen</button>
+  </div>`;
+}
+
+function escapeHtml(str){
+  return String(str).replace(/[&<>"']/g, m => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#039;"
+  }[m]));
+}
+
+function goToShopping(){
+  goTo("shopping");
+  renderShoppingList();
+}
+
+function recipeIngredientsToShopping(recipe){
+  if(!recipe || !recipe.ingredients) return [];
+  return recipe.ingredients
+    .filter(entry => !(entry.unit === "nach Geschmack"))
+    .map(entry => ingredientToShoppingItem(entry, recipe.name));
+}
+
+function addOpenRecipeToShopping(){
+  if(!currentOpenRecipe){
+    alert("Kein Rezept geöffnet.");
+    return;
+  }
+  addItemsToShoppingList(recipeIngredientsToShopping(currentOpenRecipe));
+}
+
+function addRecipeByIndexToShopping(index){
+  const recipe = currentMeals[index];
+  if(recipe){
+    addItemsToShoppingList(recipeIngredientsToShopping(recipe));
+  }
+}
+
+function addGeneratedListToShopping(){
+  if(!generatedShoppingItems || generatedShoppingItems.length === 0){
+    alert("Es gibt noch keine generierte Einkaufsliste.");
+    return;
+  }
+  addItemsToShoppingList(generatedShoppingItems);
+}
 
 document.getElementById("budgetInput").addEventListener("input", e => {
   state.budget = Number(e.target.value);
@@ -77,7 +300,8 @@ function getMeals(){
 
 function generatePlan(){
   const meals=getMeals();currentMeals = meals;let total=0,ingredients=[];
-  meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...m.ingredients.map(x => typeof x === 'string' ? x : x.item))});
+  meals.forEach(m=>{total+=m.costPerPerson*state.people;ingredients.push(...(m.ingredients || []).filter(x => !(x.unit === "nach Geschmack")).map(x => ingredientToShoppingItem(x, m.name)))});
+  generatedShoppingItems = mergeShoppingItems([], ingredients);
   total=Math.round(total*100)/100;const rest=Math.round((state.budget-total)*100)/100;
   document.getElementById("rGoal").textContent=labels[state.goal];
   document.getElementById("rBudget").textContent=state.budget.toFixed(2).replace(".",",")+" €";
@@ -92,14 +316,24 @@ function generatePlan(){
   const mp=document.getElementById("mealPlan");mp.innerHTML="";
   meals.forEach((m,i)=>{
     const div=document.createElement("div");div.className="item";
-    div.innerHTML=`<strong>Tag ${i+1}: ${m.name}</strong><small>${m.time} Min. · ${m.diet} · geschätzt ca. ${(m.costPerPerson*state.people).toFixed(2).replace(".",",")} €</small><div class="rating-buttons"><button onclick="openRecipeByIndex(${i})">Rezept anzeigen</button><button onclick="openRatingByIndex(${i},'like')">👍 Lecker</button><button class="dislike" onclick="openRatingByIndex(${i},'dislike')">👎 Nicht meins</button></div>`;
+    div.innerHTML=`<strong>Tag ${i+1}: ${m.name}</strong><small>${m.time} Min. · ${m.diet} · geschätzt ca. ${(m.costPerPerson*state.people).toFixed(2).replace(".",",")} €</small><div class="rating-buttons"><button onclick="openRecipeByIndex(${i})">Rezept anzeigen</button><button onclick="addRecipeByIndexToShopping(${i})">Zur Einkaufsliste</button><button onclick="openRatingByIndex(${i},'like')">👍 Lecker</button><button class="dislike" onclick="openRatingByIndex(${i},'dislike')">👎 Nicht meins</button></div>`;
     mp.appendChild(div)
   });
 
   const cleanPantry=state.pantry.map(x=>x.toLowerCase());
-  const unique=[...new Set(ingredients)].filter(x=>!cleanPantry.includes(x.toLowerCase()));
+  const filtered = generatedShoppingItems.filter(x=>!cleanPantry.includes(x.name.toLowerCase()));
+  generatedShoppingItems = filtered;
   const sl=document.getElementById("shoppingList");sl.innerHTML="";
-  unique.forEach(i=>{const div=document.createElement("div");div.className="item";div.textContent=i;sl.appendChild(div)});
+  if(filtered.length === 0){
+    sl.innerHTML = `<div class="item"><small>Keine zusätzlichen Zutaten nötig.</small></div>`;
+  } else {
+    filtered.forEach(i=>{
+      const div=document.createElement("div");
+      div.className="item";
+      div.textContent=formatShoppingItem(i);
+      sl.appendChild(div)
+    });
+  }
   goTo("result")
 }
 
@@ -191,6 +425,7 @@ function openRecipeByIndex(index){
 }
 
 function openRecipe(recipe){
+  currentOpenRecipe = recipe;
   document.getElementById("recipeTitle").textContent=recipe.name;
   document.getElementById("recipeMeta").textContent=`Für ${state.people} Personen · ${recipe.time} Minuten · geschätzt ca. ${(recipe.costPerPerson*state.people).toFixed(2).replace(".",",")} €`;
 
@@ -202,7 +437,7 @@ function openRecipe(recipe){
   document.getElementById("recipeSteps").innerHTML=(recipe.steps||[]).map((s,i)=>`<div class="item"><strong>Schritt ${i+1}</strong><small>${s}</small></div>`).join("");
   document.getElementById("recipeModal").classList.add("show");
 }
-function closeRecipe(){document.getElementById("recipeModal").classList.remove("show")}
+function closeRecipe(){document.getElementById("recipeModal").classList.remove("show");currentOpenRecipe=null}
 
 function openRatingByIndex(index, voteType){
   const recipe = currentMeals[index];
@@ -235,3 +470,19 @@ async function sendVote(){
   if(error){alert("Bewertung konnte nicht gespeichert werden. Prüfe in Supabase die Tabelle recipe_votes und die RLS/Policies.");console.error(error);return}
   alert("Danke. Deine Bewertung wurde gespeichert.");closeRating()
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderShoppingList();
+  const nameInput = document.getElementById("shoppingNameInput");
+  const qtyInput = document.getElementById("shoppingQtyInput");
+  [nameInput, qtyInput].forEach(input => {
+    if(input){
+      input.addEventListener("keydown", e => {
+        if(e.key === "Enter"){
+          addManualShoppingItem();
+        }
+      });
+    }
+  });
+});

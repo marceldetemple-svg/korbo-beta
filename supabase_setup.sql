@@ -36,3 +36,8 @@ using (true);
 
 -- Auswertung:
 -- select recipe_name, vote, count(*) from recipe_votes group by recipe_name, vote order by recipe_name;
+
+
+-- Korbo 0.7 Hinweis:
+-- Die Einkaufsliste V1 wird aktuell lokal im Browser gespeichert.
+-- Eine Supabase-Synchronisierung kann später für Familienkonten ergänzt werden.
