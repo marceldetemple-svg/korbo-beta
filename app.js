@@ -768,6 +768,25 @@ function openRatingByIndex(index, voteType){
   const recipe = currentMeals[index];
   if(recipe){ openRating(recipe, voteType); }
 }
+
+function openRating(recipe,voteType){
+  pendingVote={recipe,voteType};
+  resetRatingInputs();
+  document.getElementById("ratingTitle").textContent=voteType==="like"?"⭐ Rezept bewerten":"👎 Nicht mein Geschmack";
+  document.getElementById("ratingText").textContent=voteType==="like"?`Wie viele Sterne gibst du "${recipe.name}"?`:`Was hat bei "${recipe.name}" nicht gepasst?`;
+  const reasonBox=document.getElementById("reasonBox");
+  if(voteType==="dislike"){
+    reasonBox.classList.add("show");
+    setStars(2);
+  }else{
+    reasonBox.classList.remove("show");
+    setStars(5);
+  }
+  document.getElementById("ratingModal").classList.add("show")
+}
+function setReason(reason,el){selectedReason=reason;markSelected(el)}
+function closeRating(){document.getElementById("ratingModal").classList.remove("show");pendingVote=null;resetRatingInputs()}
+
 async function sendVote(){
   if(!pendingVote){
     closeRating();
@@ -789,11 +808,9 @@ async function sendVote(){
 
   let imageUrl = null;
   let photoFileName = null;
-  let hasPhoto = false;
 
   if(photoEl && photoEl.files && photoEl.files.length > 0){
     const file = photoEl.files[0];
-    hasPhoto = true;
     photoFileName = file.name;
 
     const fileExt = file.name.split(".").pop();
@@ -859,27 +876,6 @@ async function sendVote(){
   alert("Danke. Deine Bewertung wurde gespeichert.");
   closeRating();
 }
-
-function openRating(recipe,voteType){
-  pendingVote={recipe,voteType};
-  resetRatingInputs();
-  document.getElementById("ratingTitle").textContent=voteType==="like"?"⭐ Rezept bewerten":"👎 Nicht mein Geschmack";
-  document.getElementById("ratingText").textContent=voteType==="like"?`Wie viele Sterne gibst du "${recipe.name}"?`:`Was hat bei "${recipe.name}" nicht gepasst?`;
-  const reasonBox=document.getElementById("reasonBox");
-  if(voteType==="dislike"){
-    reasonBox.classList.add("show");
-    setStars(2);
-  }else{
-    reasonBox.classList.remove("show");
-    setStars(5);
-  }
-  document.getElementById("ratingModal").classList.add("show")
-}
-function setReason(reason,el){selectedReason=reason;markSelected(el)}
-function closeRating(){document.getElementById("ratingModal").classList.remove("show");pendingVote=null;resetRatingInputs()}
-
-
-
 
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
