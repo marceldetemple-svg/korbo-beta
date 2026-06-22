@@ -66,7 +66,25 @@ td,th{
 <h2>Schlechteste Rezepte</h2>
 <div id="worstRecipes">Lade...</div>
 </div>
+<div class="card">
+<h2>Meistbewertete Rezepte</h2>
+<div id="mostRatedRecipes">Lade...</div>
+</div>
 
+<div class="card">
+<h2>Meiste Likes</h2>
+<div id="mostLikedRecipes">Lade...</div>
+</div>
+
+<div class="card">
+<h2>Meiste Dislikes</h2>
+<div id="mostDislikedRecipes">Lade...</div>
+</div>
+
+<div class="card">
+<h2>Nutzer-Insights</h2>
+<div id="userInsights">Lade...</div>
+</div>
 <script>
 
 const supabaseClient =
@@ -153,7 +171,29 @@ renderRecipeRanking(topRecipes);
 
 document.getElementById("worstRecipes").innerHTML =
 renderRecipeRanking(worstRecipes);
+const mostRatedRecipes = [...rankedRecipes]
+  .sort((a,b) => b.count - a.count)
+  .slice(0,10);
 
+const mostLikedRecipes = [...rankedRecipes]
+  .sort((a,b) => b.likes - a.likes)
+  .slice(0,10);
+
+const mostDislikedRecipes = [...rankedRecipes]
+  .sort((a,b) => b.dislikes - a.dislikes)
+  .slice(0,10);
+
+document.getElementById("mostRatedRecipes").innerHTML =
+renderRecipeRanking(mostRatedRecipes);
+
+document.getElementById("mostLikedRecipes").innerHTML =
+renderRecipeRanking(mostLikedRecipes);
+
+document.getElementById("mostDislikedRecipes").innerHTML =
+renderRecipeRanking(mostDislikedRecipes);
+
+document.getElementById("userInsights").innerHTML =
+renderUserInsights(data);
 let html =
 `
 <table>
@@ -212,6 +252,66 @@ function renderRecipeRanking(items){
           <td>${item.dislikes}</td>
         </tr>
       `).join("")}
+    </table>
+  `;
+}
+  function renderUserInsights(data){
+  const budgets = data
+    .map(x => Number(x.budget))
+    .filter(x => Number.isFinite(x));
+
+  const avgBudget = budgets.length
+    ? (budgets.reduce((a,b)=>a+b,0) / budgets.length).toFixed(2)
+    : "0.00";
+
+  const diets = {};
+  const goals = {};
+  const avoidCounts = {};
+
+  data.forEach(row => {
+    if(row.diet){
+      diets[row.diet] = (diets[row.diet] || 0) + 1;
+    }
+
+    if(row.recipe_goal){
+      goals[row.recipe_goal] = (goals[row.recipe_goal] || 0) + 1;
+    }
+
+    if(Array.isArray(row.avoid)){
+      row.avoid.forEach(item => {
+        avoidCounts[item] = (avoidCounts[item] || 0) + 1;
+      });
+    }
+  });
+
+  const topDiet = Object.entries(diets).sort((a,b)=>b[1]-a[1])[0];
+  const topGoal = Object.entries(goals).sort((a,b)=>b[1]-a[1])[0];
+
+  const topAvoids = Object.entries(avoidCounts)
+    .sort((a,b)=>b[1]-a[1])
+    .slice(0,10);
+
+  return `
+    <table>
+      <tr><th>Kennzahl</th><th>Wert</th></tr>
+      <tr><td>Durchschnittliches Budget</td><td>${avgBudget} €</td></tr>
+      <tr><td>Beliebteste Ernährungsart</td><td>${topDiet ? topDiet[0] + " (" + topDiet[1] + ")" : "-"}</td></tr>
+      <tr><td>Häufigstes Ziel</td><td>${topGoal ? topGoal[0] + " (" + topGoal[1] + ")" : "-"}</td></tr>
+    </table>
+
+    <h3>Häufigste Ausschlüsse</h3>
+    <table>
+      <tr><th>Ausschluss</th><th>Anzahl</th></tr>
+      ${
+        topAvoids.length
+        ? topAvoids.map(([name,count]) => `
+          <tr>
+            <td>${name}</td>
+            <td>${count}</td>
+          </tr>
+        `).join("")
+        : `<tr><td colspan="2">Noch keine Daten</td></tr>`
+      }
     </table>
   `;
 }
