@@ -20,3 +20,8 @@
 .rating-buttons{grid-template-columns:1fr 1fr}
 
 @media (min-width:520px){.shopping-actions{grid-template-columns:1fr 1fr 1fr}}
+
+
+.shopping-category{margin:14px 0 18px}
+.shopping-category h4{margin:0 0 8px;font-size:16px;color:#122016}
+.shopping-category .item{margin-bottom:8px}

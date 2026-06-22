@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.1: Supabase verbunden");
+    console.log("Korbo 0.7.2: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -87,6 +87,45 @@ function normalizeUnitKey(unit){
   if(u.includes("tl")) return "tl";
   return u;
 }
+
+const SHOPPING_CATEGORIES = [
+  {id:"fleisch", label:"🥩 Fleisch & Fisch", words:["hackfleisch","rinderhack","haehnchen","hähnchen","pute","puten","steak","rind","schwein","lachs","thunfisch","fisch","wurst","würstchen","bratwurst","lyoner","schinken","salami","gyros"]},
+  {id:"milch", label:"🥛 Milchprodukte", words:["milch","kaese","käse","joghurt","quark","magerquark","skyr","feta","mozzarella","parmesan","sahne","kochsahne","butter","frischkaese","hüttenkäse","huettenkaese"]},
+  {id:"gemuese", label:"🥦 Gemüse", words:["paprika","tomate","tomaten","gurke","zucchini","brokkoli","karotte","karotten","zwiebel","zwiebeln","knoblauch","lauch","spinat","salat","erbsen","mais","kartoffel","kartoffeln","suppengemuese","sellerie"]},
+  {id:"obst", label:"🍎 Obst", words:["apfel","äpfel","banane","bananen","beeren","avocado","apfelmus"]},
+  {id:"backwaren", label:"🍞 Backwaren", words:["toast","toastbrot","baguette","baguettebrötchen","broetchen","brötchen","wrap","wraps","tortilla","tortillas","pizzateig","croissant","burgerbrötchen"]},
+  {id:"trocken", label:"🍝 Trockenwaren", words:["reis","nudeln","spaghetti","makkaroni","lasagneplatten","spätzle","spaetzle","schupfnudeln","gnocchi","couscous","haferflocken","mehl","paniermehl","milchreis"]},
+  {id:"konserven", label:"🥫 Konserven & Gläser", words:["kidneybohnen","bohnen","gehackte tomaten","passierte tomaten","tomatensoße","tomatensosse","tomatenmark","mais","curryketchup","kokosmilch"]},
+  {id:"tiefkuehl", label:"❄️ Tiefkühl", words:["tk","tiefkühl","tiefkuehl","fischstäbchen","fischstaebchen"]},
+  {id:"gewuerze", label:"🧂 Gewürze & Öl", words:["salz","pfeffer","paprikapulver","oregano","curry","currypulver","gyrosgewürz","gyrosgewuerz","kräuter","kraeuter","öl","oel","sojasoße","sojasosse","honig","muskat"]},
+  {id:"sonstiges", label:"🛒 Sonstiges", words:[]}
+];
+
+function getShoppingCategory(item){
+  const name = normalizeShoppingKey(item.name || "");
+  const raw = normalizeShoppingName(item.name || "").toLowerCase();
+
+  for(const category of SHOPPING_CATEGORIES){
+    if(category.id === "sonstiges") continue;
+    if(category.words.some(word => name.includes(word) || raw.includes(word))){
+      return category;
+    }
+  }
+  return SHOPPING_CATEGORIES.find(c => c.id === "sonstiges");
+}
+
+function groupShoppingItems(items){
+  const groups = {};
+  SHOPPING_CATEGORIES.forEach(c => groups[c.id] = {label:c.label, items:[]});
+
+  items.forEach(item => {
+    const category = getShoppingCategory(item);
+    groups[category.id].items.push(item);
+  });
+
+  return SHOPPING_CATEGORIES.map(c => groups[c.id]).filter(group => group.items.length > 0);
+}
+
 
 function loadShoppingList(){
   try{
@@ -262,8 +301,17 @@ function renderShoppingList(){
   const open = items.filter(item => !item.checked);
   const done = items.filter(item => item.checked);
 
-  openBox.innerHTML = open.length ? open.map(renderShoppingRow).join("") : `<div class="item"><small>Noch keine offenen Artikel.</small></div>`;
-  doneBox.innerHTML = done.length ? done.map(renderShoppingRow).join("") : `<div class="item"><small>Noch nichts abgehakt.</small></div>`;
+  openBox.innerHTML = open.length ? renderShoppingGroups(open) : `<div class="item"><small>Noch keine offenen Artikel.</small></div>`;
+  doneBox.innerHTML = done.length ? renderShoppingGroups(done) : `<div class="item"><small>Noch nichts abgehakt.</small></div>`;
+}
+
+function renderShoppingGroups(items){
+  return groupShoppingItems(items).map(group => `
+    <div class="shopping-category">
+      <h4>${group.label}</h4>
+      ${group.items.map(renderShoppingRow).join("")}
+    </div>
+  `).join("");
 }
 
 function renderShoppingRow(item){

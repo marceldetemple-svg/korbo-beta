@@ -60,3 +60,8 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Einkaufsliste: bessere Zusammenführung gleicher Zutaten
 - erkennt Varianten wie Hackfleisch / Rinderhackfleisch / Hackfleisch gemischt oder Rind
 - Button „Doppelte zusammenführen“ ergänzt
+
+0.7.2:
+- Einkaufsliste wird automatisch in Kategorien gruppiert
+- Kategorien: Fleisch & Fisch, Milchprodukte, Gemüse, Obst, Backwaren, Trockenwaren, Konserven, Tiefkühl, Gewürze & Öl, Sonstiges
+- Grundlage für späteren Angebotsfinder geschaffen
