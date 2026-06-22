@@ -12,7 +12,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.7.2: Supabase verbunden");
+    console.log("Korbo 0.7.3: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -393,7 +393,43 @@ function togglePantry(v,el){const idx=state.pantry.indexOf(v);idx>=0?state.pantr
 function toggleAvoid(v,el){const idx=state.avoid.indexOf(v);idx>=0?state.avoid.splice(idx,1):state.avoid.push(v);el.classList.toggle("selected")}
 function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
 function dietOk(recipe){if(state.diet==="normal")return true;if(state.diet==="vegetarisch")return recipe.diet==="vegetarisch"||recipe.diet==="vegan";if(state.diet==="vegan")return recipe.diet==="vegan";return true}
-function avoidOk(recipe){return !state.avoid.some(tag => recipe.excludeTags && recipe.excludeTags.includes(tag))}
+function normalizeTag(tag){
+  return String(tag || "")
+    .toLowerCase()
+    .replace(/ä/g,"ae")
+    .replace(/ö/g,"oe")
+    .replace(/ü/g,"ue")
+    .replace(/ß/g,"ss")
+    .trim();
+}
+
+const AVOID_GROUPS = {
+  "Rind": ["Rind", "Rinderhack", "Rindfleisch", "Steak", "Gulaschfleisch", "Hackfleisch"],
+  "Schwein": ["Schwein", "Schweinefleisch", "Schinken", "Speck", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros"],
+  "Geflügel": ["Geflügel", "Hähnchen", "Pute", "Hähnchenbrust", "Putenbrust", "Hähnchengeschnetzeltes", "Putenhack"],
+  "Fisch": ["Fisch", "Thunfisch", "Lachs", "Kabeljau", "Fischstäbchen"],
+  "Meeresfrüchte": ["Meeresfrüchte", "Garnelen", "Shrimps", "Krabben", "Muscheln"],
+  "Vegetarisch": ["Hackfleisch", "Rind", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros"],
+  "Vegan": ["Hackfleisch", "Rind", "Schwein", "Geflügel", "Hähnchen", "Pute", "Fisch", "Thunfisch", "Lachs", "Kabeljau", "Meeresfrüchte", "Schinken", "Salami", "Lyoner", "Bratwurst", "Würstchen", "Wurst", "Gyros", "Milchprodukte", "Käse", "Milch", "Joghurt", "Quark", "Skyr", "Sahne", "Kochsahne", "Butter", "Ei", "Eier", "Feta", "Mozzarella", "Parmesan", "Hüttenkäse"]
+};
+
+function recipeHasAvoidTag(recipe, selected){
+  const recipeTags = [
+    ...(recipe.excludeTags || []),
+    ...(recipe.tags || []),
+    recipe.mainProtein || "",
+    recipe.subcategory || "",
+    recipe.diet || ""
+  ].map(normalizeTag).filter(Boolean);
+
+  const selectedTags = (AVOID_GROUPS[selected] || [selected]).map(normalizeTag);
+
+  return selectedTags.some(tag => recipeTags.includes(tag));
+}
+
+function avoidOk(recipe){
+  return !state.avoid.some(selected => recipeHasAvoidTag(recipe, selected));
+}
 
 function getMeals(){
   let list = RECIPE_DATABASE[state.goal].filter(r=>dietOk(r)&&avoidOk(r)&&r.time<=state.maxTime);

@@ -65,3 +65,11 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Einkaufsliste wird automatisch in Kategorien gruppiert
 - Kategorien: Fleisch & Fisch, Milchprodukte, Gemüse, Obst, Backwaren, Trockenwaren, Konserven, Tiefkühl, Gewürze & Öl, Sonstiges
 - Grundlage für späteren Angebotsfinder geschaffen
+
+0.7.3:
+- Ausschluss-Auswahl vereinfacht
+- Fisch fasst jetzt Thunfisch, Lachs, Kabeljau und Fischstäbchen zusammen
+- Geflügel fasst Hähnchen und Pute zusammen
+- Vegetarisch entfernt Fleisch und Fisch
+- Vegan entfernt Fleisch, Fisch, Milchprodukte und Ei
+- Text in Schritt 8 klarer formuliert
