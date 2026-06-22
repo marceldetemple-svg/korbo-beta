@@ -57,6 +57,15 @@ td,th{
 <h2>Letzte Bewertungen</h2>
 <div id="reviews">Lade...</div>
 </div>
+  <div class="card">
+<h2>Top 10 Rezepte</h2>
+<div id="topRecipes">Lade...</div>
+</div>
+
+<div class="card">
+<h2>Schlechteste Rezepte</h2>
+<div id="worstRecipes">Lade...</div>
+</div>
 
 <script>
 
@@ -97,6 +106,53 @@ stars.length
 
 document.getElementById("avgStars").textContent =
 avg;
+  const recipeStats = {};
+
+data.forEach(row => {
+  const name = row.recipe_name || "Unbekannt";
+
+  if(!recipeStats[name]){
+    recipeStats[name] = {
+      name,
+      count: 0,
+      starsTotal: 0,
+      starsCount: 0,
+      likes: 0,
+      dislikes: 0
+    };
+  }
+
+  recipeStats[name].count++;
+
+  if(row.stars){
+    recipeStats[name].starsTotal += Number(row.stars);
+    recipeStats[name].starsCount++;
+  }
+
+  if(row.vote === "like") recipeStats[name].likes++;
+  if(row.vote === "dislike") recipeStats[name].dislikes++;
+});
+
+const rankedRecipes = Object.values(recipeStats)
+  .map(r => ({
+    ...r,
+    avgStars: r.starsCount ? r.starsTotal / r.starsCount : 0
+  }))
+  .filter(r => r.starsCount > 0);
+
+const topRecipes = [...rankedRecipes]
+  .sort((a,b) => b.avgStars - a.avgStars)
+  .slice(0,10);
+
+const worstRecipes = [...rankedRecipes]
+  .sort((a,b) => a.avgStars - b.avgStars)
+  .slice(0,10);
+
+document.getElementById("topRecipes").innerHTML =
+renderRecipeRanking(topRecipes);
+
+document.getElementById("worstRecipes").innerHTML =
+renderRecipeRanking(worstRecipes);
 
 let html =
 `
@@ -133,7 +189,32 @@ document.getElementById("reviews").innerHTML =
 html;
 
 }
+function renderRecipeRanking(items){
+  if(!items.length){
+    return "Noch keine Daten vorhanden.";
+  }
 
+  return `
+    <table>
+      <tr>
+        <th>Rezept</th>
+        <th>Ø Sterne</th>
+        <th>Bewertungen</th>
+        <th>Likes</th>
+        <th>Dislikes</th>
+      </tr>
+      ${items.map(item => `
+        <tr>
+          <td>${item.name}</td>
+          <td>${item.avgStars.toFixed(1)}</td>
+          <td>${item.count}</td>
+          <td>${item.likes}</td>
+          <td>${item.dislikes}</td>
+        </tr>
+      `).join("")}
+    </table>
+  `;
+}
 </script>
 
 </body>
