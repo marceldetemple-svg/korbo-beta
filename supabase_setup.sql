@@ -41,3 +41,21 @@ using (true);
 -- Korbo 0.7 Hinweis:
 -- Die Einkaufsliste V1 wird aktuell lokal im Browser gespeichert.
 -- Eine Supabase-Synchronisierung kann später für Familienkonten ergänzt werden.
+
+
+-- Korbo 0.8.1 Bewertungserweiterung
+alter table public.recipe_votes add column if not exists stars integer check (stars between 1 and 5);
+alter table public.recipe_votes add column if not exists comment text;
+alter table public.recipe_votes add column if not exists photo_filename text;
+alter table public.recipe_votes add column if not exists photo_pending boolean default false;
+
+-- Auswertung Sterne:
+-- select recipe_name, round(avg(stars)::numeric, 2) as avg_stars, count(*) as votes
+-- from recipe_votes
+-- where stars is not null
+-- group by recipe_name
+-- order by avg_stars desc, votes desc;
+
+-- Hinweis Foto-Upload:
+-- 0.8.1 bereitet die Oberfläche vor und speichert zunächst nur den Dateinamen/photo_pending.
+-- Echte Bilddateien werden im nächsten Schritt über Supabase Storage gespeichert.

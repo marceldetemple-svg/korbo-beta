@@ -1,6 +1,8 @@
 let supabaseClient = null;
 let pendingVote = null;
 let selectedReason = "";
+let selectedStars = 0;
+let selectedPhotoName = null;
 
 function initSupabase() {
   if (
@@ -12,7 +14,7 @@ function initSupabase() {
     typeof window.supabase.createClient === "function"
   ) {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-    console.log("Korbo 0.8.0: Supabase verbunden");
+    console.log("Korbo 0.8.1: Supabase verbunden");
   } else {
     console.warn("Korbo: Supabase nicht verbunden", {
       configured: typeof isSupabaseConfigured !== "undefined" ? isSupabaseConfigured : "missing",
@@ -487,8 +489,7 @@ function containsKeyword(text, keywords){
     if(!key) return false;
 
     // Kurze Wörter wie Ei dürfen nicht in Reis, Einfach oder Proteinreich auslösen.
-    // Milch muss ebenfalls wortbasiert geprüft werden, damit Kokosmilch vegan bleiben kann.
-    if(key.length <= 3 || key === "milch" || key === "butter"){
+    if(key.length <= 3){
       return normalizedText.includes(" " + key + " ");
     }
 
@@ -723,26 +724,76 @@ function openRecipe(recipe){
 }
 function closeRecipe(){document.getElementById("recipeModal").classList.remove("show");currentOpenRecipe=null}
 
+
+function setStars(stars){
+  selectedStars = stars;
+  document.querySelectorAll("#starRating button").forEach((btn, index) => {
+    btn.textContent = index < stars ? "★" : "☆";
+    btn.classList.toggle("active", index < stars);
+  });
+}
+
+function resetRatingInputs(){
+  selectedStars = 0;
+  selectedReason = "";
+  selectedPhotoName = null;
+  const comment = document.getElementById("ratingComment");
+  const photo = document.getElementById("ratingPhoto");
+  const preview = document.getElementById("photoPreview");
+  if(comment) comment.value = "";
+  if(photo) photo.value = "";
+  if(preview) preview.innerHTML = "";
+  document.querySelectorAll("#starRating button").forEach(btn => {
+    btn.textContent = "☆";
+    btn.classList.remove("active");
+  });
+  document.querySelectorAll("#reasonBox .choice").forEach(b=>b.classList.remove("selected"));
+}
+
+function previewRatingPhoto(event){
+  const file = event.target.files && event.target.files[0];
+  const preview = document.getElementById("photoPreview");
+  if(!file){
+    selectedPhotoName = null;
+    if(preview) preview.innerHTML = "";
+    return;
+  }
+  selectedPhotoName = file.name;
+  if(preview){
+    preview.innerHTML = `<small>Ausgewählt: ${escapeHtml(file.name)}</small><small class="hint">Bildspeicherung wird im nächsten Supabase-Storage-Schritt aktiviert.</small>`;
+  }
+}
+
 function openRatingByIndex(index, voteType){
   const recipe = currentMeals[index];
   if(recipe){ openRating(recipe, voteType); }
 }
 
 function openRating(recipe,voteType){
-  pendingVote={recipe,voteType};selectedReason="";
-  document.getElementById("ratingTitle").textContent=voteType==="like"?"👍 Lecker":"👎 Nicht mein Geschmack";
-  document.getElementById("ratingText").textContent=voteType==="like"?`Danke. Deine Bewertung für "${recipe.name}" wird gespeichert.`:`Was hat bei "${recipe.name}" nicht gepasst?`;
-  document.querySelectorAll("#reasonBox .choice").forEach(b=>b.classList.remove("selected"));
-  const reasonBox=document.getElementById("reasonBox");if(voteType==="dislike"){reasonBox.classList.add("show")}else{reasonBox.classList.remove("show")}
+  pendingVote={recipe,voteType};
+  resetRatingInputs();
+  document.getElementById("ratingTitle").textContent=voteType==="like"?"⭐ Rezept bewerten":"👎 Nicht mein Geschmack";
+  document.getElementById("ratingText").textContent=voteType==="like"?`Wie viele Sterne gibst du "${recipe.name}"?`:`Was hat bei "${recipe.name}" nicht gepasst?`;
+  const reasonBox=document.getElementById("reasonBox");
+  if(voteType==="dislike"){
+    reasonBox.classList.add("show");
+    setStars(2);
+  }else{
+    reasonBox.classList.remove("show");
+    setStars(5);
+  }
   document.getElementById("ratingModal").classList.add("show")
 }
 function setReason(reason,el){selectedReason=reason;markSelected(el)}
-function closeRating(){document.getElementById("ratingModal").classList.remove("show");pendingVote=null;selectedReason=""}
+function closeRating(){document.getElementById("ratingModal").classList.remove("show");pendingVote=null;resetRatingInputs()}
 
 async function sendVote(){
   if(!pendingVote){closeRating();return}
   if(!supabaseClient){initSupabase()}
-  const payload={recipe_name:pendingVote.recipe.name,recipe_goal:state.goal,vote:pendingVote.voteType,reason:pendingVote.voteType==="dislike"?(selectedReason||"Kein Grund angegeben"):null,budget:state.budget,people:state.people,days:state.days,diet:state.diet,max_time:state.maxTime,markets:state.markets,avoid:state.avoid,user_agent:navigator.userAgent};
+  const commentEl = document.getElementById("ratingComment");
+  const photoEl = document.getElementById("ratingPhoto");
+  const hasPhoto = !!(photoEl && photoEl.files && photoEl.files.length > 0);
+  const payload={recipe_name:pendingVote.recipe.name,recipe_goal:state.goal,vote:pendingVote.voteType,stars:selectedStars||null,comment:commentEl?commentEl.value.trim():null,photo_filename:selectedPhotoName,photo_pending:hasPhoto,reason:pendingVote.voteType==="dislike"?(selectedReason||"Kein Grund angegeben"):null,budget:state.budget,people:state.people,days:state.days,diet:state.diet,max_time:state.maxTime,markets:state.markets,avoid:state.avoid,user_agent:navigator.userAgent};
 
   if(!supabaseClient){
     alert("Supabase ist noch nicht verbunden. Lade die Seite bitte mit Strg + F5 neu und prüfe, ob config.js in GitHub ersetzt wurde.");

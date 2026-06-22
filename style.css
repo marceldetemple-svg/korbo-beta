@@ -25,3 +25,13 @@
 .shopping-category{margin:14px 0 18px}
 .shopping-category h4{margin:0 0 8px;font-size:16px;color:#122016}
 .shopping-category .item{margin-bottom:8px}
+
+
+.star-rating{display:flex;gap:6px;justify-content:center;margin:14px 0}
+.star-rating button{background:transparent;color:#d8a100;font-size:34px;line-height:1;padding:4px;border-radius:10px;width:auto}
+.star-rating button.active{color:#d8a100}
+.rating-comment{width:100%;min-height:90px;border:2px solid #ebe4d4;border-radius:16px;padding:14px;font-size:15px;resize:vertical;margin:10px 0;background:#fff;color:#122016}
+.photo-upload{display:block;border:2px dashed #cfc6b5;border-radius:16px;padding:14px;margin:10px 0;background:#fff;font-weight:800;text-align:center;cursor:pointer}
+.photo-upload input{display:none}
+.photo-preview{margin:8px 0 12px}
+.photo-preview small{display:block;color:#6d766f;margin-top:4px}

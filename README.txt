@@ -108,3 +108,11 @@ Dann auf Handy und PC einmal komplett neu laden.
 - Die 100 neuen Gerichte sind in allen Planungszielen verfügbar, damit Vegan/Vegetarisch/Normal/Proteinreich/Schnell unabhängig vom Ziel genügend Auswahl liefern.
 - Vegan/Vegetarisch-Sicherheitsprüfung verbessert: Rezeptnamen wie „vegane Bolognese“ oder „veganes Gulasch“ lösen keinen falschen Fleisch-Filter mehr aus.
 - Ausschluss „Ei“ prüft jetzt wortbasiert und trifft nicht mehr versehentlich Wörter wie „Proteinreich“.
+
+
+0.8.1:
+- Sternebewertung vorbereitet (1 bis 5 Sterne)
+- Kommentar-Feld ergänzt
+- Foto-Auswahl mit Vorschau-Hinweis ergänzt
+- Supabase SQL um stars, comment, photo_filename und photo_pending erweitert
+- echter Supabase Storage Upload folgt als nächster Schritt

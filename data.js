@@ -5890,7 +5890,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Linsen",
         "Reis",
@@ -5960,6 +5960,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -5975,7 +5976,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 17,
@@ -6088,7 +6089,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kichererbsen",
         "Kokosmilch"
@@ -6146,6 +6147,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -6344,7 +6346,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Nudeln",
         "Erdnussbutter"
@@ -6395,6 +6397,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Gluten",
         "Soja",
         "Paprika",
@@ -6602,7 +6605,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kokosmilch",
         "Gemüse"
@@ -6665,6 +6668,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -6771,7 +6775,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 30,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegan",
       "protein": 27,
@@ -6875,7 +6879,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Brokkoli",
         "Erdnüsse"
@@ -6926,6 +6930,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Soja",
         "Brokkoli",
         "Vegan"
@@ -7198,8 +7203,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "vegan",
       "protein": 16,
       "prepTime": 20,
@@ -7365,7 +7370,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 14,
@@ -7929,7 +7934,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 45,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "vegetarisch",
       "protein": 20,
@@ -8481,7 +8486,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegetarisch",
       "protein": 20,
@@ -9026,7 +9031,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -9467,7 +9472,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -9980,7 +9985,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 14,
+      "priceEstimateTotal": 14.0,
       "costPerPerson": 3.5,
       "diet": "normal",
       "protein": 37,
@@ -10395,8 +10400,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "proteinreich",
       "protein": 29,
       "prepTime": 15,
@@ -10606,7 +10611,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 13,
+      "priceEstimateTotal": 13.0,
       "costPerPerson": 3.25,
       "diet": "proteinreich",
       "protein": 43,
@@ -12427,8 +12432,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 18,
       "prepTime": 15,
@@ -12708,8 +12713,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 19,
       "prepTime": 20,
@@ -18832,7 +18837,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Linsen",
         "Reis",
@@ -18902,6 +18907,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -18917,7 +18923,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 17,
@@ -19030,7 +19036,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kichererbsen",
         "Kokosmilch"
@@ -19088,6 +19094,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -19366,7 +19373,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Nudeln",
         "Erdnussbutter"
@@ -19417,6 +19424,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Gluten",
         "Soja",
         "Paprika",
@@ -19624,7 +19632,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kokosmilch",
         "Gemüse"
@@ -19687,6 +19695,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -19793,7 +19802,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 30,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegan",
       "protein": 27,
@@ -19897,7 +19906,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Brokkoli",
         "Erdnüsse"
@@ -19948,6 +19957,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Soja",
         "Brokkoli",
         "Vegan"
@@ -20220,8 +20230,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "vegan",
       "protein": 16,
       "prepTime": 20,
@@ -20387,7 +20397,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 14,
@@ -20946,7 +20956,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 45,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "vegetarisch",
       "protein": 20,
@@ -21498,7 +21508,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegetarisch",
       "protein": 20,
@@ -22258,7 +22268,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -22699,7 +22709,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -23367,7 +23377,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 14,
+      "priceEstimateTotal": 14.0,
       "costPerPerson": 3.5,
       "diet": "normal",
       "protein": 37,
@@ -23713,8 +23723,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "proteinreich",
       "protein": 29,
       "prepTime": 15,
@@ -25067,8 +25077,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 22,
       "prepTime": 20,
@@ -25743,8 +25753,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 24,
       "prepTime": 20,
@@ -25806,8 +25816,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 18,
       "prepTime": 15,
@@ -26087,8 +26097,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 19,
       "prepTime": 20,
@@ -32340,7 +32350,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Linsen",
         "Reis",
@@ -32410,6 +32420,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -32425,7 +32436,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 17,
@@ -32538,7 +32549,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kichererbsen",
         "Kokosmilch"
@@ -32596,6 +32607,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -32874,7 +32886,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Nudeln",
         "Erdnussbutter"
@@ -32925,6 +32937,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Gluten",
         "Soja",
         "Paprika",
@@ -33132,7 +33145,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kokosmilch",
         "Gemüse"
@@ -33195,6 +33208,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -33301,7 +33315,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 30,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegan",
       "protein": 27,
@@ -33405,7 +33419,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Brokkoli",
         "Erdnüsse"
@@ -33456,6 +33470,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Soja",
         "Brokkoli",
         "Vegan"
@@ -33728,8 +33743,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "vegan",
       "protein": 16,
       "prepTime": 20,
@@ -33895,7 +33910,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 14,
@@ -34531,7 +34546,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 45,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "vegetarisch",
       "protein": 20,
@@ -35083,7 +35098,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegetarisch",
       "protein": 20,
@@ -35843,7 +35858,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -36284,7 +36299,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -36874,7 +36889,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 14,
+      "priceEstimateTotal": 14.0,
       "costPerPerson": 3.5,
       "diet": "normal",
       "protein": 37,
@@ -37289,8 +37304,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "proteinreich",
       "protein": 29,
       "prepTime": 15,
@@ -39101,8 +39116,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 24,
       "prepTime": 20,
@@ -39164,8 +39179,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 18,
       "prepTime": 15,
@@ -39445,8 +39460,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 19,
       "prepTime": 20,
@@ -45170,7 +45185,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Linsen",
         "Reis",
@@ -45240,6 +45255,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -45255,7 +45271,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 17,
@@ -45368,7 +45384,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kichererbsen",
         "Kokosmilch"
@@ -45426,6 +45442,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -45704,7 +45721,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Nudeln",
         "Erdnussbutter"
@@ -45755,6 +45772,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Gluten",
         "Soja",
         "Paprika",
@@ -45962,7 +45980,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Kokosmilch",
         "Gemüse"
@@ -46025,6 +46043,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Tomaten",
         "Paprika",
         "Zwiebeln",
@@ -46131,7 +46150,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 30,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegan",
       "protein": 27,
@@ -46235,7 +46254,7 @@ const RECIPE_DATABASE = {
       "containsFish": false,
       "containsMushrooms": false,
       "containsEggs": false,
-      "containsMilk": false,
+      "containsMilk": true,
       "contains": [
         "Brokkoli",
         "Erdnüsse"
@@ -46286,6 +46305,7 @@ const RECIPE_DATABASE = {
         "Vegan 0.8"
       ],
       "excludeTags": [
+        "Milchprodukte",
         "Soja",
         "Brokkoli",
         "Vegan"
@@ -46558,8 +46578,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "vegan",
       "protein": 16,
       "prepTime": 20,
@@ -46725,7 +46745,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 7,
+      "priceEstimateTotal": 7.0,
       "costPerPerson": 1.75,
       "diet": "vegan",
       "protein": 14,
@@ -47289,7 +47309,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 45,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "vegetarisch",
       "protein": 20,
@@ -47841,7 +47861,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 9,
+      "priceEstimateTotal": 9.0,
       "costPerPerson": 2.25,
       "diet": "vegetarisch",
       "protein": 20,
@@ -48894,7 +48914,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 10,
+      "priceEstimateTotal": 10.0,
       "costPerPerson": 2.5,
       "diet": "normal",
       "protein": 28,
@@ -49485,7 +49505,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 35,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 14,
+      "priceEstimateTotal": 14.0,
       "costPerPerson": 3.5,
       "diet": "normal",
       "protein": 37,
@@ -49900,8 +49920,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "proteinreich",
       "protein": 29,
       "prepTime": 15,
@@ -50111,7 +50131,7 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 25,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 13,
+      "priceEstimateTotal": 13.0,
       "costPerPerson": 3.25,
       "diet": "proteinreich",
       "protein": 43,
@@ -51325,8 +51345,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 22,
       "prepTime": 20,
@@ -52001,8 +52021,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 15,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 18,
       "prepTime": 15,
@@ -52282,8 +52302,8 @@ const RECIPE_DATABASE = {
       "servingsBase": 4,
       "time": 20,
       "difficulty": "Einfach",
-      "priceEstimateTotal": 8,
-      "costPerPerson": 2,
+      "priceEstimateTotal": 8.0,
+      "costPerPerson": 2.0,
       "diet": "schnell",
       "protein": 19,
       "prepTime": 20,

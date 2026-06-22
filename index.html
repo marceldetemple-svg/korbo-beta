@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Korbo Beta 0.8.0</title>
+  <title>Korbo Beta 0.8.1</title>
   <meta name="theme-color" content="#2ECC71"/>
   <link rel="manifest" href="manifest.json"/>
   <link rel="stylesheet" href="style.css"/>
@@ -41,7 +41,14 @@
   <button class="secondary mt" onclick="goTo('start')">Zur Startseite</button>
 </section>
 
-<section class="rating-modal" id="ratingModal"><div class="rating-card"><h2 id="ratingTitle">Bewertung</h2><p id="ratingText">Danke für dein Feedback.</p><div id="reasonBox" class="reason-box"><p class="hint">Warum passt das Rezept nicht?</p><button class="choice" onclick="setReason('Schmeckt mir nicht', this)">Schmeckt mir nicht</button><button class="choice" onclick="setReason('Zu teuer', this)">Zu teuer</button><button class="choice" onclick="setReason('Zu aufwendig', this)">Zu aufwendig</button><button class="choice" onclick="setReason('Zu viele Zutaten', this)">Zu viele Zutaten</button><button class="choice" onclick="setReason('Würde ich nie kochen', this)">Würde ich nie kochen</button></div><div class="nav"><button class="secondary" onclick="closeRating()">Abbrechen</button><button onclick="sendVote()">Absenden</button></div></div></section>
+<section class="rating-modal" id="ratingModal"><div class="rating-card"><h2 id="ratingTitle">Rezept bewerten</h2><p id="ratingText">Wie hat dir das Rezept gefallen?</p>
+  <div class="star-rating" id="starRating">
+    <button type="button" onclick="setStars(1)">☆</button><button type="button" onclick="setStars(2)">☆</button><button type="button" onclick="setStars(3)">☆</button><button type="button" onclick="setStars(4)">☆</button><button type="button" onclick="setStars(5)">☆</button>
+  </div>
+  <textarea id="ratingComment" class="rating-comment" placeholder="Optional: Was war gut oder was würdest du ändern?"></textarea>
+  <label class="photo-upload">📷 Foto optional hochladen<input id="ratingPhoto" type="file" accept="image/*" onchange="previewRatingPhoto(event)"/></label>
+  <div id="photoPreview" class="photo-preview"></div>
+  <div id="reasonBox" class="reason-box"><p class="hint">Warum passt das Rezept nicht?</p><button class="choice" onclick="setReason('Schmeckt mir nicht', this)">Schmeckt mir nicht</button><button class="choice" onclick="setReason('Zu teuer', this)">Zu teuer</button><button class="choice" onclick="setReason('Zu aufwendig', this)">Zu aufwendig</button><button class="choice" onclick="setReason('Zu viele Zutaten', this)">Zu viele Zutaten</button><button class="choice" onclick="setReason('Würde ich nie kochen', this)">Würde ich nie kochen</button></div><div class="nav"><button class="secondary" onclick="closeRating()">Abbrechen</button><button onclick="sendVote()">Absenden</button></div></div></section>
 
 <section class="rating-modal" id="recipeModal"><div class="rating-card recipe-card"><h2 id="recipeTitle">Rezept</h2><p id="recipeMeta"></p><h3>Zutaten</h3><div id="recipeIngredients" class="list"></div><h3>Zubereitung</h3><div id="recipeSteps" class="list"></div><button onclick="addOpenRecipeToShopping()">Zutaten zur Einkaufsliste</button><button class="secondary mt" onclick="closeRecipe()">Schließen</button></div></section>
 </main>
