@@ -879,7 +879,6 @@ async function sendVote(){
 function findOffersForShoppingList(){
 
   const items = loadShoppingList().filter(item => !item.checked);
-
   const resultBox = document.getElementById("offerFinderResult");
 
   if(!items.length){
@@ -895,25 +894,72 @@ function findOffersForShoppingList(){
 
   let html =
     `<div class="item">
-      <strong>Korbo Angebotsfinder</strong><br>
-      <small>Beta V1 – Vorbereitung für echte Angebotsdaten</small>
+      <strong>Korbo Preisvergleich</strong><br>
+      <small>Beta V1 – echte Angebotsdaten folgen später</small>
     </div>`;
 
   items.forEach(item => {
 
+    const demoPrices = createDemoPricesForItem(item.name, marketsToCheck);
+    const cheapest = [...demoPrices].sort((a,b) => a.price - b.price)[0];
+
     html += `
       <div class="item">
-        <strong>${item.name}</strong><br>
-        <small>
-          Angebote prüfen bei:
-          ${marketsToCheck.join(", ")}
-        </small>
+        <strong>${escapeHtml(item.name)}</strong><br>
+        <small>Günstigste Schätzung: ${cheapest.market} – ${cheapest.price.toFixed(2).replace(".",",")} €</small>
+        <div style="margin-top:8px">
+          ${demoPrices.map(p => `
+            <small style="display:block">
+              ${p.market}: ${p.price.toFixed(2).replace(".",",")} €
+              ${p.market === cheapest.market ? " 🟢 günstigster Markt" : ""}
+            </small>
+          `).join("")}
+        </div>
       </div>
     `;
 
   });
 
   resultBox.innerHTML = html;
+}
+
+function createDemoPricesForItem(name, marketsToCheck){
+  const key = normalizeShoppingKey(name);
+
+  let basePrice = 2.49;
+
+  if(key.includes("hackfleisch")) basePrice = 4.99;
+  else if(key.includes("haehnchen") || key.includes("hähnchen")) basePrice = 5.49;
+  else if(key.includes("milch")) basePrice = 1.09;
+  else if(key.includes("kaese") || key.includes("käse")) basePrice = 2.49;
+  else if(key.includes("tomaten")) basePrice = 1.79;
+  else if(key.includes("paprika")) basePrice = 1.99;
+  else if(key.includes("nudeln")) basePrice = 1.29;
+  else if(key.includes("reis")) basePrice = 1.99;
+  else if(key.includes("kartoffeln")) basePrice = 2.49;
+  else if(key.includes("eier")) basePrice = 2.79;
+  else if(key.includes("joghurt")) basePrice = 1.49;
+  else if(key.includes("quark")) basePrice = 1.39;
+
+  const marketFactor = {
+    Aldi: 0.92,
+    Lidl: 0.95,
+    Kaufland: 0.90,
+    Rewe: 1.08,
+    Netto: 0.97,
+    Edeka: 1.10,
+    Penny: 0.96
+  };
+
+  return marketsToCheck.map(market => {
+    const factor = marketFactor[market] || 1;
+    const price = Math.max(0.49, basePrice * factor);
+
+    return {
+      market,
+      price: Math.round(price * 100) / 100
+    };
+  });
 }
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
