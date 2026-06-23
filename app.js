@@ -876,7 +876,45 @@ async function sendVote(){
   alert("Danke. Deine Bewertung wurde gespeichert.");
   closeRating();
 }
+function findOffersForShoppingList(){
 
+  const items = loadShoppingList().filter(item => !item.checked);
+
+  const resultBox = document.getElementById("offerFinderResult");
+
+  if(!items.length){
+    resultBox.innerHTML =
+      `<div class="item"><small>Keine offenen Artikel auf der Einkaufsliste.</small></div>`;
+    return;
+  }
+
+  const marketsToCheck =
+    state.markets.includes("Egal")
+      ? ["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny"]
+      : state.markets;
+
+  let html =
+    `<div class="item">
+      <strong>Korbo Angebotsfinder</strong><br>
+      <small>Beta V1 – Vorbereitung für echte Angebotsdaten</small>
+    </div>`;
+
+  items.forEach(item => {
+
+    html += `
+      <div class="item">
+        <strong>${item.name}</strong><br>
+        <small>
+          Angebote prüfen bei:
+          ${marketsToCheck.join(", ")}
+        </small>
+      </div>
+    `;
+
+  });
+
+  resultBox.innerHTML = html;
+}
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
   const nameInput = document.getElementById("shoppingNameInput");
