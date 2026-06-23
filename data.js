@@ -52373,8 +52373,6 @@ const AVOID_OPTIONS = [
   "Geflügel",
   "Fisch",
   "Meeresfrüchte",
-  "Vegetarisch",
-  "Vegan",
   "Milchprodukte",
   "Ei",
   "Gluten",
