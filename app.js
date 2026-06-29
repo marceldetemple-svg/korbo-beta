@@ -1107,6 +1107,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }else{
     goTo("welcome");
   }
+
+  const nameInput = document.getElementById("shoppingNameInput");
+  const qtyInput = document.getElementById("shoppingQtyInput");
+
+  [nameInput, qtyInput].forEach(input => {
+    if(input){
+      input.addEventListener("keydown", e => {
+        if(e.key === "Enter"){
+          addManualShoppingItem();
+        }
       });
     }
   });
