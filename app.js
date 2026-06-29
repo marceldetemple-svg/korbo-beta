@@ -1101,14 +1101,12 @@ function sendBetaFeedback(){
 }
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
-  const nameInput = document.getElementById("shoppingNameInput");
-  const qtyInput = document.getElementById("shoppingQtyInput");
-  [nameInput, qtyInput].forEach(input => {
-    if(input){
-      input.addEventListener("keydown", e => {
-        if(e.key === "Enter"){
-          addManualShoppingItem();
-        }
+
+  if(localStorage.getItem("korbo_beta_seen_v093")){
+    goTo("start");
+  }else{
+    goTo("welcome");
+  }
       });
     }
   });
