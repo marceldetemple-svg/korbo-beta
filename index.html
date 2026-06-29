@@ -10,8 +10,27 @@
 </head>
 <body>
 <main class="app">
+ </p>
 
-<section class="screen active" id="start">
+  <div class="item">
+    <strong>Aktueller Hinweis</strong>
+    <small>
+      Korbo befindet sich noch in der Beta. Essensplan, Einkaufsliste und Bewertungen funktionieren bereits.
+      Die Angebots- und Preisdaten befinden sich aber noch im Aufbau und können aktuell von echten Marktpreisen abweichen.
+    </small>
+  </div>
+
+  <div class="item">
+    <strong>Hilf uns, Korbo besser zu machen</strong>
+    <small>
+      Melde Fehler, schick Ideen oder sag uns, welche Funktion dir besonders gefällt.
+    </small>
+  </div>
+
+  <button onclick="acceptBetaWelcome()">Korbo testen</button>
+  <button class="secondary mt" onclick="openFeedback()">Feedback senden</button>
+</section>
+<section class="screen" id="start">
   <div class="logo-mark">K</div>
   <h1>KORBO</h1>
   <p class="subtitle">Was möchtest du tun?</p>
@@ -71,7 +90,26 @@
   <div id="reasonBox" class="reason-box"><p class="hint">Warum passt das Rezept nicht?</p><button class="choice" onclick="setReason('Schmeckt mir nicht', this)">Schmeckt mir nicht</button><button class="choice" onclick="setReason('Zu teuer', this)">Zu teuer</button><button class="choice" onclick="setReason('Zu aufwendig', this)">Zu aufwendig</button><button class="choice" onclick="setReason('Zu viele Zutaten', this)">Zu viele Zutaten</button><button class="choice" onclick="setReason('Würde ich nie kochen', this)">Würde ich nie kochen</button></div><div class="nav"><button class="secondary" onclick="closeRating()">Abbrechen</button><button onclick="sendVote()">Absenden</button></div></div></section>
 
 <section class="rating-modal" id="recipeModal"><div class="rating-card recipe-card"><h2 id="recipeTitle">Rezept</h2><p id="recipeMeta"></p><h3>Zutaten</h3><div id="recipeIngredients" class="list"></div><h3>Zubereitung</h3><div id="recipeSteps" class="list"></div><button onclick="addOpenRecipeToShopping()">Zutaten zur Einkaufsliste</button><button class="secondary mt" onclick="closeRecipe()">Schließen</button></div></section>
+<section class="rating-modal" id="feedbackModal">
+  <div class="rating-card">
+    <h2>Feedback senden</h2>
+    <p>Was möchtest du uns mitteilen?</p>
 
+    <div class="cards">
+      <button class="choice" onclick="setFeedbackType('Fehler', this)">⭐ Fehler melden</button>
+      <button class="choice" onclick="setFeedbackType('Idee', this)">💡 Idee vorschlagen</button>
+      <button class="choice" onclick="setFeedbackType('Lob', this)">❤️ Das gefällt mir</button>
+      <button class="choice" onclick="setFeedbackType('Allgemein', this)">📝 Allgemeines Feedback</button>
+    </div>
+
+    <textarea id="feedbackText" class="rating-comment" placeholder="Schreib hier dein Feedback..."></textarea>
+
+    <div class="nav">
+      <button class="secondary" onclick="closeFeedback()">Abbrechen</button>
+      <button onclick="sendBetaFeedback()">Absenden</button>
+    </div>
+  </div>
+</section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="data.js"></script>
