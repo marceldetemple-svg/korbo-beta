@@ -1081,43 +1081,42 @@ function setFeedbackType(type, el){
   markSelected(el);
 }
 
-function sendBetaFeedback(){
+async function sendBetaFeedback(){
+
   const text = document.getElementById("feedbackText");
   const value = text ? text.value.trim() : "";
 
   if(!value){
-    alert("Bitte schreib kurz dein Feedback rein.");
+    alert("Bitte schreib kurz dein Feedback ein.");
     return;
   }
 
-  console.log("Korbo Feedback:", {
-    type: selectedFeedbackType,
-    text: value,
-    created_at: new Date().toISOString()
-  });
-
-  alert("Vielen Dank! Dein Feedback hilft uns, Korbo besser zu machen.");
-  closeFeedback();
-}
-document.addEventListener("DOMContentLoaded", () => {
-  renderShoppingList();
-
-  if(localStorage.getItem("korbo_beta_seen_v093")){
-    goTo("start");
-  }else{
-    goTo("welcome");
+  if(!supabaseClient){
+    initSupabase();
   }
 
-  const nameInput = document.getElementById("shoppingNameInput");
-  const qtyInput = document.getElementById("shoppingQtyInput");
+  if(!supabaseClient){
+    alert("Keine Verbindung zu Supabase.");
+    return;
+  }
 
-  [nameInput, qtyInput].forEach(input => {
-    if(input){
-      input.addEventListener("keydown", e => {
-        if(e.key === "Enter"){
-          addManualShoppingItem();
-        }
-      });
-    }
-  });
-});
+  const { error } = await supabaseClient
+    .from("feedback")
+    .insert({
+      type: selectedFeedbackType,
+      message: value,
+      app_version: "0.9.3",
+      user_agent: navigator.userAgent
+    });
+
+  if(error){
+    console.error(error);
+    alert(error.message);
+    return;
+  }
+
+  alert("Vielen Dank! Dein Feedback wurde gespeichert.");
+
+  closeFeedback();
+
+}
