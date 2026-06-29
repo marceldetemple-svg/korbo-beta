@@ -1047,6 +1047,58 @@ function buildKorboRecommendation(marketCount, extraCostSingleMarket, distanceKm
 
   return "Mehrere Märkte lohnen sich aktuell, weil die Ersparnis den Zusatzaufwand wahrscheinlich rechtfertigt.";
 }
+let selectedFeedbackType = "Allgemein";
+
+function acceptBetaWelcome(){
+  localStorage.setItem("korbo_beta_seen_v093", "true");
+  goTo("start");
+}
+
+function openFeedback(){
+  const modal = document.getElementById("feedbackModal");
+  if(modal){
+    modal.classList.add("show");
+  }
+}
+
+function closeFeedback(){
+  const modal = document.getElementById("feedbackModal");
+  const text = document.getElementById("feedbackText");
+
+  if(modal){
+    modal.classList.remove("show");
+  }
+
+  if(text){
+    text.value = "";
+  }
+
+  selectedFeedbackType = "Allgemein";
+}
+
+function setFeedbackType(type, el){
+  selectedFeedbackType = type;
+  markSelected(el);
+}
+
+function sendBetaFeedback(){
+  const text = document.getElementById("feedbackText");
+  const value = text ? text.value.trim() : "";
+
+  if(!value){
+    alert("Bitte schreib kurz dein Feedback rein.");
+    return;
+  }
+
+  console.log("Korbo Feedback:", {
+    type: selectedFeedbackType,
+    text: value,
+    created_at: new Date().toISOString()
+  });
+
+  alert("Vielen Dank! Dein Feedback hilft uns, Korbo besser zu machen.");
+  closeFeedback();
+}
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
   const nameInput = document.getElementById("shoppingNameInput");
