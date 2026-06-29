@@ -933,7 +933,7 @@ function findOffersForShoppingList(){
   let html = `
     <div class="item">
       <strong>🤖 Korbo Sparassistent</strong><br>
-      <small>Beta V1 – echte Angebotsdaten folgen später</small>
+    <small>Beta V1 – Angebotsdaten werden vorbereitet</small>
     </div>
 
     <div class="item">
