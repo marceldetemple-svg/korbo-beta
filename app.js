@@ -877,7 +877,6 @@ async function sendVote(){
   closeRating();
 }
 function findOffersForShoppingList(){
-
   const items = loadShoppingList().filter(item => !item.checked);
   const resultBox = document.getElementById("offerFinderResult");
 
@@ -887,38 +886,120 @@ function findOffersForShoppingList(){
     return;
   }
 
-  const marketsToCheck =
-    state.markets.includes("Egal")
-      ? ["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny"]
-      : state.markets;
+  const markets = ["Aldi","Lidl","Kaufland","Rewe","Netto","Edeka","Penny"];
 
-  let html =
-    `<div class="item">
-      <strong>Korbo Preisvergleich</strong><br>
+  const allResults = items.map(item => {
+    const prices = createDemoPricesForItem(item.name, markets);
+    const cheapest = [...prices].sort((a,b) => a.price - b.price)[0];
+    const futureOffer = createFutureOfferForItem(item.name);
+
+    return {
+      item,
+      prices,
+      cheapest,
+      futureOffer
+    };
+  });
+
+  const bestStrategyCost = allResults.reduce((sum,r) => sum + r.cheapest.price, 0);
+
+  const marketTotals = markets.map(market => {
+    const total = allResults.reduce((sum,r) => {
+      const found = r.prices.find(p => p.market === market);
+      return sum + (found ? found.price : 0);
+    }, 0);
+
+    return {market,total};
+  }).sort((a,b) => a.total - b.total);
+
+  const bestSingleMarket = marketTotals[0];
+  const extraCostSingleMarket = bestSingleMarket.total - bestStrategyCost;
+
+  const usedMarkets = [...new Set(allResults.map(r => r.cheapest.market))];
+  const fakeDistanceKm = Math.max(2, usedMarkets.length * 6);
+  const fakeMinutes = Math.max(6, usedMarkets.length * 9);
+
+  const futureSavings = allResults
+    .filter(r => r.futureOffer)
+    .reduce((sum,r) => sum + r.futureOffer.saving, 0);
+
+  const score = calculateKorboScore({
+    savings: extraCostSingleMarket,
+    marketCount: usedMarkets.length,
+    distanceKm: fakeDistanceKm,
+    futureSavings
+  });
+
+  let html = `
+    <div class="item">
+      <strong>🤖 Korbo Sparassistent</strong><br>
       <small>Beta V1 – echte Angebotsdaten folgen später</small>
-    </div>`;
+    </div>
 
-  items.forEach(item => {
+    <div class="item">
+      <strong>💰 Beste Einkaufsstrategie</strong><br>
+      <small>Gesamtkosten: <b>${formatEuro(bestStrategyCost)}</b></small><br>
+      <small>Märkte: ${usedMarkets.join(", ")}</small>
+    </div>
 
-    const demoPrices = createDemoPricesForItem(item.name, marketsToCheck);
-    const cheapest = [...demoPrices].sort((a,b) => a.price - b.price)[0];
+    <div class="item">
+      <strong>🛒 Alles in einem Markt</strong><br>
+      <small>Bester Markt: <b>${bestSingleMarket.market}</b></small><br>
+      <small>Gesamtkosten: <b>${formatEuro(bestSingleMarket.total)}</b></small><br>
+      <small>Mehrkosten gegenüber mehreren Märkten: ${formatEuro(extraCostSingleMarket)}</small>
+    </div>
 
+    <div class="item">
+      <strong>🚗 Aufwand</strong><br>
+      <small>${usedMarkets.length} Markt/Märkte · ca. ${fakeDistanceKm} km · ca. ${fakeMinutes} Minuten</small>
+    </div>
+
+    <div class="item">
+      <strong>🤖 Korbo Empfehlung</strong><br>
+      <small>${buildKorboRecommendation(usedMarkets.length, extraCostSingleMarket, fakeDistanceKm, futureSavings)}</small><br>
+      <small>Korbo-Score: <b>${score}/100</b></small>
+    </div>
+  `;
+
+  html += `
+    <div class="item">
+      <strong>📦 Artikelvergleich</strong>
+    </div>
+  `;
+
+  allResults.forEach(r => {
     html += `
       <div class="item">
-        <strong>${escapeHtml(item.name)}</strong><br>
-        <small>Günstigste Schätzung: ${cheapest.market} – ${cheapest.price.toFixed(2).replace(".",",")} €</small>
+        <strong>${escapeHtml(r.item.name)}</strong><br>
+        <small>Günstigster Markt: ${r.cheapest.market} – ${formatEuro(r.cheapest.price)}</small>
         <div style="margin-top:8px">
-          ${demoPrices.map(p => `
+          ${r.prices.map(p => `
             <small style="display:block">
-              ${p.market}: ${p.price.toFixed(2).replace(".",",")} €
-              ${p.market === cheapest.market ? " 🟢 günstigster Markt" : ""}
+              ${p.market}: ${formatEuro(p.price)}
+              ${p.market === r.cheapest.market ? " 🟢 günstigster Markt" : ""}
             </small>
           `).join("")}
         </div>
       </div>
     `;
-
   });
+
+  const futureItems = allResults.filter(r => r.futureOffer);
+
+  html += `
+    <div class="item">
+      <strong>📅 Bald günstiger</strong><br>
+      ${
+        futureItems.length
+        ? futureItems.map(r => `
+          <small style="display:block">
+            ${escapeHtml(r.item.name)}: ab ${r.futureOffer.day} bei ${r.futureOffer.market} im Angebot. Mögliche Ersparnis: ${formatEuro(r.futureOffer.saving)}
+          </small>
+        `).join("")
+        : `<small>Für deine aktuelle Liste sind keine kommenden Demo-Angebote hinterlegt.</small>`
+      }
+    </div>
+  `;
 
   resultBox.innerHTML = html;
 }
@@ -929,9 +1010,10 @@ function createDemoPricesForItem(name, marketsToCheck){
   let basePrice = 2.49;
 
   if(key.includes("hackfleisch")) basePrice = 4.99;
-  else if(key.includes("haehnchen") || key.includes("hähnchen")) basePrice = 5.49;
+  else if(key.includes("haehnchen")) basePrice = 5.49;
   else if(key.includes("milch")) basePrice = 1.09;
-  else if(key.includes("kaese") || key.includes("käse")) basePrice = 2.49;
+  else if(key.includes("kaese")) basePrice = 2.49;
+  else if(key.includes("butter")) basePrice = 2.29;
   else if(key.includes("tomaten")) basePrice = 1.79;
   else if(key.includes("paprika")) basePrice = 1.99;
   else if(key.includes("nudeln")) basePrice = 1.29;
@@ -960,6 +1042,64 @@ function createDemoPricesForItem(name, marketsToCheck){
       price: Math.round(price * 100) / 100
     };
   });
+}
+
+function createFutureOfferForItem(name){
+  const key = normalizeShoppingKey(name);
+
+  if(key.includes("butter")){
+    return {market:"Lidl", day:"Montag", saving:0.60};
+  }
+
+  if(key.includes("kaese")){
+    return {market:"Kaufland", day:"Donnerstag", saving:0.80};
+  }
+
+  if(key.includes("hackfleisch")){
+    return {market:"Kaufland", day:"Donnerstag", saving:1.20};
+  }
+
+  if(key.includes("milch")){
+    return {market:"Aldi", day:"Montag", saving:0.20};
+  }
+
+  return null;
+}
+
+function formatEuro(value){
+  return value.toFixed(2).replace(".",",") + " €";
+}
+
+function calculateKorboScore({savings, marketCount, distanceKm, futureSavings}){
+  let score = 80;
+
+  if(savings > 5) score += 10;
+  if(savings < 2) score -= 10;
+  if(marketCount > 3) score -= 15;
+  if(distanceKm > 18) score -= 15;
+  if(futureSavings > 3) score += 5;
+
+  return Math.max(0, Math.min(100, score));
+}
+
+function buildKorboRecommendation(marketCount, extraCostSingleMarket, distanceKm, futureSavings){
+  if(marketCount === 1){
+    return "Heute lohnt sich ein einzelner Markt. Kein zusätzlicher Weg nötig.";
+  }
+
+  if(extraCostSingleMarket < 3){
+    return `Nur ein Markt kostet dich nur ${formatEuro(extraCostSingleMarket)} mehr. Korbo empfiehlt: lieber Zeit sparen.`;
+  }
+
+  if(distanceKm > 18){
+    return `Mehrere Märkte sparen zwar Geld, bedeuten aber ca. ${distanceKm} km Fahrt. Korbo empfiehlt: prüfe, ob sich der Zusatzweg wirklich lohnt.`;
+  }
+
+  if(futureSavings > 3){
+    return `Wenn du etwas warten kannst, sind bald weitere Angebote verfügbar. Mögliche zusätzliche Ersparnis: ${formatEuro(futureSavings)}.`;
+  }
+
+  return "Mehrere Märkte lohnen sich aktuell, weil die Ersparnis den Zusatzaufwand wahrscheinlich rechtfertigt.";
 }
 document.addEventListener("DOMContentLoaded", () => {
   renderShoppingList();
