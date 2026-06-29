@@ -128,6 +128,7 @@ function getOfferPricesForItem(productName){
     return OFFER_MARKETS.map(market => ({
       market,
       price: 2.49,
+      status: "estimate",
       source: "Schätzwert"
     }));
   }
@@ -135,6 +136,7 @@ function getOfferPricesForItem(productName){
   return OFFER_MARKETS.map(market => ({
     market,
     price: OFFER_DATABASE[offerKey][market],
+    status: "offer",
     source: "Angebotsdaten V1"
   }));
 }
