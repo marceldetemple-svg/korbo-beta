@@ -1005,67 +1005,13 @@ function findOffersForShoppingList(){
 }
 
 function createDemoPricesForItem(name, marketsToCheck){
-  const key = normalizeShoppingKey(name);
-
-  let basePrice = 2.49;
-
-  if(key.includes("hackfleisch")) basePrice = 4.99;
-  else if(key.includes("haehnchen")) basePrice = 5.49;
-  else if(key.includes("milch")) basePrice = 1.09;
-  else if(key.includes("kaese")) basePrice = 2.49;
-  else if(key.includes("butter")) basePrice = 2.29;
-  else if(key.includes("tomaten")) basePrice = 1.79;
-  else if(key.includes("paprika")) basePrice = 1.99;
-  else if(key.includes("nudeln")) basePrice = 1.29;
-  else if(key.includes("reis")) basePrice = 1.99;
-  else if(key.includes("kartoffeln")) basePrice = 2.49;
-  else if(key.includes("eier")) basePrice = 2.79;
-  else if(key.includes("joghurt")) basePrice = 1.49;
-  else if(key.includes("quark")) basePrice = 1.39;
-
-  const marketFactor = {
-    Aldi: 0.92,
-    Lidl: 0.95,
-    Kaufland: 0.90,
-    Rewe: 1.08,
-    Netto: 0.97,
-    Edeka: 1.10,
-    Penny: 0.96
-  };
-
-  return marketsToCheck.map(market => {
-    const factor = marketFactor[market] || 1;
-    const price = Math.max(0.49, basePrice * factor);
-
-    return {
-      market,
-      price: Math.round(price * 100) / 100
-    };
-  });
+  return getOfferPricesForItem(name)
+    .filter(item => marketsToCheck.includes(item.market));
 }
 
 function createFutureOfferForItem(name){
-  const key = normalizeShoppingKey(name);
-
-  if(key.includes("butter")){
-    return {market:"Lidl", day:"Montag", saving:0.60};
-  }
-
-  if(key.includes("kaese")){
-    return {market:"Kaufland", day:"Donnerstag", saving:0.80};
-  }
-
-  if(key.includes("hackfleisch")){
-    return {market:"Kaufland", day:"Donnerstag", saving:1.20};
-  }
-
-  if(key.includes("milch")){
-    return {market:"Aldi", day:"Montag", saving:0.20};
-  }
-
-  return null;
+  return getFutureOfferForItem(name);
 }
-
 function formatEuro(value){
   return value.toFixed(2).replace(".",",") + " €";
 }
