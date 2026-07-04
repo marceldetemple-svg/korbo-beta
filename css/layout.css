@@ -1,1 +1,51 @@
 
+/* =========================
+   KORBO 3.0 APP LAYOUT
+========================= */
+
+.app{
+  padding-bottom:90px;
+}
+
+.bottom-nav{
+  position:fixed;
+  left:50%;
+  bottom:16px;
+  transform:translateX(-50%);
+  width:calc(100% - 28px);
+  max-width:520px;
+  background:rgba(26,29,35,.96);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:24px;
+  padding:10px;
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  gap:6px;
+  box-shadow:var(--shadow);
+  z-index:1000;
+}
+
+.nav-item{
+  background:transparent;
+  border:none;
+  color:var(--text-secondary);
+  border-radius:16px;
+  padding:8px 4px;
+  cursor:pointer;
+}
+
+.nav-item span{
+  display:block;
+  font-size:20px;
+  line-height:1;
+  margin-bottom:4px;
+}
+
+.nav-item small{
+  font-size:11px;
+}
+
+.nav-item.active{
+  background:rgba(56,217,115,.14);
+  color:var(--primary);
+}
