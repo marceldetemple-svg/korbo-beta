@@ -43,3 +43,32 @@
     background:var(--surface-2);
     color:var(--text);
 }
+/* =========================
+   KORBO 3.0 CARDS
+========================= */
+
+.choice,
+.item{
+    background:var(--surface);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+    transition:.25s;
+}
+
+.choice:hover,
+.item:hover{
+    transform:translateY(-2px);
+    border-color:rgba(56,217,115,.35);
+}
+
+.choice.selected{
+    border:2px solid var(--primary);
+    background:rgba(56,217,115,.12);
+}
+
+.choice small,
+.item small{
+    color:var(--text-secondary);
+}
