@@ -49,3 +49,25 @@
   background:rgba(56,217,115,.14);
   color:var(--primary);
 }
+/* =========================
+   GLOBAL KORBO 3.0 LOOK
+========================= */
+
+body{
+  background:var(--bg);
+  color:var(--text);
+}
+
+.app{
+  background:var(--bg);
+  color:var(--text);
+}
+
+.screen{
+  background:var(--bg);
+  color:var(--text);
+}
+
+h1,h2,h3,p,strong,span,small{
+  color:inherit;
+}
