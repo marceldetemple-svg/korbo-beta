@@ -72,3 +72,10 @@
 .item small{
     color:var(--text-secondary);
 }
+button{
+    transition:.25s;
+}
+
+button:hover{
+    transform:scale(1.02);
+}
