@@ -1,1 +1,45 @@
 
+/* =========================
+   KORBO 3.0 COMPONENTS
+========================= */
+
+/* Karten */
+.card{
+    background:var(--surface);
+    border-radius:var(--radius-md);
+    box-shadow:var(--shadow);
+    padding:var(--space-md);
+    transition:all var(--speed);
+}
+
+.card:hover{
+    transform:translateY(-2px);
+}
+
+/* Buttons */
+
+.btn{
+    background:var(--primary);
+    color:#fff;
+    border:none;
+    border-radius:var(--radius-md);
+    padding:14px 20px;
+    cursor:pointer;
+    transition:all var(--speed);
+    font-weight:600;
+}
+
+.btn:hover{
+    background:var(--primary-hover);
+}
+
+/* Eingabefelder */
+
+.input{
+    width:100%;
+    padding:14px;
+    border-radius:var(--radius-md);
+    border:none;
+    background:var(--surface-2);
+    color:var(--text);
+}
