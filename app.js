@@ -1120,3 +1120,53 @@ async function sendBetaFeedback(){
   closeFeedback();
 
 }
+/* =========================
+   KORBO 3.0 ASSISTANT
+========================= */
+
+const plannerSteps = [
+  {
+    question: "Für wie viele Personen möchtest du planen?",
+    value: 2,
+    min: 1,
+    max: 8
+  },
+  {
+    question: "Für wie viele Tage möchtest du planen?",
+    value: 7,
+    min: 1,
+    max: 14
+  },
+  {
+    question: "Wie hoch ist dein Budget?",
+    value: 50,
+    min: 20,
+    max: 250
+  }
+];
+
+let plannerStep = 0;
+function openPlannerV2(){
+
+  document.querySelectorAll(".screen").forEach(screen=>{
+    screen.style.display="none";
+  });
+
+  document.getElementById("planner-v2").style.display="flex";
+
+  updatePlannerV2();
+
+}
+function updatePlannerV2(){
+
+  const step=plannerSteps[plannerStep];
+
+  document.getElementById("plannerQuestion").textContent=step.question;
+
+  if(step.question.includes("Budget")){
+      document.getElementById("plannerValue").textContent=step.value+" €";
+  }else{
+      document.getElementById("plannerValue").textContent=step.value;
+  }
+
+}
