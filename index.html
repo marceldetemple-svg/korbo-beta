@@ -35,22 +35,56 @@
   <button onclick="acceptBetaWelcome()">Korbo testen</button>
   <button class="secondary mt" onclick="openFeedback()">Feedback senden</button>
 </section>
-<section class="screen" id="start">
-  <div class="logo-mark">K</div>
-  <h1>KORBO</h1>
-  <p class="subtitle">Was möchtest du tun?</p>
+<section class="screen home-screen" id="start">
+  <div class="home-hero">
+    <div>
+      <p class="eyebrow">Korbo 3.0</p>
+      <h1>Was möchtest du heute planen?</h1>
+      <p class="subtitle">Dein smarter Einkaufsassistent für Rezepte, Listen und Angebote.</p>
+    </div>
+  </div>
 
-  <div class="cards">
-    <button class="choice" onclick="goToShopping()">
-      🛒 Einkaufsliste erstellen
-      <small>Eigene Produkte eintragen und später Angebote vergleichen.</small>
+  <div class="home-grid">
+    <button class="home-card primary-card" onclick="goToShopping()">
+      <span>🛒</span>
+      <strong>Einkaufsliste</strong>
+      <small>Produkte eintragen und später Angebote vergleichen.</small>
     </button>
 
-    <button class="choice" onclick="goTo('goal')">
-      🍽️ Essensplan erstellen
-      <small>Rezepte planen und automatisch eine Einkaufsliste erzeugen.</small>
+    <button class="home-card" onclick="goTo('goal')">
+      <span>🍽️</span>
+      <strong>Essensplan</strong>
+      <small>Rezepte planen und automatisch eine Liste erstellen.</small>
+    </button>
+
+    <button class="home-card" onclick="findOffersForShoppingList()">
+      <span>💰</span>
+      <strong>Angebote</strong>
+      <small>Passende Preise zu deiner Einkaufsliste finden.</small>
+    </button>
+
+    <button class="home-card" onclick="openFeedback()">
+      <span>💬</span>
+      <strong>Feedback</strong>
+      <small>Ideen, Fehler oder Wünsche direkt senden.</small>
     </button>
   </div>
+
+  <div class="home-stats">
+    <div>
+      <span>Rezepte</span>
+      <strong>340+</strong>
+    </div>
+    <div>
+      <span>Beta</span>
+      <strong>0.9.3</strong>
+    </div>
+    <div>
+      <span>Status</span>
+      <strong>Aktiv</strong>
+    </div>
+  </div>
+</section>
 </section>
 
 <section class="screen" id="goal"><p class="step">1 von 9</p><h2>Was ist dein Ziel?</h2><div class="cards"><button class="choice selected" onclick="setOne('goal','sparen',this)">💰 Sparen<small>Günstig und einfach</small></button><button class="choice" onclick="setOne('goal','abnehmen',this)">⚖️ Abnehmen<small>Sättigend und proteinreich</small></button><button class="choice" onclick="setOne('goal','muskelaufbau',this)">💪 Muskelaufbau<small>Mehr Protein und Kalorien</small></button><button class="choice" onclick="setOne('goal','familie',this)">👨‍👩‍👧‍👦 Familie<small>Einfach für mehrere Personen</small></button></div><div class="nav single"><button onclick="goTo('budget')">Weiter</button></div></section>
