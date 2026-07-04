@@ -1,9 +1,39 @@
-:root {
-  --bg: #0F1115;
-  --surface: #1A1D23;
-  --primary: #38D973;
-  --text: #FFFFFF;
-  --muted: #A7ADB8;
-  --border: rgba(255,255,255,0.08);
-  --radius: 22px;
+/* =========================
+   KORBO 3.0 DESIGN SYSTEM
+========================= */
+
+:root{
+
+  /* Farben */
+  --bg:#0F1115;
+  --surface:#1A1D23;
+  --surface-2:#252932;
+
+  --primary:#38D973;
+  --primary-hover:#2FC267;
+
+  --text:#FFFFFF;
+  --text-secondary:#B5BDC9;
+
+  --danger:#FF5B5B;
+  --warning:#FFB648;
+
+  /* Abstände */
+  --space-xs:6px;
+  --space-sm:12px;
+  --space-md:20px;
+  --space-lg:30px;
+  --space-xl:45px;
+
+  /* Rundungen */
+  --radius-sm:10px;
+  --radius-md:18px;
+  --radius-lg:28px;
+
+  /* Schatten */
+  --shadow:
+      0 12px 30px rgba(0,0,0,.35);
+
+  /* Animation */
+  --speed:.25s;
 }
