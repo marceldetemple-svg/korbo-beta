@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Korbo 3.0</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korbo 3.0</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <main class="app">
 
-    <div class="app">
+    <section class="hero">
+      <div class="brand">KORBO</div>
 
-        <section class="hero">
+      <h1>Willkommen bei Korbo 👋</h1>
 
-            <small>KORBO</small>
+      <p>
+        Dein smarter Einkaufsassistent. Plane deinen Einkauf schneller,
+        günstiger und entspannter.
+      </p>
+    </section>
 
-<h1>Willkommen bei Korbo 👋</h1>
+    <section class="tip-card">
+      <div>
+        <span class="card-label">🧠 Korbo Tipp</span>
+        <h2>Heute könntest du bis zu 8 € sparen.</h2>
+        <p>Ich prüfe passende Angebote zu deiner Einkaufsliste.</p>
+      </div>
 
-<p>
-    Dein smarter Einkaufsassistent.
-    Gemeinsam planen wir deinen Einkauf in weniger als einer Minute.
-</p>
-        </section>
+      <button>Mehr erfahren</button>
+    </section>
 
-        <button class="action-card primary">
+    <section class="actions">
+      <button class="action-card primary">
+        <span>🍽️</span>
+        <div>
+          <strong>Essensplan erstellen</strong>
+          <small>Ich führe dich Schritt für Schritt zu deinem Wochenplan.</small>
+        </div>
+      </button>
 
-            <span>🍽️</span>
+      <button class="action-card">
+        <span>🛒</span>
+        <div>
+          <strong>Einkaufsliste</strong>
+          <small>Produkte ansehen, abhaken oder ergänzen.</small>
+        </div>
+      </button>
 
-            <strong>Essensplan erstellen</strong>
+      <button class="action-card">
+        <span>💰</span>
+        <div>
+          <strong>Angebote</strong>
+          <small>Spare mit passenden Angeboten in deiner Nähe.</small>
+        </div>
+      </button>
+    </section>
 
-            <small>
-                Ich stelle dir ein paar Fragen und erstelle anschließend deinen Wochenplan.
-            </small>
+    <section class="recent-card">
+      <span>Zuletzt benutzt</span>
+      <strong>Vor 4 Tagen geplant</strong>
+    </section>
 
-        </button>
+    <nav class="bottom-nav">
+      <button class="active">🏠<span>Zuhause</span></button>
+      <button>🧭<span>Planen</span></button>
+      <button>🛒<span>Einkauf</span></button>
+      <button>💰<span>Sparen</span></button>
+      <button>👤<span>Profil</span></button>
+    </nav>
 
-        <button class="action-card">
-
-            <span>🛒</span>
-
-            <strong>Einkaufsliste</strong>
-
-            <small>
-                Öffne deine Einkaufsliste oder füge neue Produkte hinzu.
-            </small>
-
-        </button>
-
-        <button class="action-card">
-
-            <span>💰</span>
-
-            <strong>Angebote entdecken</strong>
-
-            <small>
-                Ich suche nach passenden Angeboten zu deiner Einkaufsliste.
-            </small>
-
-        </button>
-
-    </div>
-
+  </main>
 </body>
-
 </html>
