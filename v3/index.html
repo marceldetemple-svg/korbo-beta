@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Korbo 3.0</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korbo</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main class="app">
+  <main class="korbo-app">
 
-    <section class="hero">
-      <div class="brand">KORBO</div>
+    <section class="welcome-screen">
 
-      <h1>Willkommen bei Korbo 👋</h1>
+      <div class="ambient-light"></div>
 
-      <p>
-        Dein smarter Einkaufsassistent. Plane deinen Einkauf schneller,
-        günstiger und entspannter.
-      </p>
-    </section>
-
-    <section class="tip-card">
-      <div>
-        <span class="card-label">🧠 Korbo Tipp</span>
-        <h2>Heute könntest du bis zu 8 € sparen.</h2>
-        <p>Ich prüfe passende Angebote zu deiner Einkaufsliste.</p>
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>KORBO</span>
       </div>
 
-      <button>Mehr erfahren</button>
-    </section>
+      <div class="welcome-content">
+        <p class="eyebrow">Dein persönlicher Einkaufsassistent</p>
 
-    <section class="actions">
-      <button class="action-card primary">
-        <span>🍽️</span>
+        <h1>
+          Dein Einkauf.<br />
+          Endlich einfach.
+        </h1>
+
+        <p class="intro">
+          Korbo hilft dir, deine Woche zu planen, Geld zu sparen
+          und deinen Einkauf entspannter zu erledigen.
+        </p>
+      </div>
+
+      <div class="value-list">
         <div>
-          <strong>Essensplan erstellen</strong>
-          <small>Ich führe dich Schritt für Schritt zu deinem Wochenplan.</small>
+          <span></span>
+          <p>Zeit sparen</p>
         </div>
-      </button>
 
-      <button class="action-card">
-        <span>🛒</span>
         <div>
-          <strong>Einkaufsliste</strong>
-          <small>Produkte ansehen, abhaken oder ergänzen.</small>
+          <span></span>
+          <p>Geld sparen</p>
         </div>
-      </button>
 
-      <button class="action-card">
-        <span>💰</span>
         <div>
-          <strong>Angebote</strong>
-          <small>Spare mit passenden Angeboten in deiner Nähe.</small>
+          <span></span>
+          <p>Weniger nachdenken</p>
         </div>
-      </button>
-    </section>
+      </div>
 
-    <section class="recent-card">
-      <span>Zuletzt benutzt</span>
-      <strong>Vor 4 Tagen geplant</strong>
-    </section>
+      <div class="bottom-action">
+        <button type="button">
+          Los geht’s
+        </button>
 
-    <nav class="bottom-nav">
-      <button class="active">🏠<span>Zuhause</span></button>
-      <button>🧭<span>Planen</span></button>
-      <button>🛒<span>Einkauf</span></button>
-      <button>💰<span>Sparen</span></button>
-      <button>👤<span>Profil</span></button>
-    </nav>
+        <small>
+          Dauert ungefähr 1 Minute.
+        </small>
+      </div>
+
+    </section>
 
   </main>
 </body>
