@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korbo 3.0 - 0.9.8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <section class="screen active" id="homeScreen">
+
+            <header class="topbar">
+                <div class="brand">
+                    <div class="logo-mark">K</div>
+                    <div>
+                        <strong>KORBO</strong>
+                        <span>Dein smarter Assistent</span>
+                    </div>
+                </div>
+            </header>
+
+            <section class="hero">
+                <p class="eyebrow">Willkommen bei Korbo 👋</p>
+                <h1>Dein Alltag. Einfacher geplant.</h1>
+                <p>
+                    Korbo hilft dir beim Planen, Einkaufen und Sparen – du entscheidest, was übernommen wird.
+                </p>
+            </section>
+
+            <section class="saving-card">
+                <div>
+                    <span class="card-label">Korbo Tipp</span>
+                    <h2>Heute könntest du bis zu 8 € sparen.</h2>
+                    <p>
+                        Erstelle deinen Essensplan. Korbo bereitet daraus deine Einkaufsliste vor.
+                    </p>
+                </div>
+
+                <button id="tipButton">Mehr erfahren</button>
+            </section>
+
+            <section class="quick-actions">
+
+                <button class="action-card" data-screen="planScreen">
+                    <span class="action-icon">🍽️</span>
+                    <span>
+                        <strong>Essensplan erstellen</strong>
+                        <small>Korbo plant passend zu deinem Alltag</small>
+                    </span>
+                </button>
+
+                <button class="action-card" data-screen="listScreen">
+                    <span class="action-icon">🛒</span>
+                    <span>
+                        <strong>Einkaufsliste</strong>
+                        <small>Alles vorbereitet, du behältst die Kontrolle</small>
+                    </span>
+                </button>
+
+                <button class="action-card" data-screen="dealsScreen">
+                    <span class="action-icon">💰</span>
+                    <span>
+                        <strong>Angebote</strong>
+                        <small>Spare dort, wo es wirklich passt</small>
+                    </span>
+                </button>
+
+            </section>
+
+            <section class="info-grid">
+                <div class="mini-card">
+                    <span>Zuletzt benutzt</span>
+                    <strong>Einkaufsliste</strong>
+                    <small>Vor 4 Tagen geöffnet</small>
+                </div>
+
+                <div class="mini-card">
+                    <span>Status</span>
+                    <strong>Korbo lernt</strong>
+                    <small>Deine Muster werden später berücksichtigt</small>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="screen" id="planScreen">
+            <div class="screen-header plan-header">
+                <span>🍽️</span>
+                <h1>Essensplan</h1>
+                <p>Korbo führt dich Schritt für Schritt durch deine Woche. Du entscheidest jede Angabe selbst.</p>
+            </div>
+
+            <section class="planner-shell" aria-label="Essensplan Assistent">
+                <div class="planner-progress">
+                    <span id="plannerProgressText">Schritt 1 von 9</span>
+                    <div class="progress-track">
+                        <div class="progress-fill" id="plannerProgressFill"></div>
+                    </div>
+                </div>
+
+                <article class="planner-card active" id="plannerStepPeople" data-step="1">
+                    <span class="planner-kicker">Start</span>
+                    <h2>Für wie viele Personen möchtest du planen?</h2>
+                    <p>Korbo nutzt diese Angabe später für Mengen, Budget und Einkaufsliste.</p>
+
+                    <div class="people-options" role="group" aria-label="Personen auswählen">
+                        <button class="people-option" type="button" data-people="1">
+                            <strong>1</strong>
+                            <small>Person</small>
+                        </button>
+
+                        <button class="people-option selected" type="button" data-people="2">
+                            <strong>2</strong>
+                            <small>Personen</small>
+                        </button>
+
+                        <button class="people-option" type="button" data-people="3">
+                            <strong>3</strong>
+                            <small>Personen</small>
+                        </button>
+
+                        <button class="people-option" type="button" data-people="4+">
+                            <strong>4+</strong>
+                            <small>Personen</small>
+                        </button>
+                    </div>
+
+                    <div class="planner-actions single">
+                        <button class="planner-primary" type="button" id="plannerNextButton">
+                            Weiter
+                        </button>
+                    </div>
+                </article>
+
+                <article class="planner-card" id="plannerStepBudget" data-step="2">
+                    <span class="planner-kicker">Budget</span>
+                    <h2>Wie viel möchtest du ungefähr ausgeben?</h2>
+                    <p>Der Betrag ist nur eine Orientierung. Korbo schlägt später passend dazu Rezepte und Mengen vor.</p>
+
+                    <div class="budget-display">
+                        <span>Wochenbudget</span>
+                        <strong><output id="budgetValue">80 €</output></strong>
+                    </div>
+
+                    <div class="budget-slider-wrap">
+                        <input
+                            id="budgetSlider"
+                            class="budget-slider"
+                            type="range"
+                            min="20"
+                            max="300"
+                            step="5"
+                            value="80"
+                            aria-label="Wochenbudget auswählen"
+                        >
+
+                        <div class="budget-range-labels">
+                            <span>20 €</span>
+                            <span>300 €</span>
+                        </div>
+                    </div>
+
+                    <div class="planner-actions">
+                        <button class="planner-secondary" type="button" id="plannerBackButton">
+                            Zurück
+                        </button>
+
+                        <button class="planner-primary" type="button" id="plannerBudgetNextButton">
+                            Weiter
+                        </button>
+                    </div>
+                </article>
+
+                <article class="planner-preview" id="plannerPreview">
+                    <span>✨</span>
+                    <p>Als Nächstes fragt Korbo nach deinem Wochenbudget.</p>
+                </article>
+            </section>
+        </section>
+
+        <section class="screen" id="listScreen">
+            <div class="screen-header">
+                <span>🛒</span>
+                <h1>Einkaufsliste</h1>
+                <p>Hier entsteht deine intelligente Einkaufsliste.</p>
+            </div>
+        </section>
+
+        <section class="screen" id="dealsScreen">
+            <div class="screen-header">
+                <span>💰</span>
+                <h1>Angebote</h1>
+                <p>Korbo zeigt dir später Angebote, die wirklich zu deinem Plan passen.</p>
+            </div>
+        </section>
+
+        <section class="screen" id="forYouScreen">
+            <div class="screen-header">
+                <span>✨</span>
+                <h1>Für dich</h1>
+                <p>Deine Tagesübersicht. Korbo zeigt dir nur das, was heute wirklich hilft.</p>
+            </div>
+
+            <section class="daily-overview">
+
+                <article class="overview-card primary">
+                    <span class="overview-icon">💰</span>
+                    <div>
+                        <span class="card-label">Heute möglich</span>
+                        <h2>Bis zu 8 € sparen</h2>
+                        <p>Korbo erkennt passende Angebote zu deinem geplanten Einkauf.</p>
+                    </div>
+                </article>
+
+                <div class="summary-grid">
+                    <article class="summary-card">
+                        <span>🛒</span>
+                        <strong>3 Artikel offen</strong>
+                        <small>Einkaufsliste wartet</small>
+                    </article>
+
+                    <article class="summary-card">
+                        <span>🍽️</span>
+                        <strong>5 Tage geplant</strong>
+                        <small>Essensplan vorbereitet</small>
+                    </article>
+                </div>
+
+                <article class="overview-card">
+                    <span class="overview-icon">🏷️</span>
+                    <div>
+                        <span class="card-label">Angebote</span>
+                        <h2>Aldi & Lidl passen heute am besten.</h2>
+                        <p>Später vergleicht Korbo deine Liste mit Märkten und schlägt dir passende Wege vor.</p>
+                    </div>
+                </article>
+
+                <article class="assistant-note">
+                    <span>✨</span>
+                    <p>
+                        Korbo schlägt vor. Du entscheidest, was übernommen wird.
+                    </p>
+                </article>
+
+            </section>
+        </section>
+
+        <nav class="bottom-nav" aria-label="Hauptnavigation">
+            <button class="active" data-screen="homeScreen">🏠<span>Home</span></button>
+            <button data-screen="planScreen">🍽️<span>Plan</span></button>
+            <button data-screen="listScreen">🛒<span>Liste</span></button>
+            <button data-screen="dealsScreen">💰<span>Deals</span></button>
+            <button data-screen="forYouScreen">✨<span>Für dich</span></button>
+        </nav>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
