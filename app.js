@@ -8,16 +8,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const plannerProgressFill = document.getElementById("plannerProgressFill");
     const plannerStepPeople = document.getElementById("plannerStepPeople");
     const plannerStepBudget = document.getElementById("plannerStepBudget");
+    const plannerStepDays = document.getElementById("plannerStepDays");
     const plannerPreview = document.getElementById("plannerPreview");
 
     const plannerNextButton = document.getElementById("plannerNextButton");
     const plannerBackButton = document.getElementById("plannerBackButton");
     const plannerBudgetNextButton = document.getElementById("plannerBudgetNextButton");
+    const plannerDaysBackButton = document.getElementById("plannerDaysBackButton");
+    const plannerDaysNextButton = document.getElementById("plannerDaysNextButton");
     const budgetSlider = document.getElementById("budgetSlider");
     const budgetValue = document.getElementById("budgetValue");
 
     let selectedPeople = "2";
     let selectedBudget = 80;
+    let selectedDays = "7";
     let currentPlannerStep = 1;
 
     function openScreen(screenId) {
@@ -37,26 +41,37 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!plannerProgressText || !plannerProgressFill) return;
 
         plannerProgressText.textContent = "Schritt " + currentPlannerStep + " von 9";
-        plannerProgressFill.style.width = currentPlannerStep === 1 ? "11.11%" : "22.22%";
+        plannerProgressFill.style.width = (currentPlannerStep / 9 * 100) + "%";
+    }
+
+    function updatePlannerPreview() {
+        if (!plannerPreview) return;
+
+        const text = plannerPreview.querySelector("p");
+        if (!text) return;
+
+        if (currentPlannerStep === 1) {
+            text.textContent = "Als Nächstes fragt Korbo nach deinem Wochenbudget.";
+        }
+
+        if (currentPlannerStep === 2) {
+            text.textContent = "Als Nächstes fragt Korbo nach der Anzahl deiner Planungstage.";
+        }
+
+        if (currentPlannerStep === 3) {
+            text.textContent = "Als Nächstes fragt Korbo nach deiner Ernährungsform.";
+        }
     }
 
     function showPlannerStep(step) {
         currentPlannerStep = step;
 
-        if (plannerStepPeople && plannerStepBudget) {
-            plannerStepPeople.classList.toggle("active", step === 1);
-            plannerStepBudget.classList.toggle("active", step === 2);
-        }
-
-        if (plannerPreview) {
-            if (step === 1) {
-                plannerPreview.querySelector("p").textContent = "Als Nächstes fragt Korbo nach deinem Wochenbudget.";
-            } else {
-                plannerPreview.querySelector("p").textContent = "Als Nächstes fragt Korbo nach der Anzahl deiner Planungstage.";
-            }
-        }
+        if (plannerStepPeople) plannerStepPeople.classList.toggle("active", step === 1);
+        if (plannerStepBudget) plannerStepBudget.classList.toggle("active", step === 2);
+        if (plannerStepDays) plannerStepDays.classList.toggle("active", step === 3);
 
         updatePlannerProgress();
+        updatePlannerPreview();
     }
 
     function updateBudgetDisplay() {
@@ -95,6 +110,17 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    document.querySelectorAll("[data-days]").forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelectorAll("[data-days]").forEach(item => {
+                item.classList.remove("selected");
+            });
+
+            button.classList.add("selected");
+            selectedDays = button.dataset.days;
+        });
+    });
+
     if (plannerNextButton) {
         plannerNextButton.addEventListener("click", () => {
             showPlannerStep(2);
@@ -109,11 +135,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (plannerBudgetNextButton) {
         plannerBudgetNextButton.addEventListener("click", () => {
+            showPlannerStep(3);
+        });
+    }
+
+    if (plannerDaysBackButton) {
+        plannerDaysBackButton.addEventListener("click", () => {
+            showPlannerStep(2);
+        });
+    }
+
+    if (plannerDaysNextButton) {
+        plannerDaysNextButton.addEventListener("click", () => {
             alert(
                 "Korbo Planung\n\n" +
                 "Personen: " + selectedPeople + "\n" +
-                "Wochenbudget: " + selectedBudget + " €\n\n" +
-                "Als Nächstes folgt Schritt 3: Tage auswählen."
+                "Wochenbudget: " + selectedBudget + " €\n" +
+                "Planung: " + selectedDays + " Tage\n\n" +
+                "Als Nächstes folgt Schritt 4: Ernährungsform."
             );
         });
     }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korbo 3.0 - 0.9.8</title>
+    <title>Korbo 3.0 - 0.9.9</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -91,7 +91,7 @@
             <div class="screen-header plan-header">
                 <span>🍽️</span>
                 <h1>Essensplan</h1>
-                <p>Korbo führt dich Schritt für Schritt durch deine Woche. Du entscheidest jede Angabe selbst.</p>
+                <p>Lass uns deinen Alltag kennenlernen. Korbo führt dich Schritt für Schritt – du behältst die Kontrolle.</p>
             </div>
 
             <section class="planner-shell" aria-label="Essensplan Assistent">
@@ -102,8 +102,8 @@
                     </div>
                 </div>
 
-                <article class="planner-card active" id="plannerStepPeople" data-step="1">
-                    <span class="planner-kicker">Start</span>
+                <article class="planner-card active" id="plannerStepPeople">
+                    <span class="planner-kicker">Dein Alltag</span>
                     <h2>Für wie viele Personen möchtest du planen?</h2>
                     <p>Korbo nutzt diese Angabe später für Mengen, Budget und Einkaufsliste.</p>
 
@@ -136,28 +136,18 @@
                     </div>
                 </article>
 
-                <article class="planner-card" id="plannerStepBudget" data-step="2">
-                    <span class="planner-kicker">Budget</span>
-                    <h2>Wie viel möchtest du ungefähr ausgeben?</h2>
-                    <p>Der Betrag ist nur eine Orientierung. Korbo schlägt später passend dazu Rezepte und Mengen vor.</p>
+                <article class="planner-card" id="plannerStepBudget">
+                    <span class="planner-kicker">Wochenbudget</span>
+                    <h2>Wie viel möchtest du ungefähr pro Woche ausgeben?</h2>
+                    <p>Der Wert hilft Korbo später, Rezepte und Einkaufsliste besser auf deinen Alltag abzustimmen.</p>
 
                     <div class="budget-display">
-                        <span>Wochenbudget</span>
+                        <span>Dein Budget</span>
                         <strong><output id="budgetValue">80 €</output></strong>
                     </div>
 
                     <div class="budget-slider-wrap">
-                        <input
-                            id="budgetSlider"
-                            class="budget-slider"
-                            type="range"
-                            min="20"
-                            max="300"
-                            step="5"
-                            value="80"
-                            aria-label="Wochenbudget auswählen"
-                        >
-
+                        <input class="budget-slider" id="budgetSlider" type="range" min="20" max="300" step="5" value="80" aria-label="Wochenbudget auswählen">
                         <div class="budget-range-labels">
                             <span>20 €</span>
                             <span>300 €</span>
@@ -168,8 +158,45 @@
                         <button class="planner-secondary" type="button" id="plannerBackButton">
                             Zurück
                         </button>
-
                         <button class="planner-primary" type="button" id="plannerBudgetNextButton">
+                            Weiter
+                        </button>
+                    </div>
+                </article>
+
+                <article class="planner-card" id="plannerStepDays">
+                    <span class="planner-kicker">Planungszeitraum</span>
+                    <h2>Für wie viele Tage soll Korbo planen?</h2>
+                    <p>Wähle den Zeitraum, der zu deiner Woche passt. Du kannst das später jederzeit ändern.</p>
+
+                    <div class="day-options" role="group" aria-label="Tage auswählen">
+                        <button class="day-option" type="button" data-days="3">
+                            <strong>3</strong>
+                            <small>Tage</small>
+                        </button>
+
+                        <button class="day-option" type="button" data-days="5">
+                            <strong>5</strong>
+                            <small>Tage</small>
+                        </button>
+
+                        <button class="day-option selected recommended" type="button" data-days="7">
+                            <span>Empfohlen</span>
+                            <strong>7</strong>
+                            <small>Tage</small>
+                        </button>
+
+                        <button class="day-option" type="button" data-days="14">
+                            <strong>14</strong>
+                            <small>Tage</small>
+                        </button>
+                    </div>
+
+                    <div class="planner-actions">
+                        <button class="planner-secondary" type="button" id="plannerDaysBackButton">
+                            Zurück
+                        </button>
+                        <button class="planner-primary" type="button" id="plannerDaysNextButton">
                             Weiter
                         </button>
                     </div>
